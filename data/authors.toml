@@ -1,3 +1,18 @@
+["achapman"]
+name = "Adam Chapman"
+gravatar = "https://secure.gravatar.com/avatar/55ce624cb568c81fd836c550ff26ce0e?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Adam Chapman is a PhD Candidate in his final year at the University of Hull, in the Media, Culture and Society department. He received a History BA (Hons) from Leeds Metropolitan University and a Cultural History MA at the University of Liverpool. Adam’s research focuses on the videogame as an historical form and seeks to weave existing (mainly postmodernist) historical theory and analysis, with game-focused research that emphasizes the unique qualities of games and play, as well as, more recently, Gibsonian psychology. Accordingly, he is attempting to develop an analytical framework for historical videogames that includes understanding both action/agency and narrative/representation and the interplays between these aspects. He can be contacted at <span id="wpmt-545895-47645"></span><script type="text/javascript">(function(){var ml="%pe95mc3ho.a04n",mi=";68;15;>4370=<52:695",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("wpmt-545895-47645").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript> and @Woodlandstaar.</p>'''
+
+["achristie"]
+name = "Alex Christie"
+gravatar = "https://secure.gravatar.com/avatar/14342e920b6d47f03183bfb808703022?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Alex Christie is a doctoral candidate in English at the University of Victoria. He conducts research on 3D geospatial expression and scholarly communication for the Modernist Versions Project (MVP) and Implementing New Knowledge Environments (INKE) in the Electronic Textual Cultures Lab (ETCL). He is developing an open source toolkit for digital humanities pedagogy with grant funding from the Association for Computers and the Humanities (ACH); his dissertation traces experiments in rule-based literary expression across modernist poems and manuscripts.</p>'''
+
+["acrymble"]
+name = "Adam Crymble"
+gravatar = "https://secure.gravatar.com/avatar/46f086b37e50298042a9092c116d1442?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Adam Crymble is a PhD student in history and digital humanities at King’s College London, and a founding editor of <a href="http://programminghistorian.org/"><em>The Programming Historian 2</em></a>. He is also a fellow of the <a href="http://www.software.ac.uk/"><em>Software Sustainability Institute</em></a>, striving to future-proof academic software and promote responsible digital tool use.</p>'''
+
 ["aearhart"]
 name = "Amy Earhart"
 gravatar = "https://secure.gravatar.com/avatar/148d008b6ab898a91cb55a276b4cad7b?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
@@ -8,10 +23,35 @@ name = "Alexis Lothian"
 gravatar = "https://secure.gravatar.com/avatar/07a97938afa9764e47b9633f6346addb?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Alexis Lothian recently completed her PhD in English and Gender Studies at the University of Southern California. Her book manuscript, “Deviant Futures: Queer Temporality and the Cultural Politics of Science Fiction,” reorients recent scholarship on queerness and futurity by approaching it through histories of speculative fiction and media by queers, feminists, and people of color in twentieth-century Britain and America. She also works on digital media, particularly contemporary transmedia cultural production and online culture, and is developing a second book project on the intersections between online science fiction fan communities and social justice politics. Her work has been published in <em>Cinema Journal</em>, <em>Camera Obscura</em>, <em>Extrapolation</em>, <em>English Language Notes</em>, <em>Transformative Works and Cultures</em>, and <em>Social Text Periscope</em>, among other venues. As a core member of the #transformDH collective, she is developing several projects aimed at bringing together queer and ethnic studies critique with the methodologies of the digital humanities. She has been a member of the editorial team for the open access journal <em>Transformative Works and Cultures</em> since its founding in 2008. Her website is <a href="http://queergeektheory.org">queergeektheory.org</a>.</p>'''
 
+["amcdowell"]
+name = "Alex McDowell"
+gravatar = "https://secure.gravatar.com/avatar/6341a28f8e3191a10097106d7867fcfe?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Alex McDowell RDI is an award-winning designer and storyteller working at the intersection of emergent technologies and experiential media. He is the creative director of 5D Global Studio, where he and his team design immersive story worlds and their end products for industries and institutions. As director of the USC World building Media Lab, McDowell and his interdisciplinary students build future worlds for storytelling across multiple platforms. He also leads the USC 5D Institute, a renowned, multidisciplinary knowledge space. McDowell has 30 years experience as a production designer in feature films, and serves on the executive board of the Academy of Motion Pictures Designers Branch. As a visiting artist to the MIT Media Lab, he designed the robotic opera, "Death and Powers.” In 2006 he was awarded Royal Designer for Industry by the UK Royal Society of the Arts. He was recently honored as USC William Cameron Menzies Endowed Chair in Production Design by George Lucas.</p>'''
+
+["aprescott"]
+name = "Andrew Prescott"
+gravatar = "https://secure.gravatar.com/avatar/1fac337efd553f89a469365731eafd67?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Andrew Prescott was a Curator in the Department of Manuscripts at the British Library from 1979-2000, where he acted as the British Library coordinator for a number of digital projects, including most notably <em>Electronic Beowulf</em>, edited by Kevin S. Kiernan of the University of Kentucky. From 2000-2007, he was Director of the Centre for Research into Freemasonry in the Humanities Research Institute at the University of Sheffield. He has also worked at the University of Wales Lampeter and University of Glasgow. He has served on the advisory boards of many digital humanities projects in Britain and America and is currently Professor of Digital Humanities at King's College London.</p>'''
+
+["asalter"]
+name = "Anastasia Salter"
+gravatar = "https://secure.gravatar.com/avatar/d83a9951894ee09996b3cef8c7086b39?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Anastasia Salter is an assistant professor of Science, Information Arts and Technologies at the University of Baltimore. Her primary research is on digital narratives with a continuing focus on virtual worlds, gender and cyberspace, video games, educational games, and fan production. She holds a Doctorate in Communications Design from the University of Baltimore and a Master of Fine Arts in Children's Literature from Hollins University. She blogs for <i>ProfHacker</i> on technology and pedagogy, and writes a column speculating on the future of technology and pop culture for CinCity2000, Future Fragments. She's on Twitter as @AnaSalter.</p>'''
+
+["awiley"]
+name = "Amber N. Wiley"
+gravatar = "https://secure.gravatar.com/avatar/0694544746eff051481132adb4a3116e?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Amber N. Wiley, Ph.D. is a Visiting Assistant Professor of Architecture at Tulane. She is an architectural and urban historian whose research interests are centered on the social aspects of design and how it affects urban communities. She focuses on the ways local and national bodies have made the claim for the dominating narrative and collective memory of cities through design, and examines how preservation and architecture contribute to the creation and maintenance of the identity and sense of place of a city. She has conducted research on the heritage of musical sites in New Orleans, taught a public history course focused on the topic, and organized a community  event entitled “Sites and Sounds” that was a collaboration between the Tulane City Center, the New Orleans Center for the Gulf South and the New Orleans Jazz National Heritage Park. Amber received her Ph.D. in American Studies from George Washington University, her Master’s in Architectural History from the University of Virginia School of Architecture, and her B.A. in Architecture from Yale University.</p>'''
+
 ["bgorges"]
 name = "Boone B. Gorges"
 gravatar = "https://secure.gravatar.com/avatar/dbe466c4e8dcf7ea2efdd5a149528abf?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Boone B Gorges is a freelance web developer and software consultant based in Brooklyn, NY. He is the Lead Developer and Director of Research Projects for the <a href="http://commons.gc.cuny.edu">CUNY Academic Commons</a> and <a href="http://commonsinabox.org/">Commons In A Box</a>. He specializes in the development of WordPress plugins, and is on the core development team of such WordPress-related project as <a href="http://buddypress.org">BuddyPress</a> and <a href="http://anthologize.org">Anthologize</a>. Gorges holds an MPhil in Philosophy from the CUNY Graduate Center.</p>'''
+
+["bnowviskie"]
+name = "Bethany Nowviskie"
+gravatar = "https://secure.gravatar.com/avatar/834ca18d78d323690ea57fad3cb0eb63?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Bethany Nowviskie is Director of Digital Research &amp; Scholarship and Associate Director of the Scholarly Communication Institute at the University of Virginia Library, and President of the Association for Computers and the Humanities (ACH). She holds a doctorate in English from the University of Virginia and, in addition to her work on a number of notable digital archives and tools, has taught courses in writing, poetry, bibliography, and new media aesthetics and design. Nowviskie has been a practicing digital humanist since the mid-1990s.</p>'''
 
 ["bschmidt"]
 name = "Benjamin M. Schmidt"
@@ -23,6 +63,46 @@ name = "Chad Black"
 gravatar = "https://secure.gravatar.com/avatar/a4e3838404fcdab16b7cf8250e5bf65f?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">I am Assistant Professor of Latin American History at the University of Tennessee, Knoxville, and author of <em>The Limits of Gender Domination: Women, the Law, and Political Crisis in Quito, 1765-1830</em>. In response to the abundance offered by digitizing approaches to the Colonial Latin American Archive, my research has increasingly turned to humanities computing.</p>'''
 
+["christopher-scott-gleason"]
+name = "Christopher Scott Gleason"
+gravatar = "https://secure.gravatar.com/avatar/45c962120f058423f743bacadb36d628?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Christopher Scott Gleason is an Associate Professor in the Department of Humanities and Social Sciences at Wentworth Institute of Technology in Boston. He holds an M.F.A. in Creative Writing from Florida International University and a Ph.D. in English / Creative Writing from the University of Utah. He teaches writing, literature, film, American popular culture, and a variety of digital humanities courses. He is also chair of Wentworth’s Media, Culture, and Communications Studies (MCCS) Task Force (formerly known as the Digital Humanities Task Force).</p>'''
+
+["cmod"]
+name = "Craig Mod"
+gravatar = "https://secure.gravatar.com/avatar/8261869530eadf83d0ede89426634d3a?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Craig is a writer, designer, and publisher. He is a 2011 TechFellow award recipient as well as a 2011/2012 MacDowell writing fellow. His writing has appeared on <a href="https://journalofdigitalhumanities.org/1-3/the-digital-physical-by-craig-mod/nytimes.com">
+nytimes.com</a>, <em>New Scientist magazine</em>, <em>Codex Journal</em>, and other publications. He is the co-author of <em>Art Space Tokyo</em>. His current work revolves around the future of publishing and reading and how these changes are impacting education. Formerly he was a product designer at Flipboard with a principal focus on the Flipboard for iPhone product.</p>'''
+
+["crybak"]
+name = "Chuck Rybak"
+gravatar = "https://secure.gravatar.com/avatar/921f16fa5e958c32d92d3e3e47f8c411?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Chuck Rybak lives in Wisconsin and is currently an Associate Professor of English and Humanistic Studies at the University of Wisconsin—Green Bay, where he teaches the humanities, literature, and creative writing.  He is the author of two chapbooks, <em>Nickel and Diming My Way Through</em> and <em>Liketown</em>.  His full-length collection, <em>Tongue and Groove</em>, was released in 2007 by Main Street Rag.  Poems of his have appeared in <em>The Cincinnati Review</em>; <em>Pebble Lake Review</em>; <em>War, Literature &amp; the Arts</em>; <em>The Ledge</em>; <em>Southern Poetry Review</em>; <em>Verse Wisconsin</em>; and other journals. His new book, <em>/war</em>, was released by Main Street Rag in 2013.</p>'''
+
+["cschoch"]
+name = "Christof Schöch"
+gravatar = "https://secure.gravatar.com/avatar/1d31ff10fa536bbbad6dd6007f805432?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Christof Schöch is a researcher at the Chair for Computational Philology, University of Würzburg, Germany. His interests in research and teaching are French Literature (Age of Enlightenment, contemporary novel) and Digital Humanities (quantitative text analysis, digital scholarly publishing). He writes about his research on a blog called "<a href="http://www.dragonfly.hypotheses.org">The Dragonfly's Gaze</a>."You can find out more about him on his <a href="http://www.christof-schoech.de/en">personal website</a>.</p>'''
+
+["dblei"]
+name = "David M. Blei"
+gravatar = "https://secure.gravatar.com/avatar/4333dbbbe1beabcd503482d274470765?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">David M. Blei is an associate professor of Computer Science at Princeton University.   His research focuses on probabilistic topic models, Bayesian nonparametric methods, and approximate posterior inference.  He works on a variety of applications, including text, images, music, social networks, and various scientific data.</p>'''
+
+["dmimno"]
+name = "David Mimno"
+gravatar = "https://secure.gravatar.com/avatar/87db26983dc6ca6108ab7421864452bd?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">David Mimno is a postdoctoral researcher in the Computer Science department at Princeton. He received his PhD from the University of Massachusetts Amherst. He previously worked for an internet auction startup, the NLP group at the University of Sheffield, and the Perseus Project, a cultural heritage digital library. He has a particular interest in historical texts and languages. David is currently chief maintainer for the MALLET Machine Learning toolkit.</p>'''
+
+["dzorich"]
+name = "Diane M. Zorich"
+gravatar = "https://secure.gravatar.com/avatar/e3a10c795c70e993dd9d09bc9aad08a1?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Diane M. Zorich consults on information management and digitization issues in cultural and educational organizations. Before establishing her consultancy, she was data manager at the Association of Systematics Collections in Washington, D.C. and documentation manager at Harvard University’s Peabody Museum of Archaeology and Ethnology. She also served as past president and board member of the Museum Computer Network, and chaired that organization's intellectual property group.
+
+She is the author of the Introduction to <em>Managing Digital Assets: Options for Cultural and Educational Organizations</em> (J. Paul Getty Trust, 1999), <em>Developing Intellectual Property Policies: A "How To" Guide for Museums</em> (Canadian Heritage Information Network, 2003) and <em>A Survey of Digital Humanities Centers in the United States</em> (Council on Library and Information Resources, 2008). She also co-authored <em>Beyond the Silos of the LAMs: Collaboration Among Libraries, Archives and Museums</em> (OCLC Programs and Research, 2008) and contributed a chapter on information policy in museums for <em>Museum Informatics</em> (Routledge, 2008).
+
+Diane has graduate degrees in anthropology and museum studies from New York University, is based in Princeton, NJ and on Twitter at @dzorich.</p>'''
+
 ["emeeks"]
 name = "Elijah Meeks"
 gravatar = "https://secure.gravatar.com/avatar/9f65f3e4bab863af08ecfd62d3ddc6c1?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
@@ -33,10 +113,83 @@ name = "Fred Gibbs"
 gravatar = "https://secure.gravatar.com/avatar/7211f1b8e48578e6264349643b5bf902?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Fred Gibbs is an Assistant Professor in the Department of History and Art History at George Mason University and Director of Digital Scholarship at the Roy Rosenzweig Center for History and New Media. His current research explores late medieval and early modern understandings of poison, as well as the role of critical theory in the digital humanities. He teaches courses on digital history and various topics in the history of science, medicine, and technology.</p>'''
 
+["grockwell"]
+name = "Geoffrey Rockwell"
+gravatar = "https://secure.gravatar.com/avatar/284e4f37a5f4284b3917396168a21cdb?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Dr. Geoffrey Martin Rockwell is a Professor of Philosophy and Humanities Computing at the University of Alberta, Canada. He received a B.A. in philosophy from Haverford College, an M.A. and Ph.D. in Philosophy from the University of Toronto and worked at the University of Toronto as a Senior Instructional Technology Specialist. From 1994 to 2008 he was at McMaster University where he was the Director of the Humanities Media and Computing Centre (1994 - 2004) and he led the development of an undergraduate Multimedia program funded through the Ontario Access To Opportunities Program. He has published and presented papers in the area of philosophical dialogue, textual visualization and analysis, humanities computing, instructional technology, computer games and multimedia. He is the project leader for the CFI (Canada Foundation for Innovation) funded project TAPoR, a Text Analysis Portal for Research, which has developed a text tool portal for researchers who work with electronic texts and he organized a SSHRC funded conference, The Face of Text in 2004. He has published a book <i>Defining Dialogue: From Socrates to the Internet</i> with Humanity Books.</p>'''
+
+["jantley"]
+name = "Jeremy Antley"
+gravatar = "https://secure.gravatar.com/avatar/e00efcf8b0ff9586b1b55032a82cfe4e?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Jeremy Antley (@jsantley) is a writer/gamer/researcher who received his MA in History with a focus on the Russian Imperial period from the University of Kansas in 2007. While currently in the middle of researching the immigration of Russian Old Believers to Oregon in the mid-60's, Jeremy also finds studying the life and culture of Russian peasants to be a fascinating topic.  At his blog, <em>Peasant Muse</em>, Jeremy writes on topics related to digital culture, games and, of course, Russian history. Love of board games helps to inform his current interest in how players modify their games and how looking at how games in general can inform historical inquiries. Jeremy also is a contributing author for <em>Play the Past</em>.</p>'''
+
 ["jbauer"]
 name = "Jean Bauer"
 gravatar = "https://secure.gravatar.com/avatar/fa6bd608fdab7587e118b4a160b83aaa?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Jean Bauer is the Digital Humanities Librarian at Brown University, where she works with faculty, students, and fellow librarians to design and implement digital systems that showcase and facilitate scholarship in the humanities. Through a combination of formal training and curiosity she is an early American historian, database designer, and photographer.  She is finishing her dissertation, "Revolution-Mongers: Launching the U.S. Foreign Service, 1775-1825," in the Corcoran Department of History at the University of Virginia and has developed <a href="http://www.eafsd.org">The Early American Foreign Service Database</a>.  For more information, see her website <a href="http://www.jeanbauer.com">www.jeanbauer.com</a></p>'''
+
+["jmccall"]
+name = "Jeremiah McCall"
+gravatar = "https://secure.gravatar.com/avatar/549f20f9d235eb34831df38cea2a6b32?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Jeremiah McCall has a Ph.D. in Greco-Roman history and authored <em>The Cavalry of the Roman Republic</em> and <em>Sword of Rome: A Biography of Marcellus</em>. He teaches history at Cincinnati Country Day School. A researcher and experimenter on the effective use of historical simulation games in education, McCall wrote <em>Gaming the Past: Using Video Games to Teach Secondary History</em> in 2011, the first teachers’ guidebook to effectively teaching with simulation games.</p>'''
+
+["joshua-sternfeld"]
+name = "Joshua Sternfeld"
+gravatar = "https://secure.gravatar.com/avatar/a1e595f800d895c184ef4f911aa50f4b?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Joshua Sternfeld has served since 2009 as a Senior Program Officer at the National Endowment for the Humanities Division of Preservation and Access in Washington, D.C.  Prior to his arrival at the Endowment, Josh was Assistant Director and Postdoctoral Scholar for the UCLA Center for Information as Evidence and Information Studies Department from 2007-2009.  He holds a B.A. in History from Princeton University and a Ph.D. in History from UCLA (2007), specializing in modern European cultural history and jazz studies. Josh has presented, taught, and published on the theoretical and pedagogical attributes of digital historiography.  His publications have appeared in The American Archivist and Digital Humanities Pedagogy: Practices, Principles, and Politics.</p>'''
+
+["jresig"]
+name = "John Resig"
+gravatar = "https://secure.gravatar.com/avatar/b3e04a46e85ad3e165d66f5d927eb609?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">John Resig is the creator of the Ukiyo-e.org Japanese woodblock print database and search engine. He develops tools to aid in the research of Ukiyo-e and other art history subjects. A Visiting Researcher at Ritsumeikan University, he recently presented at the 2013 Japanese Association for Digital Humanities conference in Kyoto, the Japanese Art Society of America, and the Digital Humanities 2014 conference.
+
+Mr. Resig is the Head of Computer Science at Khan Academy and is a renowned computer programmer, having created the jQuery JavaScript library used by over two-thirds of all web sites. He has also published two books on JavaScript programming: <i>Pro JavaScript Techniques</i> and <i>Secrets of the JavaScript Ninja</i>.</p>'''
+
+["jsmithies"]
+name = "James Smithies"
+gravatar = "https://secure.gravatar.com/avatar/2cb073fdb87bd103187853ca1630fa06?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">James Smithies is a Senior Lecturer in Digital Humanities at the University of Canterbury, New Zealand. James completed a Ph.D. in History at Canterbury University in 2002, and has also worked as a technical writer, senior business analyst and project manager. His scholarly work focuses on New Zealand history, the history of literature, technology and ideas, and the digital humanities.</p>'''
+
+["jwall"]
+name = "John N. Wall"
+gravatar = "https://secure.gravatar.com/avatar/a2ff5e9f0b9814792920a5691f7b3861?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">John N. Wall is Professor of English at North Carolina State University in Raleigh, North Carolina. He is the author of <i>Transformations of the Word: Spenser, Herbert, Vaughan</i> (Athens: University of Georgia Press, 1988), editor of <i>George Herbert: The Country Parson, The Temple</i> (New York: Paulist Press, 1981), and numerous articles on early modern religious literature. He currently holds the Hurford Fellowship at the National Humanities Center in Research Triangle Park, North Carolina.</p>'''
+
+["kharris"]
+name = "Katherine D. Harris"
+gravatar = "https://secure.gravatar.com/avatar/54d2b05df8358317f78899b548e93653?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Katherine D. Harris, a tenured Assistant Professor in the Department of English and Comparative Literature, San José State University, specializes in Romantic-Era and 19th-century British literature, women’s authorship, the literary annual, 19th-century history print culture and history of the book, textuality, editorial theory, Digital Humanities, and pedagogy. Her work ranges from pedagogical articles on using digital tools in the classroom to traditional scholarship on a “popular” literary form in 19th-century England. She chronicled her teaching adventures in the March 2011 blog, A Day in the Life of Digital Humanities, along with 200 other participants which turned into a plenary address for the 2012 Re: Humanities and an article about the successes and failures of teaching with digital tools, “TechnoRomanticism: Creating Digital Editions in an Undergraduate Classroom” (Journal of Victorian Culture April 2011). Because of this work, Harris has been named to the Council on Digital Humanities for the National Institute of Technology in Liberal Education and  co-taught a week-long seminar in Digital Pedagogy at the Digital Humanities Summer Institute, University of Victoria. In January 2012, she represented Digital Pedagogy as a panelist at the DHCommons pre-conference workshop, “Getting Started in Digital Humanities,” at the 2012 Modern Language Association Convention. Harris writes about her most recent pedagogical adventures over at FairMatter.com, a blog hosted by W.W. Norton Publishers.</p>'''
+
+["kohya"]
+name = "Kazushi Ohya"
+gravatar = "https://secure.gravatar.com/avatar/2678f336f80a292d80b3af624bed8cfb?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Kazushi Ohya is an associate professor at Tsurumi University,
+Yokohama, Japan. He received a M.A. in Linguistics and a Ph.D. in
+Computer Science, both from Chiba University, Japan. He has researched
+markup languages such as HyTime and XML, language documentation
+with linguists studying endangered languages, and experimented on
+corpora e.g. Old-Map, Manga, and discourse data. He is a member of
+IEEE, ACM, IPSJ, and ADHO.</p>'''
+
+["ktheimer"]
+name = "Kate Theimer"
+gravatar = "https://secure.gravatar.com/avatar/0418664f413ed274d524b4acc8c0a3bc?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Kate Theimer is the author of the popular blog and Twitter account ArchivesNext and a frequent writer, speaker, and commentator on issues related to the future of archives. She is the editor of the series <i>Innovative Practices in Archives and Special Collections</i>, in which books on description, management, outreach, and reference and access were published in 2014. She is the author of <i>Web 2.0 Tools and Strategies for Archives and Local History Collections</i> and the editor of <i>A Different Kind of Web: New Connections between Archives and Our Users</i>. She has published articles in <i>The American Archivist</i> and the <i>Journal of Digital Humanities</i>. Kate served on the Council of the Society of American Archivists from 2010 to 2013. Before starting her career as an independent writer and editor, she worked in the policy division of the National Archives and Records Administration in College Park, Maryland. She holds an MSI with a specialization in archives and records management from the University of Michigan and an MA in art history from the University of Maryland.</p>'''
+
+["ktomasek"]
+name = "Kathryn Tomasek"
+gravatar = "https://secure.gravatar.com/avatar/2b88eb418849b4c9a8bb20df8e2215dd?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Kathryn Tomasek is Associate Professor of History at Wheaton College in Norton, Massachusetts, where she teaches U.S. Women’s History and the history of the United States in the nineteenth century. With Wheaton College Archivist and Special Collections Curator Zephorene L. Stickney, she is co-director of the <a href="http://wheatoncollege.edu/digital-history-project/">Wheaton College Digital History Project</a>. A paper describing preliminary work on the transactionography is forthcoming in Issue 6 of the <a href="http://journal.tei-c.org/journal/"><i>Journal of the Text Encoding Initiative</i></a>, and the project's continuing development is documented at <a href="http://Encodinghfrs.org">Encodinghfrs.org</a>.</p>'''
+
+["lmandell"]
+name = "Laura Mandell"
+gravatar = "https://secure.gravatar.com/avatar/44752d87a37d64a535e0ea901194097e?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Laura Mandell is Director of the Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University. She is the author of <i>Misogynous Economies: The Business of Literature in Eighteenth-Century Britain</i> (1999), a Longman Cultural Edition of <i>The Castle of Ortanto and Man of Feeling</i>, and numerous articles primarily about eighteenth-century women writers. Her recent article in <i>New Literary History</i>, “What Is the Matter? What Literary History Neither Hears Nor Sees,” describes how digital work can be used to conduct research into conceptions informing the writing and printing of eighteenth-century poetry. She is Editor of the Poetess Archive, on online scholarly edition and database of women poets, 1750-1900 ( http://poetessarchive.org),  Director of 18thConnect (http://www.18thConnect.org), and Director of ARC, the Advanced Research Consortium overseeing NINES, 18thConnect, and MESA. Her current research involves developing new methods for visualizing poetry, developing software that will allow all scholars to deep-code documents for data-mining, and improving OCR software for early modern and 18th-c. texts via high performance and cluster computing.</p>'''
+
+["lrhody"]
+name = "Lisa M. Rhody"
+gravatar = "https://secure.gravatar.com/avatar/f985f859b7e0cd5ec5dac04c7df8a7c0?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Lisa Marie Rhody received her Ph.D. in English language and literature from the <a href="http://www.umd.edu/">University of Maryland</a>, where her research was supported by a <a href="http://mith.umd.edu">Maryland Institute for Technology in the Humanities (MITH) </a>Winnemore Dissertation Fellowship.  Her research combines advanced computational analysis with traditional literary methods to explore 20th-century poetry and American literature, intersections between visual and verbal media, and women's literature.  Currently, she is the project manager for <a href="http://imlswebwise.org">WebWise 2013 </a>at the <a href="http://chnm.gmu.edu/">Roy Rosenzweig Center for History and New Media (RRCHNM)</a>.  She maintains a digital presence at <a href="http://lisarhody.com">LisaRhody.com</a> and can be followed on Twitter at <a href="https://twitter.com/lmrhody">@lmrhody</a>.</p>'''
 
 ["lspiro"]
 name = "Lisa Spiro"
@@ -48,15 +201,64 @@ name = "Moya Z. Bailey"
 gravatar = "https://secure.gravatar.com/avatar/ab0dbee3d1f568a0a052b3a015dd8fb9?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Moya Bailey is a graduate candidate at Emory University where she explores critical race, feminist, and disability studies.  Her current work focuses on constructs of health and normativity within a US context. She is interested in how race, gender, and sexuality are represented in media and medicine. She is a blogger and digital alchemist for the Crunk Feminist Collective. In a co-authored piece for <em>Ms. Magazine</em>, Bailey proclaims "Black Feminism Lives (online)!" and chronicles the digital discourses of race, gender, and politics as articulated by young black women in cyber space.</p>'''
 
+["mbooker"]
+name = "Matthew M. Booker"
+gravatar = "https://secure.gravatar.com/avatar/a12fb80cf776c144cfd6eb199076bb15?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Matthew Morse Booker is associate professor of American and environmental history at North Carolina State University. His work examines the intersection between human beings and the natural world in North America, with a particular focus on the coastal regions. His first book, <i>Between the Tides: Layers of History in San Francisco Bay</i> (University of California Press, 2013) investigates ownership and ecology in a contested urban and natural space. Matthew’s current research traces the history of food production in American industrial cities of the late nineteenth and early twentieth centuries.
+
+From 2008-2010 Matthew was a founding member of a collaborative student-faculty experiment at Stanford University, the Spatial History Project, using mapping tools to creatively frame and visualize historical problems. He remains an affiliate scholar. Matthew is also active in the Research Triangle Digital Humanities community.</p>'''
+
+["mbrett"]
+name = "Megan R. Brett"
+gravatar = "https://secure.gravatar.com/avatar/187b424b6edae8ccc4b1960f947f526f?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Megan R. Brett is a PhD student in the Department of History and Art History at George Mason University and a research assistant at the Roy Rosenzweig Center for History and New Media, where she serves as an assistant editor for the Papers of the War Department. Her research focuses on transatlantic family strategies in the early American republic. She is particularly interested in the way digital tools can reveal new information about correspondence and social networks in the eighteenth and nineteenth centuries. She blogs at <a href="http://meganrbrett.net">meganrbrett.net</a>.</p>'''
+
+["michael-kramer"]
+name = "Michael J. Kramer"
+gravatar = "https://secure.gravatar.com/avatar/bd885dcc7d557d36197ed5f9f79579c1?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Michael J. Kramer is an editor in the Design, Publishing, and New Media Department at the Museum of Contemporary Art Chicago and holds a visiting assistant professorship at Northwestern University, where he teaches history, American studies, digital humanities, and civic engagement. His book, <i>The Republic of Rock: Music and Citizenship in the Sixties Counterculture</i> was published by Oxford University Press in 2013, and he has written about history, art, culture, and politics for numerous publications. He is the co-founder of theNorthwestern University Digital Humanities Laboratory and is currently developing a multimedia project about the Berkeley Folk Music Festival (1958-1970) and the history of technology and culture in the US folk revival. Additionally, he is involved with the Chicago Dance History Project, a large-scale oral history and archival digital documentation of dance in the Chicago region, and he is the dramaturg for The Seldoms Contemporary Dance Company. He blogs about art, culture, and politics at Culture Rover.</p>'''
+
+["mla"]
+name = "Modern Language Association"
+gravatar = "https://secure.gravatar.com/avatar/72fd4b30db6dc1ae48f9d592e61c45b4?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Founded in 1883, the Modern Language Association of America provides opportunities for its members to share their scholarly findings and teaching experiences with colleagues and to discuss trends in the academy. MLA members host an annual convention and other meetings, work with related organizations, and sustain one of the finest publishing programs in the humanities. For over a hundred years, members have worked to strengthen the study and teaching of language and literature.</p>'''
+
+["mlawiki"]
+name = "Evaluation Wiki of the Committee on Information Technology, Modern Language Association"
+gravatar = "https://secure.gravatar.com/avatar/2cb45655ea1dbc82fb15855cbce4c8f4?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">The <a href="http://wiki.mla.org/index.php/Documenting_a_New_Media_Case">Evaluation Wiki of the Committee on Information Technology</a> is an online open-content collaborative of individuals and groups working to develop a common resource for the profession. As such, it does not represent the official positions of the Modern Language Association.</p>'''
+
+["mposner"]
+name = "Miriam Posner"
+gravatar = "https://secure.gravatar.com/avatar/d287457fafe7c52548b6f976e7871c3f?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Miriam Posner is the coordinator and a core faculty member of the Digital Humanities program at the University of California, Los Angeles. Her most recent article, on Thomas Edison's Red Cross Seal films, appears in <cite><em>Learning with the Lights Off: An Educational Film Reader</em></cite> (Oxford, 2011). She earned her Ph.D. in Film Studies and American Studies from Yale University in 2011.</p>'''
+
+["mridge"]
+name = "Mia Ridge"
+gravatar = "https://secure.gravatar.com/avatar/ba639b61cdcfcc4bc66210d3c3c480cb?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Mia Ridge is currently a PhD student in Digital Humanities in the Department of History at the Open University. Her doctoral research is concerned with crowdsourcing and geospatial history, and explores the intersections between academic, local, and family historians. Mia's background is in museums, computer science and human-computer interaction.
+
+She tweets at <a href="http://twitter.com/mia_out">@mia_out</a> and blogs at <a href="http://openobjects.blogspot.com/">http://openobjects.blogspot.com/</a>.</p>'''
+
 ["msample"]
 name = "Mark Sample"
 gravatar = "https://secure.gravatar.com/avatar/178eb3bcedde5c4820b8617b813dd6bd?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Mark Sample teaches and researches contemporary literature and new media in the Department of English at George Mason University. A vocal practitioner and critic of the digital humanities, Professor Sample has contributed to <em>Hacking the Academy</em> (University of Michigan Press) and <em>Debates in the Digital Humanities</em> (University of Minnesota Press). He also has a collaboratively written book forthcoming from MIT Press, which combines critical code studies, software studies, and platform studies, as well as more traditional forms of literary and textual scholarship to understand creative computing on the Commodore 64. Professor Sample is a regular contributor to ProfHacker, a feature at the <em>Chronicle for Higher Education</em> that focuses on pedagogy and scholarly productivity. He also writes for Play the Past, a collaboratively edited scholarly blog that explores the intersection of cultural heritage and games.</p>'''
 
+["mterras"]
+name = "Melissa Terras"
+gravatar = "https://secure.gravatar.com/avatar/f098b2d221c7b6c69d11c36317bb2d38?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Melissa Terras is Director of UCL Centre for Digital Humanities and Professor of Digital Humanities in UCL's Department of Information Studies. With a background in Classical Art History, English Literature, and Computing Science, her doctorate (University of Oxford) examined how to use advanced information engineering technologies to interpret and read Roman texts. Publications include "Image to Interpretation: Intelligent Systems to Aid Historians in the Reading of the Vindolanda Texts" (2006, Oxford University Press) and "Digital Images for the Information Professional" (2008, Ashgate). She is currently serving on the Board of Curators of the University of Oxford Libraries. Her research focuses on the use of computational techniques to enable research in the arts and humanities that would otherwise be impossible. You can generally find her on twitter @melissaterras.</p>'''
+
 ["ncecire"]
 name = "Natalia Cecire"
 gravatar = "https://secure.gravatar.com/avatar/1f15e73931182bd17db6d33f178fc3ed?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Natalia Cecire is a postdoctoral fellow at the Fox Center for Humanistic Inquiry at Emory University, and a managing editor at <a href="http://arcade.stanford.edu">Arcade</a><a>.</a></p>'''
+
+["noah-wardrip-fruin"]
+name = "Noah Wardrip-Fruin"
+gravatar = "https://secure.gravatar.com/avatar/d7784cd40bbd4f49816c9c6837c5b460?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Noah Wardrip-Fruin is Associate Professor of Computer Science and co-director of the Expressive Intelligence Studio at UC Santa Cruz. His books include The New Media Reader (MIT Press, 2003) and Expressive Processing (MIT Press, 2009). Recent projects include Prom Week (2012 finalist at IndieCade and the Independent Games Festival) and the 2014 report of the Media Systems project: "Envisioning the Future of Computational Media" (a project supported by the NSF, NEH, NEA, Microsoft Studios, and Microsoft Research). He holds an MFA and PhD from Brown University, an MA from New York University, and a BA from the Johnston Center at the University of Redlands.</p>'''
 
 ["pbradley"]
 name = "Peter Bradley"
@@ -75,27 +277,104 @@ name = "Patrick Murray-John"
 gravatar = "https://secure.gravatar.com/avatar/5eae155257da1e1fea52ff200be56161?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Patrick holds a PhD in medieval literature from the University of Wisconsin - Madison. After contingent faculty roles at the University of Mary Washington and the University of Richmond, he became an Instructional Technology Specialist at the University of Mary Washington. There, he began his journey into digital humanities and coding. He now works on various projects, mostly Omeka-related, and manages the Omeka development team at the Roy Rosenzweig Center for History and New Media.</p>'''
 
+["rnelson"]
+name = "Robert Nelson"
+gravatar = "https://secure.gravatar.com/avatar/227648ee38dc227782bd88bdb2e7cae1?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Robert K. Nelson is Director of the Digital Scholarship Lab at the University of Richmond and an American Studies scholar whose work focuses on the nineteenth-century United States.</p>'''
+
+["rsanderson"]
+name = "Robert Sanderson"
+gravatar = "https://secure.gravatar.com/avatar/71cdd3918b895cf7aa9dc4ba282218b1?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Dr Robert Sanderson is an information scientist in the Research Library at Los Alamos National Laboratory and previously a Lecturer in Computer Science at the University of Liverpool. His research focuses on the areas of scholarly communication, especially with regards to digital humanities and large scale data mining. He was won international awards for his research, including the 2010 Digital Preservation Award and both the Vannevar Bush Best Paper award at JCDL2011 and Best Poster Award at JCDL2012. Between 2009 and 2011, he was the UIUC GSLIS Honorary Research Fellow for his interdisciplinary work in digital humanities. Dr Sanderson has been co-PI for national level projects, such as the Open Annotation Collaboration in the US and FORESITE in the UK, and named Investigator on multiple EU funded projects in the FP7 and eContentPlus streams. He is an editor of several international specifications including, most recently, the W3C Open Annotation Community Draft, IETF Memento Internet Draft, and NISO Resource Synchronization. He also has close ties with the very large scale digital library community, including working with the San Diego Supercomputer Center, UC Berkeley, Stanford, Europeana and DPLA, as well as being a founding member of the UK's National Center for Text Mining.</p>'''
+
+["sbrennan"]
+name = "Sheila Brennan"
+gravatar = "https://secure.gravatar.com/avatar/452182d75e270902ca59887a098f6108?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Sheila is the Associate Director of Public Projects at the Roy Rosenzweig Center for History and New Media, and Research Assistant Professor in the Department of History and Art History at George Mason University. She completed her Ph.D. in U.S. history at Mason in 2010. She earned her Bachelor's degree from Bates College and Master's from the University of Notre Dame in American Studies. Prior to coming to CHNM in 2005, she worked as the Director of Education and Public Programs at the U.S. Navy Museum in Washington, DC for seven years. Her research interests include public history, digital history, museums and material culture, popular collecting practices in the U.S., and late-19th and early-20th-century cultural history. She currently is the end user coordinator for Omeka, and has managed many digital projects, including the Hurricane Digital Memory Bank and Gulag: Many Days, Many Lives projects. She has co-authored essays on teaching the history of technology, doing oral history in the digital age, and on the challenges of online collection projects. She has published on made several presentations on museum education, digital history, and online collecting and archiving, and stamp collecting.  She blogs at: <a href="http://lotfortynine.org">Lot 49.</a></p>'''
+
+["scavanagh"]
+name = "Sheila Cavanagh"
+gravatar = "https://secure.gravatar.com/avatar/159c60869a02eaf64140d739d90b4029?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Sheila T. Cavanagh is Professor of English and Emory College Distinguished Teaching Scholar at Emory University.</p>'''
+
+["sdunn"]
+name = "Stuart Dunn"
+gravatar = "https://secure.gravatar.com/avatar/1560aa1e5360f1611100d6c30b8738f9?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor"><a href="http://www.stuartdunn.wordpress.com">Stuart Dunn</a> is a Lecturer in the Department of Digital Humanities at King's College London, where he was previously a Research Associate and Research Fellow. He teaches digital preservation, cultural heritage, and archaeology and material culture. Stuart graduated from the University of Durham with a PhD in Aegean Bronze Age Archaeology in 2002, conducting fieldwork and research visits to Melos, Crete, and Santorini. His interests include ancient geography, the representation and enforcement of boundaries and frontiers, and the representation of human motion in 3D digital reconstruction of cultural heritage, and in museums. Most recently he has worked on the virtual reconstruction of social space in Southern British Iron Age round houses, and on the geography and digital representation of historic English place names. He is also interested in the theory and practice of digital communities using social media, and the development of digital infrastructures to support collaborative research.</p>'''
+
+["sgarfinkel"]
+name = "Susan Garfinkel"
+gravatar = "https://secure.gravatar.com/avatar/5ce565fd7919d05bc8f2280ddac4c96b?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Research Specialist, Digital Reference Section, Library of Congress</p>'''
+
+["smattern"]
+name = "Shannon Christine Mattern"
+gravatar = "https://secure.gravatar.com/avatar/c1a0032e00fb3c9a854b197149e02af4?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Shannon Mattern is an Associate Professor in the School of Media Studies at The New School in New York. Her research and teaching address relationships between the forms and materialities of media and the spaces (architectural, urban, conceptual) they create and inhabit. She has written about libraries and archives, media companies' headquarters, place branding, public design projects, urban media art, media acoustics, media infrastructures, and material texts. You can find her at <a href="http://www.wordsinspace.net">wordsinspace.net</a></p>'''
+
+["stakats"]
+name = "Sean Takats"
+gravatar = "https://secure.gravatar.com/avatar/05a83044152aebdafbc739fc4d28ed00?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Sean Takats is Associate Professor of History at George Mason University and Director of Research Projects at the Roy Rosenzweig Center for History and New Media. His research focuses on early modern France, the Enlightenment, and the digital humanities. At the Roy Rosenzweig Center for History and New Media, Takats has directed Zotero, the popular research software platform, since 2006. He has also led other projects on text mining and the history of science. Takats is also currently co-director of The Encyclopedia of Diderot and D’Alembert Collaborative Translation Project, hosted at the University of Michigan.
+
+Takats is author of <em>The Expert Cook in Enlightenment France</em> (Johns Hopkins University Press, 2011). His current research extends his interest in occupational expertise to the colonial world, where he explores the practices of collecting and synthesizing a wide range of exotic knowledge, ranging from botany to commerce to medicine.</p>'''
+
 ["sweingart"]
 name = "Scott B. Weingart"
 gravatar = "https://secure.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Scott B. Weingart is an NSF Graduate Research Fellow and PhD student at Indiana University, where he studies Information Science and History of Science. His research focuses on the intersection of historiographic and quantitative methodologies, particularly as they can be used to study scholarly communications in the past and present. He also writes a blog called the <a href="http://www.scottbot.net/HIAL/">scottbot irregular</a>, aiming to make computational tools and big data analytics accessible to a wider, humanities-oriented audience. When not researching, Scott fights for open access and the reform of modern scholarly communication.</p>'''
+
+["swerner"]
+name = "Sarah Werner"
+gravatar = "https://secure.gravatar.com/avatar/a638044b5bc786aa50e4f40ee592263f?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Sarah Werner is the Undergraduate Program Director at the Folger Shakespeare Library, where she teaches courses on early modern book history, and Editor of <a href="https://journalofdigitalhumanities.org/1-3/where-material-book-culture-meets-digital-humanities-by-sarah-werner/collation.folger.edu"><em>The Collation</em></a>, the Folger's research blog. She is the author of <em>Shakespeare and Feminist Performance</em> (Routledge, 2001), the editor of the collection <em>New Directions in Renaissance Drama and Performance Studies</em> (Palgrave 2010), and is Textual Editor of <em>Taming of the Shrew</em> for the forthcoming 3rd edition of the Norton Shakespeare. She is currently exploring the intersections of book studies and digital tools and writing about the value of bringing undergraduates into special collections.</p>'''
+
+["tconatser"]
+name = "Trey Conatser"
+gravatar = "https://secure.gravatar.com/avatar/5a8394c03be69df724ca909a28cad725?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Trey Conatser is a graduate student in the Department of English at The Ohio State University, where he studies 18th- and 19th-century British literature and digital humanities. He has taught in the First-Year Writing Program and currently works for the Digital Media Project and the Center for the Study and Teaching of Writing.</p>'''
 
 ["thitchcock"]
 name = "Tim Hitchcock"
 gravatar = "https://secure.gravatar.com/avatar/3255bc987a1af4fb6500cda707b69ae0?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Tim Hitchcock is Professor of Eighteenth-Century History at the University of Hertfordshire. In collaboration with Robert Shoemaker and others he has created a series of digital resources providing scholarly and public access to the sources that underpin the history of eighteenth-century London, including the <a href="http://www.oldbaileyonline.org/"></a> Old Bailey Online, <a href="http://www.londonlives.org/">London Lives</a>, <a href="http://www.connectedhistories.org/">Connected Histories</a>, and most recently <a href="http://www.locatinglondon.org/">Locating London’s Past</a>. Together, these sites make available some 12 billion words of digitized content. With a range of collaborators including Bill Turkel at the University of Western Ontario, he has also been at the forefront of the process of applying the tools of digital humanities, of text and data mining, to the analysis of these new resources. The author of ten books on the histories of eighteenth-century poverty, sexuality and masculinity, Hitchcock has degrees from the University of California at Berkeley, and Oxford University. He blogs at <a href="http://historyonics.blogspot.com/">Historyonics</a>, and as @TimHitchcock on Twitter.</p>'''
 
+["tmunoz"]
+name = "Trevor Muñoz"
+gravatar = "https://secure.gravatar.com/avatar/6745cb3499fb34a8e82d5ecbe70fcae5?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Trevor Muñoz is Associate Director of MITH as well as Assistant Dean for Digital Humanities Research at the University of Maryland Libraries. Trevor holds an MA in Digital Humanities from the Department of Digital Humanities at King’s College London and a MS in Library and Information Science from the Graduate School of Library and Information Science at the University of Illinois, Urbana-Champaign. He specializes in issues related to curation of humanities data including data management planning, systems, and best practices. Trevor is co-editor of a forthcoming guide to resources for Data Curation in the Humanities and co-organized the first Humanities Data Curation Summit intended to promote the development of a sustainable plan for preserving digital humanities research.</p>'''
+
 ["towens"]
 name = "Trevor Owens"
 gravatar = "https://secure.gravatar.com/avatar/af405d21dd55fb56a7f6b5dcdddb6e04?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Trevor Owens is a Digital Archivist with the National Digital Information Infrastructure and Preservation Program (NDIIPP) in the Office of Strategic Initiatives at the Library of Congress. He is finishing a PhD in social science research methods and instructional technology in the Graduate School of Education at George Mason University. Trevor wrote a book for Arcadia Press about the history of Fairfax County told through postcards, and published articles in the journals <em>Simulation &amp; Gaming</em>, <em>Science Communication</em>, <em>Cultural Studies of Science Education</em>, and <em>On the Horizon</em>. In 2009 he was chosen by Read Write Web as one of the 50+ Semantic Web Pros to Follow on Twitter, and won the CW Bright Pixel Prize for building <em>PlayingHistory</em>, an open collaborative directory of digital historical games and interactives.</p>'''
+
+["tpresner"]
+name = "Todd Presner"
+gravatar = "https://secure.gravatar.com/avatar/21c9ef109b7436bdcea0fa7ff505a1d0?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Todd Presner is Professor of Germanic Languages, Comparative Literature, and Jewish Studies at the University of California Los Angeles. He is the Sady and Ludwig Kahn Director of the UCLA Center for Jewish Studies, and the Chair of the Digital Humanities Program (undergraduate minor and graduate certificate) (<a href="http://www.digitalhumanities.ucla.edu">http://www.digitalhumanities.ucla.edu</a>). Presner also is the founder, director, and editor-in-chief  of <a href="http://hypercities.com">HyperCities</a>, a collaborative, digital mapping platform that explores the layered histories of city spaces. His research focuses on European intellectual history, the history of media, visual culture, digital humanities, and cultural geography. His most recent book, co-authored with Anne Burdick, Johanna Drucker, Peter Lunenfeld, and Jeffrey Schnapp, is <i>Digital_Humanities</i> (MIT Press, 2012), a critical-theoretical exploration of this complex, emerging field. A fourth book is under contract, <i>HyperCities: Thick Mapping in the Digital Humanities</i> (Harvard UP, 2013).</p>'''
 
 ["tsherratt"]
 name = "Tim Sherratt"
 gravatar = "https://secure.gravatar.com/avatar/93f1a38b288065ed24e04f9421981374?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">Tim Sherratt is a digital historian, web developer and cultural data hacker who's been developing online resources relating to archives, museums and history since 1993. He has written on weather, progress and the atomic age, and developed resources including Bright Sparcs, Mapping our Anzacs and The History Wall. He is currently working as a freelance troublemaker, as well as being a Harold White Fellow at the National Library of Australia, a Director's Fellow at the National Museum of Australia, and an Adjunct Associate Professor in the Digital Design and Media Arts Research Cluster at the University of Canberra. Tim is one of the organisers of THATCamp Canberra and a member of the interim committee of the Australasian Association for the Digital Humanities.</p>'''
 
+["whsu"]
+name = "Wendy F. Hsu"
+gravatar = "https://secure.gravatar.com/avatar/ed14c496be35ebb9b2e9112ebacdd56f?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor"><a href="http://http://beingwendyhsu.info/"></a>Wendy Hsu is an ethnographer, musician, and arts organizer who engages with multimodal research and performance practices informed by music from continental to diasporic Asia. As an <a href="http://www.acls.org/programs/publicfellows/"></a>ACLS Public Fellow, Hsu currently works with the <a href="http://culturela.org/"></a>City of Los Angeles Department of Cultural Affairs to rethink the department's information and data paradigms. She tweets about her work at <a href="https://twitter.com/wendyfhsu">@wendyfhsu.</a></p>'''
+
+["workinggroup"]
+name = "American Historical Association, National Council on Public History, and Organization of American Historians Working Group on Evaluating Public History Scholarship"
+gravatar = "https://secure.gravatar.com/avatar/3362a867b10d5f4ff3c376e78b0530ac?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">This multi-institutional working group authored a white paper and formal report on the evaluation of public history scholarship for the American Historical Association, National Council on Public History, and Organization of American Historians. The report was adopted by the OAH Executive Board on April 8, by the NCPH Board of Directors on June 3, and by the AHA Council on June 5, 2010.</p>'''
+
 ["wthomas"]
 name = "William G. Thomas"
 gravatar = "https://secure.gravatar.com/avatar/b1dbcd8844e26fe8c5e6f852fc117328?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
 bio = '''<p class="coauthor">William G. Thomas is the Angle Chair in the Humanities and Professor of History at the University of Nebraska-Lincoln. He is the author of <em>The Iron Way: Railroads, the Civil War, and the Making of Modern America</em> (Yale University Press, 2011). He held a Digital Innovation Fellowship in 2008 from the American Council of Learned Societies, and a National Endowment for the Humanities Digital Humanities Digging into Data research grant for "Railroads and the Making of Modern America." Thomas also served as the Visiting Professor of North American Studies at the Eccles Centre for American Studies at the British Library in London, England in 2008. He was the Director of the Virginia Center for Digital History at the University of Virginia from 1998-2005, and a co-editor of <em>The Valley of the Shadow: Two Communities in the American Civil War</em>.</p>'''
+
+["zcoble"]
+name = "Zach Coble"
+gravatar = "https://secure.gravatar.com/avatar/39db9b2bc3110dc664b7f676a7f3e703?s=52&d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&r=g"
+bio = '''<p class="coauthor">Zach Coble is the Digital Scholarship Specialist at New York University.</p>'''
