@@ -1,0 +1,13 @@
++++
+title = "You are viewing entries marked 'Mapping Texts'."
++++
+
+<div class="post">
+<h2><a href="/1-3/mapping-texts-project-by-andrew-torget-and-jon-christensen/">Mapping Texts: Visualizing American Historical Newspapers</a></h2>
+<p><a href="http://mappingtexts.org" target="_blank" title="Mapping Texts: Visualizing American Historical Newspapers">Mapping Texts</a> is an ambitious project with a simple mission: to experiment with new methods for finding and analyzing meaningful patterns embedded within massive collections of digitized historical newspapers.</p>
+<p>Why do we think this is important? <a class="read-more" href="/1-3/mapping-texts-project-by-andrew-torget-and-jon-christensen/"><br/><br/>(Read more) </a></p>
+</div>
+<div class="post">
+<h2><a href="/1-3/building-new-windows-into-digitized-newspapers-by-andrew-torget-and-jon-christensen/">Building New Windows into Digitized Newspapers</a></h2>
+<p>In building <a href="http://mappingtexts.org/" target="_blank" title="Mapping Texts: Visualizing American Historical Newspapers">Mapping Texts</a> we wanted to create more transparent windows into the extraordinary wealth of information available in online archives of digitized historical newspapers. We wanted, for example, to be able to <em>see</em> how much information was available for any particular time and place, and then <em>measure</em> just how much of that information was still recognizable — and thus useable — after the digitization process. <a class="read-more" href="/1-3/building-new-windows-into-digitized-newspapers-by-andrew-torget-and-jon-christensen/"><br/><br/>(Read more) </a></p>
+</div>
