@@ -13,7 +13,7 @@ rewritten.
 Usage:
     python scripts/convert.py [issue ...]      # default: all issues
 """
-import os, re, sys, glob, html
+import os, re, sys, glob, html, shutil
 from urllib.parse import urljoin, urlsplit, quote
 from bs4 import BeautifulSoup, NavigableString, Tag, Comment
 
@@ -109,6 +109,12 @@ def rewrite_link(href, page_path):
     first = href.split("/")[0].split("#")[0].split("?")[0]
     if (first and DOMAINISH.match(first) and not first.lower().endswith(SKIP_EXT)
             and not href.startswith((".", "/"))):
+        if first.lower().endswith("journalofdigitalhumanities.org"):
+            sp3 = urlsplit("https://" + href)             # schema-less SELF link -> internal
+            p = sp3.path or "/"
+            if "/wp-content/" in p or "/wp-includes/" in p or p.startswith("/files"):
+                return SITE + p + (("?" + sp3.query) if sp3.query else "")
+            return map_internal(p, sp3.fragment)
         return "https://" + href                          # bare-domain external (crawl 404 fix)
     # internal relative link -> resolve against the page, then map
     target = urljoin(url_of(page_path), href)
@@ -119,8 +125,14 @@ def rewrite_link(href, page_path):
     return map_internal(sp2.path, sp2.fragment)
 
 
+NESTED = "/journalofdigitalhumanities.org/"
+
+
 def map_internal(path, fragment=""):
     path = norm_site_path(path)
+    if NESTED in path:                                     # collapse nested-archive artifact
+        path = "/" + path.split(NESTED, 1)[1]
+        path = norm_site_path(path)
     path = URL_MAP.get(path, path)                         # duplicate -> canonical
     if fragment:
         path += "#" + fragment
@@ -452,6 +464,36 @@ def is_article_page(soup):
     return bool(art and art.find("h1"))
 
 
+def page_canonical(f, soup):
+    """(own_url, canonical_url) with broken nested-artifact canonicals ignored."""
+    can = soup.find("link", rel="canonical")
+    canurl = resolve_canonical(f, can.get("href") if can else None)
+    myurl = url_of(f)
+    if canurl and NESTED in canurl:
+        canurl = myurl
+    return myurl, canurl
+
+
+def clean_html_fragment(node, page_path):
+    """Rewrite links inside a kept HTML subtree (front pages, etc.)."""
+    node = BeautifulSoup(str(node), "html.parser").find(True)
+    for s in node.find_all(["script", "style", "form"]):
+        s.decompose()
+    for a in node.find_all("a"):
+        if a.get("href"):
+            a["href"] = rewrite_link(a["href"], page_path)
+    for img in node.find_all("img"):
+        if img.get("src"):
+            img["src"] = rewrite_link(img["src"], page_path)
+        for at in ("srcset", "sizes", "loading", "data-src"):
+            if img.has_attr(at):
+                del img[at]
+    for src in node.find_all("source"):
+        if src.get("src"):
+            src["src"] = rewrite_link(src["src"], page_path)
+    return str(node)
+
+
 # --------------------------------------------------------------------------- #
 # TOC (section + ordering) from the per-issue sidebar
 # --------------------------------------------------------------------------- #
@@ -497,6 +539,8 @@ def front_matter(meta):
     L.append("title = " + tstr(meta["title"]))
     L.append("slug = " + tstr(meta["slug"]))
     L.append('type = "article"')
+    if meta.get("url"):
+        L.append("url = " + tstr(meta["url"]))
     L.append("date = " + meta["date"])
     L.append('issue = ' + tstr(meta["issue"]))
     L.append("volume = %d" % meta["volume"])
@@ -541,11 +585,11 @@ def prescan(issues):
             soup = soup_of(f)
             if not is_article_page(soup):
                 continue
-            can = soup.find("link", rel="canonical")
-            canurl = resolve_canonical(f, can.get("href") if can else None)
-            myurl = url_of(f)
+            myurl, canurl = page_canonical(f, soup)
             if canurl and canurl != myurl:
                 URL_MAP[myurl] = canurl
+            elif os.path.basename(f) != "index.html":      # stray flat *.html primary
+                URL_MAP[myurl] = pretty_url(myurl)
 
 
 def content_path_for(url):
@@ -554,7 +598,53 @@ def content_path_for(url):
     return os.path.join(CONTENT, rel, "index.md")
 
 
+def pretty_url(url):
+    """Ugly /foo.html -> pretty /foo/ (for stray flat *.html primaries)."""
+    if url.endswith(".html"):
+        return url[:-5] + "/"
+    return url
+
+
+def emit_issue_index(issue):
+    """Issue landing page (<issue>/index.html) -> content/<issue>/_index.md."""
+    path = os.path.join(ROOT, issue, "index.html")
+    if not os.path.exists(path):
+        return False
+    soup = soup_of(path)
+    fp = soup.select_one(".front-page")
+    if not fp:
+        return False
+    info = ISSUES[issue]
+    title = "Vol. %d, No. %d, %s %d" % (info["volume"], info["number"], info["season"], info["year"])
+    fm = ["+++", "title = " + tstr(title), 'type = "issue"',
+          "date = %04d-%02d-01" % (info["year"], SEASON_MONTH[info["season"]]),
+          "issue = " + tstr(issue), "volume = %d" % info["volume"],
+          "number = %d" % info["number"], "season = " + tstr(info["season"]),
+          "year = %d" % info["year"], "+++"]
+    body = clean_html_fragment(fp, path)
+    out = os.path.join(CONTENT, issue, "_index.md")
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(fm) + "\n\n" + body + "\n")
+    return True
+
+
+def emit_home():
+    path = os.path.join(ROOT, "index.html")
+    soup = soup_of(path)
+    fp = soup.select_one(".front-page")
+    if not fp:
+        return
+    fm = ["+++", "title = " + tstr("Journal of Digital Humanities"), "+++"]
+    body = clean_html_fragment(fp, path)
+    out = os.path.join(CONTENT, "_index.md")
+    with open(out, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(fm) + "\n\n" + body + "\n")
+    print("  content/_index.md (homepage / Vol 3 No 2 landing)")
+
+
 def convert_issue(issue):
+    shutil.rmtree(os.path.join(CONTENT, issue), ignore_errors=True)
     files = discover(issue)
     # choose a sample article page to read the TOC from
     sample = None
@@ -570,9 +660,7 @@ def convert_issue(issue):
         soup = soup_of(f)
         if not is_article_page(soup):
             continue
-        can = soup.find("link", rel="canonical")
-        canurl = resolve_canonical(f, can.get("href") if can else None)
-        myurl = url_of(f)
+        myurl, canurl = page_canonical(f, soup)
         if canurl and canurl != myurl:
             aliases.setdefault(canurl, []).append(myurl)
         else:
@@ -591,19 +679,27 @@ def convert_issue(issue):
         for h4 in article.select("h4.author-name"):
             h4.extract()
         extract_author_bios(article, authors)
-        section, section_url, sw, w = toc.get(norm_site_path(url), ("", "", 0, 0))
-        meta = dict(title=title, slug=url.strip("/").split("/")[-1], date=date,
-                    issue=issue, volume=info["volume"], number=info["number"],
+        is_flat = os.path.basename(f) != "index.html"     # stray flat *.html primary
+        out_url = pretty_url(url) if is_flat else url      # serve flat copies at a pretty URL
+        page_aliases = list(aliases.get(url, []))
+        if is_flat:
+            page_aliases.append(url)                       # keep original /<name>.html (redirect)
+        section, section_url, sw, w = toc.get(norm_site_path(out_url),
+                                              toc.get(norm_site_path(url), ("", "", 0, 0)))
+        meta = dict(title=title, slug=out_url.strip("/").split("/")[-1],
+                    date=date, issue=issue, volume=info["volume"], number=info["number"],
                     season=info["season"], year=info["year"],
                     section=section, section_url=section_url, section_weight=sw, weight=w,
-                    authors=authors, aliases=aliases.get(url, []))
+                    authors=authors, aliases=page_aliases)
+        out = content_path_for(out_url)
         body_md = Converter(f).convert(article)
-        out = content_path_for(url)
         os.makedirs(os.path.dirname(out), exist_ok=True)
         with open(out, "w", encoding="utf-8") as fh:
             fh.write(front_matter(meta) + "\n\n" + body_md)
         n += 1
-    print(f"  {issue}: {n} articles, {sum(len(v) for v in aliases.values())} aliases")
+    has_index = emit_issue_index(issue)
+    print(f"  {issue}: {n} articles, {sum(len(v) for v in aliases.values())} aliases"
+          f"{'' if has_index else '  (no landing page)'}")
     return n
 
 
@@ -631,6 +727,8 @@ def main():
     total = 0
     for issue in issues:
         total += convert_issue(issue)
+    if set(issues) >= {"3-2"}:
+        emit_home()
     write_authors_data()
     print(f"Done: {total} article bundles.")
 
