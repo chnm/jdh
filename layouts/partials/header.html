@@ -7,9 +7,9 @@
             <img src="{{ printf "%s/images/logo.png" $base | relURL }}" alt="Journal of Digital Humanities">
         </a>
 
-        <form role="search" method="get" id="searchform" action="{{ "/" | relURL }}">
+        <form role="search" method="get" id="searchform" action="{{ "/search/" | relURL }}">
             <div>
-                <input type="text" value="" placeholder="Search JDH" name="s" id="s" />
+                <input type="text" value="" placeholder="Search JDH" name="q" id="s" />
                 <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
             </div>
         </form>

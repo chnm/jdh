@@ -1,0 +1,24 @@
+{{ define "bodyclass" }}page search{{ end }}
+{{ define "main" }}
+<section id="content" class="container row">
+    <div id="article" class="twelve columns offset-by-two omega" data-pagefind-ignore>
+        <h1>{{ .Title }}</h1>
+        <link href="{{ "/pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet">
+        <div id="search"></div>
+        <script src="{{ "/pagefind/pagefind-ui.js" | relURL }}"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                const ui = new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+                const q = new URLSearchParams(window.location.search).get('q');
+                if (q) {
+                    const input = document.querySelector('#search input[type="text"]');
+                    if (input) {
+                        input.value = q;
+                        input.dispatchEvent(new Event('input', { bubbles: true }));
+                    }
+                }
+            });
+        </script>
+    </div><!-- ends article -->
+</section><!-- ends content -->
+{{ end }}

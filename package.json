@@ -1,0 +1,12 @@
+{
+  "name": "jdh-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pagefind search index toolchain for the Journal of Digital Humanities Hugo site",
+  "scripts": {
+    "index": "pagefind --site public"
+  },
+  "devDependencies": {
+    "pagefind": "1.3.0"
+  }
+}
