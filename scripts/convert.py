@@ -474,9 +474,8 @@ def page_canonical(f, soup):
     return myurl, canurl
 
 
-def clean_html_fragment(node, page_path):
-    """Rewrite links inside a kept HTML subtree (front pages, etc.)."""
-    node = BeautifulSoup(str(node), "html.parser").find(True)
+def clean_links_inplace(node, page_path):
+    """Rewrite links / drop scripts inside an HTML subtree, in place."""
     for s in node.find_all(["script", "style", "form"]):
         s.decompose()
     for a in node.find_all("a"):
@@ -491,7 +490,38 @@ def clean_html_fragment(node, page_path):
     for src in node.find_all("source"):
         if src.get("src"):
             src["src"] = rewrite_link(src["src"], page_path)
+
+
+def clean_html_fragment(node, page_path):
+    """Rewrite links inside a kept HTML subtree and return its outer HTML."""
+    node = BeautifulSoup(str(node), "html.parser").find(True)
+    clean_links_inplace(node, page_path)
     return str(node)
+
+
+def convert_simple_page(src, out_path, title=None, extra_fm=None):
+    """Convert a non-article page (#article inner -> cleaned HTML body)."""
+    soup = soup_of(src)
+    art = soup.select_one("#article")
+    if not art:
+        return False
+    h1 = art.find("h1")
+    if title is None:
+        title = h1.get_text(strip=True) if h1 else ""
+    if h1:
+        h1.extract()
+    for junk in art.select(".navigation, .author-bio, script, style, form"):
+        junk.decompose()
+    clean_links_inplace(art, src)
+    body = art.decode_contents().strip()
+    fm = ["+++", "title = " + tstr(title)]
+    for k, v in (extra_fm or {}).items():
+        fm.append("%s = %s" % (k, tstr(v) if isinstance(v, str) else v))
+    fm.append("+++")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(fm) + "\n\n" + body + "\n")
+    return True
 
 
 # --------------------------------------------------------------------------- #
@@ -703,6 +733,42 @@ def convert_issue(issue):
     return n
 
 
+def emit_toplevel():
+    """about / submissions / volumes / authors -> content/<name>.md (URL /<name>/)."""
+    n = 0
+    for name in ("about", "submissions", "volumes", "authors"):
+        src = os.path.join(ROOT, name, "index.html")
+        if os.path.exists(src):
+            if convert_simple_page(src, os.path.join(CONTENT, name + ".md")):
+                n += 1
+    print(f"  top-level pages: {n}")
+
+
+def emit_featured():
+    """/featured/<slug>/ excerpt pages -> content/featured/<slug>.md."""
+    shutil.rmtree(os.path.join(CONTENT, "featured"), ignore_errors=True)
+    n = 0
+    for src in sorted(glob.glob(f"{ROOT}/featured/*/index.html")):
+        slug = os.path.basename(os.path.dirname(src))
+        if convert_simple_page(src, os.path.join(CONTENT, "featured", slug + ".md")):
+            n += 1
+    print(f"  featured pages: {n}")
+
+
+def emit_categories():
+    """/category/<issue>/<section>/ archives -> content/category/<issue>/<section>.md."""
+    shutil.rmtree(os.path.join(CONTENT, "category"), ignore_errors=True)
+    n = 0
+    for src in sorted(glob.glob(f"{ROOT}/category/**/index.html", recursive=True)):
+        rel = os.path.relpath(os.path.dirname(src), os.path.join(ROOT, "category"))
+        if rel == ".":
+            continue
+        out = os.path.join(CONTENT, "category", rel + ".md")
+        if convert_simple_page(src, out):
+            n += 1
+    print(f"  category pages: {n}")
+
+
 def write_authors_data():
     os.makedirs(DATA, exist_ok=True)
     out = os.path.join(DATA, "authors.toml")
@@ -727,8 +793,11 @@ def main():
     total = 0
     for issue in issues:
         total += convert_issue(issue)
-    if set(issues) >= {"3-2"}:
+    if set(issues) == set(ISSUES):
         emit_home()
+        emit_toplevel()
+        emit_featured()
+        emit_categories()
     write_authors_data()
     print(f"Done: {total} article bundles.")
 
