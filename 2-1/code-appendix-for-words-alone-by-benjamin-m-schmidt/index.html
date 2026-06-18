@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; Code Appendix for &#8220;Words Alone: Dismantling Topic Models in the Humanities&#8221; Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="../../wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="../../wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="https://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.13"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='footnote-voodoo-css'  href='../../wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css%3Fver=2016.1230.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='../../wp-content/plugins/twitter-search-shortcode/ta-style.css%3Fver=5.8.13.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../../wp-includes/css/dist/block-library/style.min.css%3Fver=5.8.13.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpmt-css-frontend-css'  href='../../wp-content/plugins/wp-mailto-links/core/includes/assets/css/style.css%3Fver=221018-173039.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/modernizr.custom.20659.js%3Fver=1.0' id='modernizr.custom.20659-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.min.js%3Fver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js%3Fver=2016.1230' id='footnote-voodoo-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js%3Fver=5.8.13' id='jqueryhoverintent-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js%3Fver=5.8.13' id='jquerycookie-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js%3Fver=5.8.13' id='dcjqaccordion-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/wp-mailto-links/core/includes/assets/js/custom.js%3Fver=221018-173039' id='wpmt-js-frontend-js'></script>
+<link rel="https://api.w.org/" href="https://journalofdigitalhumanities.org/wp-json/" /><link rel="alternate" type="application/json" href="https://journalofdigitalhumanities.org/wp-json/wp/v2/posts/4234" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.13" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='https://journalofdigitalhumanities.org/?p=4234' />
+<link rel="alternate" type="application/json+oembed" href="https://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Fcode-appendix-for-words-alone-by-benjamin-m-schmidt%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Fcode-appendix-for-words-alone-by-benjamin-m-schmidt%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="../../wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(../../wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(../../wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<script type="text/javascript" src="https://journalofdigitalhumanities.org/?wordfence_syncAttackData=1781791925.9771" async></script>  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-4234 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="../../index.html">
+            <img src="../../wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="../../index.html">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="../../about/index.html">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="../../volumes/index.html">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="../../submissions/index.html">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 2, No. 1 Winter 2012</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="../../category/2-1/introductions-2-1/index.html">Introductions</a>
+            <ul class="sub-menu">
+                        <li><a href="../pacing-scholarly-conversations/index.html">Pacing Scholarly Conversations</a><br>The Editors</li><li><a href="../dh-contribution-to-topic-modeling/index.html">The Digital Humanities Contribution to Topic Modeling</a><br>Elijah Meeks and Scott B. Weingart</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/2-1/beginnings/index.html">Beginnings</a>
+            <ul class="sub-menu">
+                        <li><a href="../topic-modeling-and-digital-humanities-by-david-m-blei/index.html">Topic Modeling and Digital Humanities</a><br>David M. Blei</li><li><a href="../topic-modeling-a-basic-introduction-by-megan-r-brett/index.html">Topic Modeling: A Basic Introduction</a><br>Megan R. Brett</li><li><a href="../the-details-by-david-mimno/index.html">The Details: Training and Validating Big Models on Big Data</a><br>David Mimno</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/2-1/applications-2-1/index.html">Applications and Critiques</a>
+            <ul class="sub-menu">
+                        <li><a href="../topic-modeling-and-figurative-language-by-lisa-m-rhody/index.html">Topic Modeling and Figurative Language</a><br>Lisa M. Rhody</li><li><a href="../topic-model-data-for-topic-modeling-and-figurative-language-by-lisa-m-rhody.html">Topic Model Data for Topic Modeling and Figurative Language</a><br>Lisa M. Rhody</li><li><a href="../what-can-topic-models-of-pmla-teach-us-by-ted-underwood-and-andrew-goldstone.html">What Can Topic Models of PMLA Teach Us About the History of Literary Scholarship?</a><br>Andrew Goldstone and Ted Underwood</li><li><a href="../words-alone-by-benjamin-m-schmidt/index.html">Words Alone: Dismantling Topic Models in the Humanities</a><br>Benjamin M. Schmidt</li><li class="current-menu-item"><a href="index.html">Code Appendix for "Words Alone: Dismantling Topic Models in the Humanities"</a><br>Benjamin M. Schmidt</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/2-1/reviews-2-1/index.html">Reviews</a>
+            <ul class="sub-menu">
+                        <li><a href="../review-mallet-by-ian-milligan-and-shawn-graham/index.html">Review of MALLET, produced by Andrew Kachites McCallum</a><br>Shawn Graham and Ian Milligan</li><li><a href="../review-papermachines-by-adam-crymble/index.html">Review of Paper Machines, produced by Chris Johnson-Roberson and Jo Guldi</a><br>Adam Crymble</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/2-1/respond-2-1/index.html">Respond</a>
+            <ul class="sub-menu">
+                        <li><a href="../respond-to-jdh-2-1/index.html">Respond to JDH 2.1</a><br>The Editors</li><li><a href="../responses-from-twitter/index.html">Responses from Twitter</a><br>The Editors</li>            </ul>
+        </li>
+   
+    <li><a href="../../authors/index.html">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>Code Appendix for &#8220;Words Alone: Dismantling Topic Models in the Humanities&#8221;</h1>
+    
+            <h4 class="author-name"><a href="../../author/bschmidt/index.html" title="Posts by Benjamin M. Schmidt" class="author url fn" rel="author">Benjamin M. Schmidt</a></h4>
+        
+    <h3>Topic Modeling Ships</h3>
+<p>Begin by getting the data in order. (This data is available on request.)</p>
+<p>&nbsp;</p>
+<pre class="brush: r; title: ; notranslate" title=""># Oceans2
+rm(list = ls())
+require(ggplot2)
+require(plyr)
+require(lubridate)
+source(&quot;ICOADS parsing.R&quot;)
+source(&quot;../Map Functions.R&quot;)</pre>
+<p>This step pulls in the Maury data and splits it. This is not fully documented as part of this article, since the purpose is to show general geodata parsing.</p>
+<pre class="brush: r; title: ; notranslate" title="">data = loadInData(&quot;~/shipping/ICOADS/maury.txt&quot;)
+data = splitDataByVoyage(data)</pre>
+<p>Next, save the R data.frame into a directory that MALLET will be able to interpret as a text, and run a topic model on it. The rounding gives the resolution at which the topic will be run.</p>
+<pre class="brush: r; title: ; notranslate" title="">MALLEABLE = data.frame(text = data$voyageid, word = paste(round(data$lat, 1),
+    round(data$long, 1), sep = &quot;X&quot;))
+MALLEABLEpointRes = data.frame(text = data$voyageid, word = paste(round(data$lat),
+    round(data$long), sep = &quot;X&quot;))
+# I'm p system('mkdir /tmp/MALLET') system('mkdir /tmp/MALLETpointres')
+# system('rm /tmp/MALLET/*')
+
+# Write one text file for each voyage with all the points it passed
+# through.
+ddply(MALLEABLE, .(text), function(text) {
+    write.table(text$word, paste(&quot;/tmp/MALLET/&quot;, text$text[1], &quot;.txt&quot;, sep = &quot;&quot;),
+        row.names = F, col.names = F, quote = F)
+}, .progress = &quot;text&quot;)
+
+silent = ddply(MALLEABLEpointRes, .(text), function(text) {
+    write.table(text$word, paste(&quot;/tmp/MALLETpointres/&quot;, text$text[1], &quot;.txt&quot;,
+        sep = &quot;&quot;), row.names = F, col.names = F, quote = F)
+    return(data.frame())
+}, .progress = &quot;text&quot;)
+
+# To get it to take number-and-comma formatted data, I need to change the
+# token-regex; that was the only major hiccup I found here.
+system(&quot;cd ~/mallet-2.0.7/; bin/mallet import-dir --input /tmp/MALLET --output ships.mallet --keep-sequence --token-regex \&quot;\\S+\&quot;;&quot;)
+
+system(&quot;cd ~/mallet-2.0.7/; bin/mallet import-dir --input /tmp/MALLETpointres --output shipsPointRes.mallet --keep-sequence --token-regex \&quot;\\S+\&quot;;&quot;)
+
+# I ran this several times with topic topic sizes; only including in the
+# post 9 and 25
+system(&quot;cd ~/mallet-2.0.7/; bin/mallet train-topics --input ships.mallet --output-topic-keys shipKeys.txt --num-topics 9 --output-doc-topics shipTopics.txt --output-state state.txt.gz;&quot;,
+    ignore.stdout = T, ignore.stderr = T)
+
+system(&quot;cd ~/mallet-2.0.7/; bin/mallet train-topics --input shipsPointRes.mallet --output-topic-keys shipKeys.txt --num-topics 9 --output-doc-topics shipTopics.txt --output-state 9pointres.txt.gz;&quot;,
+    ignore.stdout = T, ignore.stderr = T)
+
+system(&quot;cd ~/mallet-2.0.7/; gunzip -c -f 9pointres.txt.gz &amp;gt; 9pointres.txt&quot;)
+
+system(&quot;cd ~/mallet-2.0.7/; bin/mallet train-topics --input ships.mallet --output-topic-keys shipKeys.txt --num-topics 25 --output-doc-topics shipTopics.txt --output-state state.txt.gz;&quot;)
+
+# This is the data I want to plot.
+system(&quot;cd ~/mallet-2.0.7/; gunzip -c -f state.txt.gz &amp;gt; 25topics.txt&quot;)
+
+system(&quot;cd ~/mallet-2.0.7/; bin/mallet train-topics --input ships.mallet --output-topic-keys shipKeys.txt --num-topics 9 --output-doc-topics shipTopics.txt --output-state state.txt.gz;&quot;,
+    ignore.stdout = T, ignore.stderr = T)
+
+system(&quot;cd ~/mallet-2.0.7/; gunzip -c -f state.txt.gz &amp;gt; 9topics.txt&quot;)</pre>
+<p>Read in those MALLET results and clean them up for analysis.</p>
+<pre class="brush: r; title: ; notranslate" title="">#Set the individual file to be plotted here. This should be wrapped into a function.
+file = &quot;25topics.txt&quot;
+
+malletresults = read.table(paste0('~/mallet-2.0.7/',file),sep=&quot; &quot;,col.names=c(&quot;?&quot;,&quot;file&quot;,&quot;loc&quot;,&quot;total&quot;,&quot;point&quot;,&quot;topic&quot;),colClasses=c(&quot;NULL&quot;,&quot;character&quot;,&quot;NULL&quot;,&quot;NULL&quot;,&quot;character&quot;,&quot;integer&quot;))
+message(&quot;Working on a file that has &quot;,length(unique(malletresults$topic)),&quot; topics&quot;)
+
+tabbed = table(malletresults$point,malletresults$topic)
+
+summarized = data.frame(tabbed)
+summarized = summarized[summarized$Freq&amp;gt;0,]
+
+words =strsplit(as.character(summarized[,1]),'x')
+f = t(sapply(words,as.numeric))
+
+summarized$lat = f[,1]
+summarized$long = f[,2]
+summarized = summarized[,-1]
+names(summarized)[1]=&quot;topic&quot;
+
+summarized$long[summarized$long&amp;gt;180] = summarized$long[summarized$long&amp;gt;180]-360
+
+top = ddply(summarized,.(topic),function(locframe){
+  returning = locframe[order(-locframe$Freq),][1:10,]
+  returning$rank = 1:10
+  returning
+},.progress='text')
+
+head(summarized)
+
+baseplot = ggplot(summarized[as.numeric(summarized$topic)&amp;gt;=0,],aes(x=long,y=lat)) +
+  geom_tile(aes(alpha=Freq),width=1,height=1) +
+  facet_wrap(~topic,ncol=round(sqrt(length(unique(summarized$topic))))) +
+  annotation_map(map=world,fill='#F3E0BD') +
+  theme_nothing+
+  labs(title=paste0(&quot;Distribution of points across a &quot;,length(unique(summarized$topic)),&quot;-topic model\nTop ten points in each topic in red&quot;)) +
+  scale_alpha_continuous(&quot;Number of ship-days\nassigned to topic\nwithin 1 degree&quot;,
+    range=c(0,1),na.value=1,limits=c(0,50),breaks=c(0,10,20,30,40,50),labels=c(0,10,20,30,40,&quot;50 or more&quot;)) +
+  theme(legend.position=&quot;right&quot;)
+
+baseplot  + labs(title=paste0(&quot;Distribution of points in the US Maury dataset across a &quot;,length(unique(summarized$topic)),&quot;-topic model&quot;)) + scale_x_continuous(expand=c(0,0))
+
+baseplot + geom_point(data=top,color='red',size=5,alpha=.33)+ scale_x_continuous(expand=c(0,0))
+
+baseplot %+% summarized[summarized$topic==4,]+ geom_point(data=top[top$topic==4,],color='red',size=5,alpha=.33)+ scale_x_continuous(expand=c(0,0)) + labs(title=&quot;Topic 4 in the 9-topic model&quot;)
+
+}</pre>
+<p>Make some plots:</p>
+<pre class="brush: r; title: ; notranslate" title="">ggplot(plottable, aes(x = as.numeric(long), y = as.numeric(lat))) + geom_point(alpha = 0.1,
+    size = 0.3) + facet_wrap(~topic, scales = &quot;free&quot;, ncol = 4) + annotation_map(map = world,
+    fill = &quot;#F3E0BD&quot;) + theme_nothing + labs(title = &quot;Distribution of points across a 25-topic model&quot;)</pre>
+<p>Try K-means clustering on the voyages in topic space (note: this did not work -– most ended up in a single k-means cluster –- so I did not include it in the blog post). This approach might work better with a higher number of topics, perhaps a couple hundred, but that would take better priors.</p>
+<pre class="brush: r; title: ; notranslate" title="">topicdists = table(malletresults$file, malletresults$topic)
+head(topicdists)
+topicdists = apply(topicdists, 2, function(z) {
+    z/sum(z, na.rm = T)
+})
+class(topicdists) = &quot;matrix&quot;
+f = kmeans(topicdists, centers = 9)
+data$cluster = f$cluster[match(data$voyageid, names(f$cluster))]
+
+offset = 220
+plotWorld = Recenter(world, offset, idfield = &quot;group&quot;)
+plotData = Recenter(data, offset, shapeType = &quot;segment&quot;, idfield = &quot;voyageid&quot;)
+head(plotData)
+ggplot(plotData[!is.na(plotData$cluster), ], aes(x = as.numeric(long), y = as.numeric(lat))) +
+    geom_path(aes(group = group), alpha = 0.02) + annotation_map(map = plotWorld,
+    fill = &quot;beige&quot;) + facet_wrap(~cluster, ncol = 3) + theme_nothing</pre>
+<h3>Topic Model evaluation with JSTOR and MALLET in R</h3>
+<p>This is Ben Schmidt&#8217;s R diagnostics for long-term historical topic modeling. It works off a MALLET state file.</p>
+<p>Most of the work is done in custom functions: these are stored in the separate file &#8220;TopicModelVisualization.R&#8221; (which is printed at the end of this appendix).</p>
+<pre class="brush: r; title: ; notranslate" title="">opts_chunk$set(warning = FALSE, error = FALSE, message = FALSE, results = &quot;show&quot;,
+    cache = TRUE, eval = FALSE)
+require(plyr)
+
+## Loading required package: plyr
+require(ggplot2)
+## Loading required package: ggplot2
+require(reshape2)
+## Loading required package: reshape2
+source(&quot;TopicModelVisualization.R&quot;)</pre>
+<p>The first step is to load the MALLET file with a function to do so.</p>
+<pre class="brush: r; title: ; notranslate" title="">loadMalletFile
+topics = loadMalletFile(fileLocation = &quot;../topic-state&quot;)</pre>
+<p>This is code I borrowed from Andrew Goldstone to match the metadata from JSTOR against the topics. If you are not using JSTOR, you would just need to</p>
+<ol>
+<li>create a &#8216;year&#8217; column in the topics frame</li>
+<li>(optionally) create a files frame with other metadata (title, author, and so forth), indexed so that files$numid maps to topics$doc.</li>
+</ol>
+<pre class="brush: r; title: ; notranslate" title=""># An id can be a string('numid') or a character('id'); I'm just trying to
+# get them aligned
+ids = readInIDs(readOrderFile = &quot;../readOrder.txt&quot;)
+
+# refactor the topics with the filenames: not doing this because factors
+# are slooooooow. topics$doc =
+# factor(topics$doc,levels=ids$numid,labels=ids$id)
+
+files = readInMetadata(&quot;../citations_all.csv&quot;)
+files$numid = ids$numid[match(files$id, ids$id)]
+# match is fast than merge, and will only work once.
+topics$year = files$year[match(topics$doc, files$numid)]
+topics = topics[!is.na(topics$year), ]  #eliminates duplicates, among other things.
+dim(topics)</pre>
+<p>And finally, topics conventionally have names, not numbers. Here we derive those as the top seven words in each topic.</p>
+<pre class="brush: r; title: ; notranslate" title="">topics = labelTopics(topics)</pre>
+<p>OK, now to look for weirdness.<br />
+Plow through all the topics and run that function to extract out various data about them. The exact metrics I use are documented inside the code for the previous function</p>
+<pre class="brush: r; title: ; notranslate" title="">topics = idata.frame(topics)
+diagnostics = dlply(topics, .(topic), topicBeforeAndAfterSplit, .progress = &quot;none&quot;)
+
+unimeasures = ldply(diagnostics, function(list) {
+    data.frame(topCor = list$topCor, tenCor = list$tenCor, unlikelihood = list$unlikelihood,
+        perToken = list$unlikelihoodPerToken)
+})</pre>
+<p>Plot some of the worst ones. This will not work with other models, perhaps. The whole block can be skipped, though.</p>
+<pre class="brush: r; title: ; notranslate" title="">allTopics = unimeasures$topic[order(unimeasures$tenCor)]
+
+# Dropping ones that start with fewer than four letter words clears out
+# language topics, which are overwhelming. It probably clears out a few
+# other ones, too, though.
+
+source(&quot;TopicModelVisualization.R&quot;)
+EnglishTopics = allTopics[grep(&quot;^\\w\\w\\w\\w&quot;, allTopics)]
+goodTopics = rev(EnglishTopics)[1:12]
+badTopics = EnglishTopics[1:12]
+twain = EnglishTopics[grep(&quot;twain&quot;, EnglishTopics)]
+set.seed(80)  #So the random topics will always be the same ones
+randomTopics = sample(EnglishTopics, 12)
+
+diagnosticPlot(badTopics)
+diagnosticPlot(randomTopics) + labs(title = &quot;A random set of 12 topics is better, but still shows some change&quot;)
+diagnosticPlot(twain) + labs(title = &quot;The 'Grant State Twain' topic breaks in two\nwhen bisected across time&quot;)</pre>
+<p>Here&#8217;s a function to plot the usage of a word across its top five topics.</p>
+<pre class="brush: r; title: ; notranslate" title="">wordDist = function(word) {
+    # This requires topics to exist as a frame word can be a vector of any
+    # length
+    wordframe = as.data.frame(topics[topics$word %in% word, ])
+    wordframe = wordframe[wordframe$topic %in% names(head(sort(-table(wordframe$topic)),
+        5)), ]
+    wordframe$topic = factor(wordframe$topic)
+    tabbed = table(round(as.numeric(as.character(wordframe$year)), -1), wordframe$topic)
+    yearvalues = melt(tabbed)
+    names(yearvalues) = c(&quot;year&quot;, &quot;topic&quot;, &quot;count&quot;)
+    yearvalues$year = as.numeric(as.character(yearvalues$year))
+    require(ggplot2)
+    ggplot(yearvalues) + geom_line(aes(x = year, y = count, color = topic)) +
+        labs(title = paste0(&quot;Usage of &quot;, paste(word, collapse = &quot;/&quot;), &quot; across different topics&quot;)) +
+        theme(legend.position = &quot;bottom&quot;)
+}</pre>
+<p>For example:</p>
+<pre class="brush: r; title: ; notranslate" title="">wordDist(c(&quot;represent&quot;, &quot;represents&quot;, &quot;represented&quot;, &quot;representing&quot;))
+wordDist(c(&quot;mimesis&quot;, &quot;mimetic&quot;))</pre>
+<h3>Code to parse MALLET/JSTOR results in R</h3>
+<p>This is the block of functions used to parse mallet/JSTOR results.</p>
+<pre class="brush: r; title: ; notranslate" title="">loadMalletFile = function(fileLocation = &quot;../topic-state&quot;) {
+  #Loads a mallet file, keeping only the doc, word, and topic variables
+  read.table(
+    file=fileLocation,
+    colClasses=c(&quot;integer&quot;,&quot;NULL&quot;,&quot;NULL&quot;,&quot;NULL&quot;,&quot;character&quot;,&quot;integer&quot;),
+    comment.char=&quot;#&quot;,col.names=c(&quot;doc&quot;,&quot;NA&quot;,&quot;NA2&quot;,&quot;NA3&quot;,&quot;word&quot;,&quot;topic&quot;))
+  #You might want
+}
+
+readInIDs = function(readOrderFile = &quot;../readOrder.txt&quot;) {
+  #I previously created a script with the order files were read in using &quot;readOrder.txt&quot;
+  ids = read.table(&quot;../readOrder.txt&quot;,col.names=&quot;filename&quot;)
+  ids$numid = 0:(nrow(ids)-1) #This is the id that
+  ids$id = gsub(&quot;_&quot;,&quot;/&quot;,gsub(&quot;\\.[[:alpha:]]*$&quot;,&quot;&quot;,gsub(&quot;^.*wordcounts_&quot;,&quot;&quot;,ids$filename))) #Just some particularities to make filenames match up with JSTOR identifiers. I believe Goldstone must have written at least some of this, based on the regex style.
+  ids
+}
+
+readInMetadata = function(citationsFile) {
+  #These are scripts of Andrew Goldstone's to parse JSTOR metadata.
+  #Andrew Goldstone's script to parse jstor metadata
+  source(&quot;metadata.R&quot;)
+  files = read.citations(&quot;../citations_all.csv&quot;)
+  files$year = as.numeric(substr(files$pubdate,1,4))
+  files$filename
+  files
+}
+
+labelTopics = function(topics) {
+  message(&quot;Labelling topics: this may take a while&quot;)
+  smallerFrame = idata.frame(topics[,c(&quot;topic&quot;,&quot;word&quot;)])
+  topicNames = dlply(
+    smallerFrame,
+    .(topic),
+    function(locframe) {
+      paste(names(sort(-table(locframe$word)))[1:7],collapse=' ')
+    },
+    .progress='text')
+
+  message(&quot;&quot;)
+  if (sum(duplicated(topicNames))&amp;gt;0) {
+    warning(&quot;Two topics have the same top 7 words. Yikes! Time to rethink the labeling scheme, just leaving it as integers for now.&quot;)} else {
+      topics$topic = factor(topics$topic,levels = as.numeric(names(topicNames)),labels=unlist(topicNames))
+    }
+  topics
+}
+
+topicBeforeAndAfterSplit = function(thisTopic=topics[topics$topic ==sample(levels(topics$topic),1),]) {
+  #allowing multiple bin sizes, just in case.
+  bins=2
+  thisTopic$era = cut(thisTopic$year,breaks=quantile(thisTopic$year,na.rm=T,probs=seq(0,1,length.out=bins+1)),include.lowest=T,labels=paste(&quot;From&quot;,quantile(thisTopic$year,na.rm=T,probs=seq(0,1,length.out=bins+1))[-(bins+1)],'to',quantile(thisTopic$year,na.rm=T,probs=seq(0,1,length.out=bins+1))[-1]))
+  tabbed = table(thisTopic$word,thisTopic$era)
+  tabbed = tabbed[order(-rowSums(tabbed)),]
+  class(tabbed)='matrix'
+
+  #For log-likelihood purposes, consider any non-appearances to be half-appearances.
+  tabbed[tabbed==0] = .5
+
+  #An implementation of Dunning Log-Likelihood
+  llr = function(k) { 2 * (llr.H(k) - llr.H(rowSums(k)) - llr.H(colSums(k)) ) }
+  llr.H = function(k) { total = sum(k) ; sum( k * log(k / total)) }
+
+  tabbed = cbind(tabbed,round(apply(tabbed, 1, function(row) {
+    k = rbind(row, colSums(tabbed))
+    2 * (llr.H(k) - llr.H(rowSums(k)) - llr.H(colSums(k))) * (as.numeric(row[1]&amp;gt;row[2])*2-1)
+  }),3))
+
+  #A grabbag of outputs to look at. Most of these were not used: some might be worth using.
+  output = list(
+    #all words with their frequencies in each of the year bins
+    allWords = tabbed,
+    #the name of the topic
+    topic = as.character(thisTopic$topic[1]),
+    #the number of words in the topic
+    size = nrow(thisTopic),
+    #the mean Dunning-log-likelihood across all words in the set: higher
+    #means more unlikely
+    unlikelihood = mean(abs(tabbed[,3])),
+    #A per-token normalizetion of the Dunning score.
+    unlikelihoodPerToken = mean(abs(tabbed[,3]))/nrow(thisTopic),
+    #correlation of word counts from group 1 to group 2, log distribution
+    overallCorrelation = cor(log(tabbed[,1]),log(tabbed[,2])),
+    #the 100 words with the worst Dunning score in either direction
+    worstWords =tabbed[order(-abs(tabbed[,3])),][1:100,],
+    #the 100 commonest words
+    commonestWords = tabbed[1:100,],
+    #the 100 commonest words in time group A and B
+    topA = rownames(tabbed)[order(-tabbed[,1])][1:100],
+    topB = rownames(tabbed)[order(-tabbed[,2])][1:100],
+    #just the words with no data
+    topOverall = rownames(tabbed)[order(-rowSums(tabbed[,1:2]))][1:100]
+    )
+  #The intergroup correlation for the most common words, log distribution
+  output$topCor = cor(log(output$commonestWords[1:100,1]),log(output$commonestWords[1:100,2]))
+  #The intergroup correlation for the very most common words.
+  output$tenCor = cor(log(output$commonestWords[1:10,1]),log(output$commonestWords[1:10,2]))
+  return(output)
+}
+
+#### Visualization Functions
+
+#From stackOverflow
+reverselog_trans 0] = &quot;rising&quot;
+  plottable$trend[plottable$change==0] = &quot;steady&quot;
+  plottable$trend[plottable$change&amp;lt;0] = &quot;falling&quot;
+  plottable
+}
+
+diagnosticPlot = function(topicSet) {
+  plottable = makePlottable(topicSet)
+
+  ggplot(plottable,aes(x=Period,y=count,label=paste0(count,'. ',word))) +
+    geom_text(size=3.5) +
+    geom_path(aes(size=abs(change),color=trend,group=word),alpha=.33) +
+    facet_wrap(~topic,scales='free',nrow=3) +
+    labs(title =
+    &quot;Splitting in half by year shows two very different vocabularies\n(showing the top 20 words overall in the 12 worst English language topics)&quot;) +
+    scale_y_continuous(&quot;Rank of word among corpus's top 100 words&quot;,trans='reverselog',breaks=outer(c(1,2,5),c(1,10,100,1000))) +
+    scale_color_discrete(&quot;Direction of change&quot;) +
+    scale_size_continuous(&quot;Fall\n(or Increase)\nin rank\nwithin topic&quot;,labels=exp,breaks=log(c(.0001,1,10,100,1000)))
+  }
+
+alternativeTrack = function(words) {
+
+  wordlist = unlist(strsplit(sample(levels(topics$topic),1),' '))
+  wordlist = c(&quot;shelley&quot;,&quot;keats&quot;,&quot;wordsworth&quot;,&quot;romantic&quot;,&quot;romanticisms&quot;,&quot;ballade&quot;)
+  justTheseWords = data.frame(topics[topics$word %in% wordlist,])
+  justTheseWords$year = floor(justTheseWords$year/5)*5
+  plottable = ddply(justTheseWords,.(word),function(wordframe) {
+    ddply(wordframe,.(year),function(yearframe){
+      data.frame(index=(nrow(yearframe)/nrow(wordframe))*length(unique(wordframe$year))
+    )})
+  })
+  ggplot(plottable,aes(x=floor(year/5)*5,y=index)) + stat_summary(fun.y=median,geom='point',size=4) + geom_line(aes(color=word))
+}</pre>
+
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            Benjamin M. Schmidt        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='https://secure.gravatar.com/avatar/8bc2b47883e7e62acc612bf211a0a863?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='https://secure.gravatar.com/avatar/8bc2b47883e7e62acc612bf211a0a863?s=104&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' loading='lazy'/></div><p class="coauthor">Benjamin M. Schmidt is the Visiting Graduate Fellow at the Cultural Observatory at Harvard University, and a PhD Candidate in history at Princeton University. He writes about digital humanities at <a href="http://sappingattention.blogspot.com">Sapping Attention</a>.</p>    
+    </div>
+	
+        
+    		
+	
+    
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="../../wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="../../wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '28']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<script type='text/javascript' src='../../wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js%3Fver=3.0.9b' id='syntaxhighlighter-core-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/syntaxhighlighter/third-party-brushes/shBrushR.js%3Fver=20100919' id='syntaxhighlighter-brush-r-js'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://journalofdigitalhumanities.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.head.appendChild( corecss );
+		var themecssurl = "https://journalofdigitalhumanities.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		document.head.appendChild( themecss );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+
+	// Infinite scroll support
+	if ( typeof( jQuery ) !== 'undefined' ) {
+		jQuery( function( $ ) {
+			$( document.body ).on( 'post-load', function() {
+				SyntaxHighlighter.highlight();
+			} );
+		} );
+	}
+</script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/respond.min.js%3Fver=1.0' id='respond.min-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/selectivizr-min.js%3Fver=1.0' id='selectivizr-min-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/jquery.cookie.js%3Fver=1.0' id='jquery.cookie-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js%3Fver=1.0' id='jquery.hoverIntent.minified-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js%3Fver=1.0' id='jquery.dcjqaccordion.2.7.min-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/comment-reply.min.js%3Fver=5.8.13' id='comment-reply-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min.js%3Fver=5.8.13' id='wp-embed-js'></script>
+</body>
+</html>
