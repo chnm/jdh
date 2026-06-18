@@ -1,0 +1,10 @@
+{{- $data := hugo.Data.authors -}}
+{{- range $id := .Params.author_ids -}}
+  {{- with index $data $id -}}
+  <div class="author-bio">
+    <h2>About {{ .name }}</h2>
+    {{ with .gravatar }}<div class="gravatar"><img alt="" src="{{ . }}"></div>{{ end }}
+    {{ .bio | safeHTML }}
+  </div>
+  {{- end -}}
+{{- end -}}

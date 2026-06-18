@@ -1,0 +1,15 @@
+{{- $ids := .Params.author_ids -}}
+{{- with .Params.authors -}}
+<h4 class="author-name">
+{{- $n := len . -}}
+{{- range $i, $name := . -}}
+  {{- $id := index $ids $i -}}
+  {{- if gt $i 0 }}{{ if eq $i (sub $n 1) }} and {{ else }}, {{ end }}{{ end -}}
+  {{- if $id -}}
+    <a href="{{ printf "/author/%s/" $id | relURL }}" rel="author">{{ $name }}</a>
+  {{- else -}}
+    {{ $name }}
+  {{- end -}}
+{{- end -}}
+</h4>
+{{- end -}}

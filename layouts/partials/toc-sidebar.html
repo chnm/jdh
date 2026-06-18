@@ -1,0 +1,23 @@
+{{- $issue := .Params.issue -}}
+{{- $cur := .RelPermalink -}}
+{{- $all := where site.RegularPages "Params.issue" $issue -}}
+<h3>Table of Contents for Vol. {{ .Params.volume }}, No. {{ .Params.number }} {{ .Params.season }} {{ .Params.year }}</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+{{ range $all.GroupByParam "section_weight" "asc" }}
+    {{- $arts := sort .Pages "Params.weight" "asc" -}}
+    {{- $first := index $arts 0 -}}
+    {{- $section := $first.Params.section -}}
+    {{- $securl := $first.Params.section_url -}}
+    {{- if $section }}
+    <li class="parent">{{ with $securl }}<a href="{{ . | relURL }}">{{ $section }}</a>{{ else }}{{ $section }}{{ end }}
+        <ul class="sub-menu">
+            {{- range $arts }}
+            <li{{ if eq .RelPermalink $cur }} class="current-menu-item"{{ end }}><a href="{{ .RelPermalink }}">{{ .Title }}</a><br>{{ delimit .Params.authors ", " " and " }}</li>
+            {{- end }}
+        </ul>
+    </li>
+    {{- end }}
+{{ end }}
+    <li><a href="{{ "/authors/" | relURL }}">Authors</a></li>
+</ul>

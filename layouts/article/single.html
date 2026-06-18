@@ -1,0 +1,17 @@
+{{ define "bodyclass" }}post-template-default single single-post{{ end }}
+{{ define "main" }}
+<section id="content" class="container row">
+
+    <div class="sidebar four columns alpha">
+        {{ partial "toc-sidebar.html" . }}
+    </div>
+
+    <div id="article" class="ten columns offset-by-two omega">
+        <h1>{{ .Title }}</h1>
+        {{ partial "author-byline.html" . }}
+        {{ .Content }}
+        {{ partial "author-bio.html" . }}
+    </div><!-- ends article -->
+
+</section><!-- ends content -->
+{{ end }}
