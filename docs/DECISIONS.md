@@ -117,12 +117,20 @@ Full-text search is a Pagefind index built from `public/` **after** Hugo; the
 header form posts to `/search/`, which mounts the Pagefind UI. The toolchain is
 pinned in `package.json` / `package-lock.json`. (`48f15be`)
 
-## 15. Deploy: Docker (stagex + Caddy)
+## 15. Deploy: Docker (stagex + Caddy) + RRCHNM CI/CD
 Two-stage build — stagex Node + Hugo-extended builds the site and the Pagefind
-index; Caddy serves static `public/` on :80. `baseURL` stays the production
-domain, so the ~29 alias redirect stubs and all media references resolve
-correctly once DNS cuts over (on a preview host the alias stubs point at
-production).
+index; Caddy serves static `public/` on :80. The Dockerfile takes a
+`hugobuildargs` build-arg (`RUN hugo ${HUGO_BUILD_ARGS}`) so CI can inject the
+`--baseURL`/`--environment` per deploy.
+
+`.github/workflows/cicd.yml` calls RRCHNM's reusable workflow
+(`chnm/.github/.github/workflows/hugo--build-release-deploy.yml@main`) for
+**jdh.dev.chnm.edu**. Because this repo is a single site at the root, the build
+context is `.`; because the image serves from Caddy's `/srv` (not nginx's
+`/usr/share/nginx/html/`), `hugo-content-path` is overridden to `/srv/`. The
+workflow builds non-`main` branches with `--environment development` (no
+analytics, dev baseURL) and `main` with `--environment production --minify`
+(analytics on, prod baseURL).
 
 ## Verification
 `scripts/verify_urls.py`: **446/448** archive URLs resolve (the 2 gaps are deep
