@@ -1,0 +1,9 @@
+{{ define "bodyclass" }}home{{ end }}
+{{ define "main" }}
+<section id="content" class="container row">
+    <div class="front-page twelve columns offset-by-two omega">
+        {{ .Content }}
+        <p class="issn">ISSN {{ .Site.Params.issn }}</p>
+    </div>
+</section><!-- ends content -->
+{{ end }}

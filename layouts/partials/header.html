@@ -1,0 +1,34 @@
+{{- $base := .Site.Params.themeBase -}}
+<header>
+
+    <div class="container">
+
+        <a class="site-title" href="{{ "/" | relURL }}">
+            <img src="{{ printf "%s/images/logo.png" $base | relURL }}" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="{{ "/" | relURL }}">
+            <div>
+                <input type="text" value="" placeholder="Search JDH" name="s" id="s" />
+                <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+            </div>
+        </form>
+
+        <nav>
+            <ul class="social">
+                <li><a href="{{ .Site.Params.feedburner }}" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs">
+                <ul id="menu-main-menu" class="menu">
+                    {{- range .Site.Menus.main }}
+                    <li class="menu-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{- end }}
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>

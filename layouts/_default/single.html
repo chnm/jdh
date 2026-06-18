@@ -1,0 +1,9 @@
+{{ define "bodyclass" }}single{{ end }}
+{{ define "main" }}
+<section id="content" class="container row">
+    <div id="article" class="twelve columns offset-by-two omega">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </div><!-- ends article -->
+</section><!-- ends content -->
+{{ end }}

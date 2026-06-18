@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+{{ partial "head.html" . }}
+</head>
+<body class="{{ block "bodyclass" . }}{{ end }}">
+<div class="wrap">
+{{ partial "header.html" . }}
+{{ block "main" . }}{{ end }}
+</div><!-- ends wrap -->
+{{ partial "footer.html" . }}
+</body>
+</html>

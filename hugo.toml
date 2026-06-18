@@ -1,0 +1,59 @@
+baseURL = "https://journalofdigitalhumanities.org/"
+locale = "en-US"
+title = "Journal of Digital Humanities"
+enableEmoji = false
+enableGitInfo = false
+
+# The committed wget archive lives at the repo root (1-1/, author/, wp-content/,
+# wp-includes/, etc.). It is the conversion INPUT, not Hugo content — keep Hugo
+# from treating those dirs as anything. Hugo only reads content/ layouts/ static/
+# data/ archetypes/, so the archive is ignored automatically.
+
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  author = "author"
+
+[permalinks]
+  [permalinks.term]
+    author = "/author/:slug/"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true            # bodies carry raw HTML (embeds, captions, footnote HTML)
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+  [markup.goldmark.extensions]
+    [markup.goldmark.extensions.footnote]
+      # enabled by default; explicit for clarity
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menus.main]]
+    name = "Volumes"
+    url = "/volumes/"
+    weight = 2
+  [[menus.main]]
+    name = "Submissions"
+    url = "/submissions/"
+    weight = 3
+
+[params]
+  description = "An experiment in scholarly communication, published by the Roy Rosenzweig Center for History and New Media."
+  issn = "2165-6673"
+  feedburner = "http://feeds.feedburner.com/journalofdigitalhumanities"
+  themeBase = "/wp-content/themes/jdh"

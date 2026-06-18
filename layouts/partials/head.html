@@ -1,0 +1,14 @@
+{{- $base := .Site.Params.themeBase -}}
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ .Site.Title }}{{ end }}</title>
+<link rel="icon" type="image/x-icon" href="{{ printf "%s/images/favicon.ico" $base | relURL }}">
+<link rel="stylesheet" href="{{ printf "%s/style.css" $base | relURL }}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{ printf "%s/stylesheets/skeleton.css" $base | relURL }}" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{ printf "%s/stylesheets/layout.css" $base | relURL }}" type="text/css" media="screen" />
+<link href="https://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ with .OutputFormats.Get "rss" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}" />
+{{- end }}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
