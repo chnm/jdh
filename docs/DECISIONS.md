@@ -87,14 +87,19 @@ kept as an alias redirect (avoids Hugo file-vs-directory collisions). (`39f4fad`
   flat taxonomy term URLs. Deep `/page/N/` pagination is intentionally dropped
   (the term/section pages list everything on one page; no content loss).
 
-## 12. Chrome rebuilt from scratch — analytics and trackers removed
+## 12. Chrome rebuilt from scratch; analytics re-added via the RRCHNM partial
 The `<head>`/`<footer>` were rebuilt as clean partials rather than ported
 verbatim. Dropped in the process: the WordPress emoji script, `wp-json` /
-`xmlrpc` / `pingback` links, the `s.w.org` prefetch, the `chnmdev.gmu.edu`
-dev-host leak, and **both analytics trackers** — the `<head>` Piwik snippet and
-the footer **Matomo** tracker (`stats.rrchnm.org`, `setSiteId 70`). The converted
-site ships with **no third-party tracking**. Re-add a snippet to
-`layouts/partials/footer.html` if analytics is wanted.
+`xmlrpc` / `pingback` links, the `s.w.org` prefetch, and the `chnmdev.gmu.edu`
+dev-host leak.
+
+Analytics was first removed, then **re-added following RRCHNM's standard
+pattern** (`chnm/game-sites` `themes/rrchnm/layouts/partials/analytics.html`):
+`layouts/partials/analytics.html` renders the Matomo tracker only when
+`hugo.IsProduction` **and** `params.matomoSiteId` is set, defaulting to
+`https://stats.rrchnm.org/` (overridable via `params.matomoUrl`). This site's id
+is **`matomoSiteId = 28`** in `hugo.toml`. So `hugo server` / dev builds emit no
+tracker; the production Docker build does.
 
 ## 13. Crawl-log–driven link repairs
 `wgets/.../.crawl/` artifacts drove concrete fixes (`839e23e`):
