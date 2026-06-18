@@ -41,8 +41,21 @@ BLOCK = {"p", "div", "section", "article", "blockquote", "ul", "ol", "li",
 RAW_KEEP = {"audio", "video", "iframe", "table", "object", "embed"}
 
 # Accumulators (filled while converting)
-AUTHORS = {}          # id -> {"name":..., "gravatar":..., "bio":...}
-URL_MAP = {}          # duplicate url -> canonical url (built in prescan)
+AUTHORS = {}              # id -> {"name":..., "gravatar":..., "bio":...}
+URL_MAP = {}              # duplicate url -> canonical url (built in prescan)
+ARTICLE_AUTHOR_IDS = set()  # author ids that become taxonomy terms
+
+# Manual remaps for links that were dead/malformed in the original WordPress
+# (cross-checked against wgets/.../.crawl/failures.tsv).
+MANUAL_MAP = {
+    "/review-of-wordseer/": "/1-1/wordseer/",   # dead in original; real page is /1-1/wordseer/
+}
+# Bare-domain links wget resolved into absolute-internal 404s -> the intended external URL.
+LINK_FIXES = {
+    "/2-1/the-details-by-david-mimno/mith.umd.edu/topicmodeling": "https://mith.umd.edu/topicmodeling",
+    "/1-3/where-material-book-culture-meets-digital-humanities-by-sarah-werner/collation.folger.edu": "https://collation.folger.edu",
+    "/1-3/the-digital-physical-by-craig-mod/nytimes.com": "https://www.nytimes.com",
+}
 
 
 # --------------------------------------------------------------------------- #
@@ -133,6 +146,10 @@ def map_internal(path, fragment=""):
     if NESTED in path:                                     # collapse nested-archive artifact
         path = "/" + path.split(NESTED, 1)[1]
         path = norm_site_path(path)
+    for key in (path, path.rstrip("/")):                   # explicit crawl-404 repairs
+        if key in LINK_FIXES:
+            return LINK_FIXES[key] + (("#" + fragment) if fragment else "")
+    path = MANUAL_MAP.get(path, path)                      # dead-link remaps
     path = URL_MAP.get(path, path)                         # duplicate -> canonical
     if fragment:
         path += "#" + fragment
@@ -706,6 +723,7 @@ def convert_issue(issue):
         title = h1.get_text(strip=True)
         h1.extract()
         authors = parse_authors(article)
+        ARTICLE_AUTHOR_IDS.update(a["id"] for a in authors if a["id"])
         for h4 in article.select("h4.author-name"):
             h4.extract()
         extract_author_bios(article, authors)
@@ -769,6 +787,19 @@ def emit_categories():
     print(f"  category pages: {n}")
 
 
+def emit_author_gaps():
+    """Author archives present in the wget but not covered by the taxonomy
+    (e.g. editors with no credited article) -> static content/author/<id>.md."""
+    n = 0
+    for src in sorted(glob.glob(f"{ROOT}/author/*/index.html")):
+        aid = os.path.basename(os.path.dirname(src))
+        if aid in ARTICLE_AUTHOR_IDS:
+            continue                                       # already a taxonomy term page
+        if convert_simple_page(src, os.path.join(CONTENT, "author", aid + ".md")):
+            n += 1
+    print(f"  author gap pages: {n}")
+
+
 def write_authors_data():
     os.makedirs(DATA, exist_ok=True)
     out = os.path.join(DATA, "authors.toml")
@@ -798,6 +829,8 @@ def main():
         emit_toplevel()
         emit_featured()
         emit_categories()
+        shutil.rmtree(os.path.join(CONTENT, "author"), ignore_errors=True)
+        emit_author_gaps()
     write_authors_data()
     print(f"Done: {total} article bundles.")
 
