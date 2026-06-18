@@ -125,7 +125,7 @@ index; Caddy serves static `public/` on :80. The Dockerfile takes a
 
 `.github/workflows/cicd.yml` calls RRCHNM's reusable workflow
 (`chnm/.github/.github/workflows/hugo--build-release-deploy.yml@main`) for
-**jdh.dev.chnm.edu**. Because this repo is a single site at the root, the build
+**jdh.dev.chnm.gmu.edu**. Because this repo is a single site at the root, the build
 context is `.`; because the image serves from Caddy's `/srv` (not nginx's
 `/usr/share/nginx/html/`), `hugo-content-path` is overridden to `/srv/`. The
 workflow builds non-`main` branches with `--environment development` (no
