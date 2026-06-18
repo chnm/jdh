@@ -58,7 +58,7 @@ Vol. 1, No. 1 Winter 2011</h1>
 <p><a href="/1-1/wordseer/">Review of WordSeer, produced by Aditi Muralidharan, Marti Hearst, and Bryan Wagner</a><br/>Amy Earhart</p><p><a href="/1-1/bookworm/">Review of Bookworm, produced by Benjamin Schmidt, Martin Camacho, et al.</a><br/>Boone B. Gorges</p><p><a href="/1-1/querypic/">Review of QueryPic, produced by Tim Sherratt</a><br/>Jeremy Boggs, David McClure, Eric Rochester and Wayne Graham</p>
 </div>
 <div class="toc-previews six columns offset-by-one omega">
-<a href="/review-of-wordseer/" target="_blank" title="Newspaper strip visualization"><img alt="Newspaper strip visualization" class="wp-image-742" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/wordseer_image2-1024x716.jpg" title="Newspaper strip visualization"/></a><p class="wp-caption-text">Newspaper strip visualization</p> </div>
+<a href="/1-1/wordseer/" target="_blank" title="Newspaper strip visualization"><img alt="Newspaper strip visualization" class="wp-image-742" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/wordseer_image2-1024x716.jpg" title="Newspaper strip visualization"/></a><p class="wp-caption-text">Newspaper strip visualization</p> </div>
 </div>
 <p class="issn">ISSN 2165-6673</p>
 </div>
