@@ -55,7 +55,6 @@ enableGitInfo = false
 [params]
   description = "An experiment in scholarly communication, published by the Roy Rosenzweig Center for History and New Media."
   issn = "2165-6673"
-  feedburner = "http://feeds.feedburner.com/journalofdigitalhumanities"
   themeBase = "/wp-content/themes/jdh"
   # Matomo analytics (RRCHNM stats.rrchnm.org). Renders only on production
   # builds (hugo.IsProduction) via layouts/partials/analytics.html.
