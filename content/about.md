@@ -24,3 +24,4 @@ Benjamin Schneider, Copy Editor</p>
 Daniel J. Cohen, founding editor<br/>
 Sasha Hoffman, Associate Editor<br/>
 Jeri Wieringa, Associate Editor</p>
+<p style="text-align: center; margin-top: 3em;"><a href="https://historyarthistory.gmu.edu/" target="_blank" title="Department of History and Art History, George Mason University"><img src="/wp-content/themes/jdh/images/hah-logo.png" alt="Department of History and Art History, George Mason University" style="max-width: 100%; width: 480px; height: auto;"/></a></p>
