@@ -17,10 +17,10 @@ jobs:
 
       hugo-context-root: "."
       hugo-content-path: "/srv"
-      hugo-devl-url: "https://jdh.dev.chnm.gmu.edu""
-      hugo-prod-url: "https://jdh.dev.chnm.gmu.edu""
+      hugo-devl-url: "https://jdh.dev.chnm.gmu.edu"
+      hugo-prod-url: "https://jdh.dev.chnm.gmu.edu"
 
       release-tag-name-type: "iso"
 
       website-devl-fqdn: "jdh.dev.chnm.gmu.edu"
-      website-prod-fqdn: "jdh.dev.chnm.gmu.edu""
+      website-prod-fqdn: "jdh.dev.chnm.gmu.edu"
