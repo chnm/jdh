@@ -1,4 +1,4 @@
-name: "[jdh.dev.chnm.gmu.edu] Hugo Build, Release, Deploy"
+name: "[jdh] Hugo Build, Release, Deploy"
 
 on:
   workflow_dispatch:
@@ -14,9 +14,9 @@ jobs:
     with:
       hugo-context-root: "."
       hugo-devl-url: "https://jdh.dev.chnm.gmu.edu"
-      hugo-prod-url: "https://jdh.dev.chnm.gmu.edu"
+      hugo-prod-url: "https://journalofdigitalhumanities.org/"
 
       release-tag-name-type: "iso"
 
       website-devl-fqdn: "jdh.dev.chnm.gmu.edu"
-      website-prod-fqdn: "jdh.dev.chnm.gmu.edu"
+      website-prod-fqdn: "journalofdigitalhumanities.org"
