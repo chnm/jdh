@@ -1,0 +1,20 @@
+{{ define "bodyclass" }}archive author{{ end }}
+{{ define "main" }}
+{{- $term := .Data.Term -}}
+{{- $a := index hugo.Data.authors $term -}}
+<section id="content" class="container row">
+    <div id="article" class="twelve columns offset-by-two omega">
+        <h1 class="author-name">{{ with $a }}{{ .name }}{{ else }}{{ $term }}{{ end }}</h1>
+        {{ with $a }}
+        {{ with .gravatar }}<div class="gravatar"><img alt="" src="{{ . }}"></div>{{ end }}
+        {{ .bio | safeHTML }}
+        {{ end }}
+        {{ range (sort .Pages "Date" "asc") }}
+        <div class="post">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p class="meta">Vol. {{ .Params.volume }}, No. {{ .Params.number }} ({{ .Params.season }} {{ .Params.year }}){{ with .Params.section }} &middot; {{ . }}{{ end }}</p>
+        </div>
+        {{ end }}
+    </div><!-- ends article -->
+</section><!-- ends content -->
+{{ end }}

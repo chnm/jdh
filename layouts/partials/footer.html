@@ -1,0 +1,10 @@
+{{- $base := .Site.Params.themeBase -}}
+<footer>
+    <nav class="container">
+        <div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="https://pressforward.org" target="_blank"><img src="{{ printf "%s/images/pressforward.png" $base | relURL }}" alt="Press Forward"></a>
+<a href="https://chnm.gmu.edu" target="_blank"><img src="{{ printf "%s/images/rrchnm.png" $base | relURL }}" alt="Roy Rosenzweig Center for History &amp; New Media"></a>
+{{ partial "license.html" . }}
+        </div></div>
+    </nav>
+</footer>

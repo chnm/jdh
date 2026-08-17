@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; Clustering with Compression for the Historian Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="../../wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="../../wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="https://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<style type="text/css">
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for python
+ * CSS class: , CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2014 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.python .de1, .python .de2 {}
+.python  {font-family:monospace;}
+.python .imp {font-weight: bold; color: red;}
+.python li, .python .li1 {font-weight: normal; vertical-align:top;}
+.python .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.python .li2 {font-weight: bold; vertical-align:top;}
+.python .kw1 {color: #ff7700;font-weight:bold;}
+.python .kw2 {color: #008000;}
+.python .kw3 {color: #dc143c;}
+.python .kw4 {color: #0000cd;}
+.python .co1 {color: #808080; font-style: italic;}
+.python .coMULTI {color: #808080; font-style: italic;}
+.python .es0 {color: #000099; font-weight: bold;}
+.python .br0 {color: black;}
+.python .sy0 {color: #66cc66;}
+.python .st0 {color: #483d8b;}
+.python .nu0 {color: #ff4500;}
+.python .me1 {color: black;}
+.python .ln-xtra, .python li.ln-xtra, .python div.ln-xtra {background-color: #ffc;}
+.python span.xtra { display:block; }
+</style>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.13"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='footnote-voodoo-css'  href='../../wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css%3Fver=2016.1230.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='../../wp-content/plugins/twitter-search-shortcode/ta-style.css%3Fver=5.8.13.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../../wp-includes/css/dist/block-library/style.min.css%3Fver=5.8.13.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpmt-css-frontend-css'  href='../../wp-content/plugins/wp-mailto-links/core/includes/assets/css/style.css%3Fver=221018-173039.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgeshi-wp-geshi-highlight-css'  href='../../wp-content/plugins/wp-geshi-highlight/wp-geshi-highlight.css%3Fver=5.8.13.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/modernizr.custom.20659.js%3Fver=1.0' id='modernizr.custom.20659-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.min.js%3Fver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js%3Fver=2016.1230' id='footnote-voodoo-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js%3Fver=5.8.13' id='jqueryhoverintent-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js%3Fver=5.8.13' id='jquerycookie-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js%3Fver=5.8.13' id='dcjqaccordion-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/wp-mailto-links/core/includes/assets/js/custom.js%3Fver=221018-173039' id='wpmt-js-frontend-js'></script>
+<link rel="https://api.w.org/" href="https://journalofdigitalhumanities.org/wp-json/" /><link rel="alternate" type="application/json" href="https://journalofdigitalhumanities.org/wp-json/wp/v2/posts/94" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.13" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='https://journalofdigitalhumanities.org/?p=94' />
+<link rel="alternate" type="application/json+oembed" href="https://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalofdigitalhumanities.org%2F1-1%2Fclustering-with-compression-for-the-historian-by-chad-black%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjournalofdigitalhumanities.org%2F1-1%2Fclustering-with-compression-for-the-historian-by-chad-black%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="../../wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(../../wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(../../wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<script type="text/javascript" src="https://journalofdigitalhumanities.org/?wordfence_syncAttackData=1781791988.1324" async></script>  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-94 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="../../index.html">
+            <img src="../../wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="../../index.html">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="../../about/index.html">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="../../volumes/index.html">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="../../submissions/index.html">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 1, No. 1 Winter 2011</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="../../category/1-1/introduction-1-1/index.html">Introduction</a>
+            <ul class="sub-menu">
+                        <li><a href="../from-the-editors/index.html">A Community-Sourced Journal</a><br>The Editors</li><li><a href="../introduction/getting-started-in-digital-humanities-by-lisa-spiro/index.html">Getting Started in Digital Humanities</a><br>Lisa Spiro</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/1-1/articles-1-1/index.html">Articles</a>
+            <ul class="sub-menu">
+                        <li><a href="../academic-history-writing-and-its-disconnects-by-tim-hitchcock/index.html">Academic History Writing and its Disconnects</a><br>Tim Hitchcock</li><li><a href="../defining-data-for-humanists-by-trevor-owens/index.html">Defining Data for Humanists: Text, Artifact, Information or Evidence?</a><br>Trevor Owens</li><li><a href="../demystifying-networks-by-scott-weingart/index.html">Demystifying Networks, Parts I &amp; II</a><br>Scott B. Weingart</li><li class="current-menu-item"><a href="index.html">Clustering with Compression for the Historian</a><br>Chad Black</li><li><a href="../spatializing-photographic-archives-by-marc-downie-paul-kaiser/index.html">Spatializing Photographic Archives</a><br>Marc Downie and Paul Kaiser</li><li><a href="../humanities-in-a-digital-age-symposium-podcasts/index.html">"Humanities in a Digital Age" Symposium Podcasts</a><br>Jeremy Boggs, Alison Booth, Daniel J. Cohen, Mitchell S. Green, Anne Houston and Stephen Ramsay</li><li><a href="../philosophical-leadership-needed-for-the-future/index.html">Philosophical Leadership Needed for the Future: Digital Humanities Scholars in Museums</a><br>Nik Honeysett and Michael Edson</li><li><a href="../articles/critical-discourse-in-digital-humanities-by-fred-gibbs/index.html">Critical Discourse in Digital Humanities</a><br>Fred Gibbs</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/1-1/conversations-1-1/index.html">Conversations</a>
+            <ul class="sub-menu">
+                        <li><a href="../introduction-theory-and-the-virtues-of-digital-humanities-by-natalia-cecire/index.html">Introduction: Theory and the Virtues of Digital Humanities</a><br>Natalia Cecire</li><li><a href="../conversations/when-digital-humanities-was-in-vogue-by-natalia-cecire/index.html">When Digital Humanities Was in Vogue</a><br>Natalia Cecire</li><li><a href="../conversations/theory-first-by-ben-schmidt/index.html">Theory First</a><br>Benjamin M. Schmidt</li><li><a href="../conversations/what-we-think-we-will-build-and-what-we-build-in-digital-humanities-by-will-thomas/index.html">What We Think We Will Build and What We Build in Digital Humanities</a><br>William G. Thomas</li><li><a href="../conversations/who-you-calling-untheoretical-by-jean-bauer/index.html">Who You Calling Untheoretical?</a><br>Jean Bauer</li><li><a href="../conversations/theory-digital-humanities-and-noticing-by-patrick-murray-john/index.html">Theory, Digital Humanities, and Noticing</a><br>Patrick Murray-John</li><li><a href="../conversations/digital-humanities-as-thunderdome-by-elijah-meeks/index.html">Digital Humanities as Thunderdome</a><br>Elijah Meeks</li><li><a href="../conversations/words-and-code-by-tom-scheinfeld-and-ryan-shaw/index.html">Words and Code</a><br>Tom Scheinfeldt and Ryan Shaw</li><li><a href="../conversations/please-write-it-down-by-trevor-owens/index.html">Please Write it Down: Design and Research in Digital Humanities</a><br>Trevor Owens</li><li><a href="../conversations/building-and-sharing-when-youre-supposed-to-be-teaching-by-mark-sample/index.html">Building and Sharing (When You’re Supposed to be Teaching)</a><br>Mark Sample</li><li><a href="../conversations/marked-bodies-transformative-scholarship-and-the-question-of-theory-in-digital-humanities-by-alexis-lothian/index.html">Marked Bodies, Transformative Scholarship, and the Question of Theory in Digital Humanities</a><br>Alexis Lothian</li><li><a href="../conversations/where-are-the-philosophers-by-peter-bradley/index.html">Where Are the Philosophers? Thoughts from THATCamp Pedagogy</a><br>Peter Bradley</li><li><a href="../conversations/its-all-about-the-stuff-by-tim-sherratt/index.html">It’s All About the Stuff: Collections, Interfaces, Power, and People</a><br>Tim Sherratt</li><li><a href="../conversations/all-the-digital-humanists-are-white-all-the-nerds-are-men-but-some-of-us-are-brave-by-moya-z-bailey/index.html">All the Digital Humanists Are White, All the Nerds Are Men, but Some of Us Are Brave</a><br>Moya Z. Bailey</li>            </ul>
+        </li>
+        <li class="parent"><a href="../../category/1-1/reviews-1-1/index.html">Reviews</a>
+            <ul class="sub-menu">
+                        <li><a href="../wordseer/index.html">Review of WordSeer, produced by Aditi Muralidharan, Marti Hearst, and Bryan Wagner</a><br>Amy Earhart</li><li><a href="../bookworm/index.html">Review of Bookworm, produced by Benjamin Schmidt, Martin Camacho, et al.</a><br>Boone B. Gorges</li><li><a href="../querypic/index.html">Review of QueryPic, produced by Tim Sherratt</a><br>Jeremy Boggs, David McClure, Eric Rochester and Wayne Graham</li>            </ul>
+        </li>
+   
+    <li><a href="../../authors/index.html">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>Clustering with Compression for the Historian</h1>
+    
+            <h4 class="author-name"><a href="../../author/cblack/index.html" title="Posts by Chad Black" class="author url fn" rel="author">Chad Black</a></h4>
+        
+    <h3>INTRODUCTION</h3>
+<p>I mentioned <strong></strong><del></del><a title="Chad Black, &quot;An algorithmic approach to legal culture in the early modern Spanish empire&quot;" href="https://parezcoydigo.wordpress.com/2011/09/23/an-algorithmic-approach-to-legal-culture-in-the-early-modern-spanish-empire/" target="_blank">in my blog</a><del></del> that I’m playing around with a variety of clustering techniques to identify patterns in legal records from the early modern Spanish Empire. In this post, I will discuss the first of my training experiments using Normalized Compression Distance (NCD). I’ll look at what NCD is, some potential problems with the method, and then the results from using NCD to analyze the Criminales Series descriptions of the Archivo Nacional del Ecuador’s (<a title="The National Archive of Ecuador Homepage" href="http://www.ane.gob.ec/" target="_blank">ANE</a>) Series Guide. For what it’s worth, this is a very easy and approachable method for measuring similarity between documents and requires almost no programming chops. So, it’s perfect for me!</p>
+<h3>WHAT IS NCD?</h3>
+<p>I was inspired to look at NCD for clustering by a pair of posts by Bill Turkel (<a title="William J. Turkel, &quot;Compression&quot;" href="http://digitalhistoryhacks.blogspot.com/2006/03/compression.html" target="_blank">here</a>, <a title="William J. Turkel, &quot;Clustering with Compression&quot;" href="http://digitalhistoryhacks.blogspot.com/2007/06/clustering-with-compression.html" target="_blank">here</a>) from quite a few years ago. Bill and Stéfan Sinclair also <a title="William J. Turkel and Stéfan Sinclair, &quot;Normalized Compression Distance Algorithms&quot; from the &quot;With Criminal Intent&quot; project." href="http://criminalintent.org/2011/01/normalized-compression-distance-algorithms/">used NCD</a> to cluster cases for the <a title="&quot;Criminal Intent,&quot; project site for the Digging into Data Old Bailey Project" href="http://criminalintent.org/">Digging Into Data Old Bailey Project</a>. Turkel’s posts provide a nice overview of the method, which was proposed in 2005 by Rudi Cilibrasi and Paul Vitányi.<sup>[<a href="index.html#clustering-with-compression-for-the-historian-by-chad-black-n-1" class="footnoted" id="to-clustering-with-compression-for-the-historian-by-chad-black-n-1">1</a>]</sup> Essentially, Cilibrasi and Vitányi proposed measuring the distance between two strings of arbitrary length by comparing the sum of the lengths of the individually compressed files to a compressed concatenation of the two files. So, adding the compressed length of x to the compressed length of y will be longer than the compressed length of <code>(x|y)</code>. How much longer is what is important. The formula is this, where <code>c(x)</code> is the length of x compressed:</p>
+<pre>NCD(x,y) = [C(x|y) - min{C(x),C(y)}] / max{C(x),C(y)</pre>
+<p><code>C(x|y)</code> is the compression of the concatenated strings. Theoretically, if you concatenated and compressed two identical strings, you would get a distance of 0 because <code>[(Cx|x) - C(x)]/C(x)</code> would equal 0/1, or 0. As we’ll see in a bit, though, this isn’t the case and the overhead required by the various compression algorithms at our disposal make a 0 impossible, and more so for long strings depending on the method. Cilibrasi and Vitányi note that in practice, that if <code>r</code> <del></del>is the NCD, the NCD will be <code>0 ≤ r ≤ 1+ ∊</code>, where <code>∊</code> is usually around 0.1, and accounts for the implementation details of the compression algorithm. Suffice to say, though, that the closer to 0 the result is, the more similar the strings (or files in our case) are. Nonetheless, the distance between two strings, or files, or objects as measured with this formula can then be used to cluster those strings, files, or objects. One obvious advantage to the method is that it works for comparing strings of arbitrary length with one another.</p>
+<p>Why does this work? Essentially, lossless compression suppresses redundancy in a string, while maintaining the ability to fully restore the file. Compression algorithms evolved to deal with constraints in the storage and transmission of data. It’s easy to forget in the age of the inexpensive terabyte hard drive what persistent storage once cost. In 1994, the year that the first edition of Witten, Moffat, and Bell’s <a title="Ian H. Witten, Alistair Moffat, and Timothy C. Bell, &quot;Managing Gigabytes&quot;" href="http://ww2.cs.mu.oz.au/mg/first-edition.html"><em>Managing Gigabytes</em></a> was published, hard disk storage still ran at close to <a title="&quot;Cost of Hard Drive Storage Space&quot;" href="http://ns1758.ca/winch/winchest.html" target="_blank">$1/megabyte</a>. That’s right, just 17 years ago that 500GB drive in your laptop would have cost $500,000. To put that into perspective, in <a title="IBM Archives, &quot;IBM 3380 direct access storage device&quot;" href="http://www-03.ibm.com/ibm/history/exhibits/storage/storage_3380.html" target="_blank">1980 IBM</a> produced one of the first disk drives to break the GB barrier. The <a title="IBM Archives, &quot;IBM 3380 direct access storage device, page 4&quot;" href="http://www-03.ibm.com/ibm/history/exhibits/storage/storage_3380d.html" target="_blank">2.52GB IBM 3380</a> was initially released in 5 different models, and ranged in price between $81,000 and and $142,000. For what it’s worth, the median housing price in Washington, DC in 1980 was the second highest in the country at $62,000. A hard disk that cost twice as much as the median house in DC. Obviously not a consumer product. At the per/GB rate that the 3380 sold for, your 500GB drive would have cost up to $28,174,603.17! In inflation-adjusted dollars for 2011 that would be $80.5M! An absurd comparison, to be sure. Given those constraints, efficiency in data compression made real dollars sense. Even still, despite the plunging costs of storage and growing bandwidth capacity, text and image compression remains an imperative in computer science.</p>
+<p>As Witten, et al. define it,</p>
+<blockquote><p>Text compression … involves changing the representation of a file so that it takes less space to store or less time to transmit, yet the original file can be reconstructed exactly from the compressed representation.<sup>[<a href="index.html#clustering-with-compression-for-the-historian-by-chad-black-n-2" class="footnoted" id="to-clustering-with-compression-for-the-historian-by-chad-black-n-2">2</a>]</sup></p></blockquote>
+<p>This is lossless compression (as opposed to lossy compression, which you may know from messing with jpegs or other image formats). There are a variety of compression methods, each of which takes a different approach to compressing text data and which are either individually or in some kind of combination behind the compression formats you’re used to–.zip, .bz2, .rar, .gz, etc. Frequently, they also have their roots in the early days of electronic data. <a title="Wikipedia article on &quot;Huffman coding&quot;" href="http://en.wikipedia.org/wiki/Huffman_coding" target="_blank">Huffman coding</a> was developed by an eponymous MIT graduate student in the early 1950s.</p>
+<p>In any case, the objective of a compression method is to locate, remove, store, and recover redundancies within a text. NCD works because within a particular algorithm, the compression method is consistently imposed on the data, thus making the output comparable. What isn’t comparable, though, is mixing algorithms.</p>
+<h3>LIMITATIONS: SIZE MATTERS</h3>
+<p>Without getting too technical (mostly because I get lost once it goes too far), it’s worth noting some limitations based on which method of compression you chose when applying NCD. Shortly after Cilibrasi and Vitányi published their paper on clustering via compression, Cebrián, et al. published a piece that compared the integrity of NCD between three compressors– bzip2, gzip, and PPMZ.<sup>[<a href="index.html#clustering-with-compression-for-the-historian-by-chad-black-n-3" class="footnoted" id="to-clustering-with-compression-for-the-historian-by-chad-black-n-3">3</a>]</sup> The paper is interesting, in part, because the authors do an excellent job of explaining the mechanics of the various compressors in language that even I could understand.</p>
+<p>I came across this paper through some google-fu because I was confused by the initial results I was getting while playing around with my Criminales Series Guide. Python has built-in support for compression and decompression using bzip2 and gzip, so that’s what I was using. I have the Criminales Series divided into decades from 1601 to 1830. My script was walking through and comparing every file in the directory to every other one, including itself. I assumed that the concatenation of two files that were identical would produce a distance measurement of 0, and was surprised to see that it wasn’t happening, and in some cases not even close. (I also hadn’t read much of anything about compression at that point!) But that wasn’t the most surprising thing. What was more surprising was that in the latter decades of my corpus, the distance measures when comparing individual decades to themselves were actually coming out very high. Or, at least they were using the gzip algorithm. For example, the decade with the largest number of cases, and thus the longest text, is 1781-1790 at about 39,000 words. Gzip returned an NCD of 0.97458 when comparing this decade to itself. What? How is that possible?</p>
+<p>Cebrián, et al. explain how different compression methods have upper limits to the size of a block of text that they operate on before needing to break that block into new blocks. This makes little difference from the perspective of compressors doing their job, but it does have implications for clustering. The article goes into more detail, but here’s a quick and dirty overview.</p>
+<h4>bzip2</h4>
+<p>The bzip2 compressor works in three stages to compress a string: (1) a <a title="Wikipedia article on &quot;Burrows–Wheeler transform&quot;" href="http://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform" target="_blank">Burrows-Wheeler Transform</a>, (2) a <a title="Wikipedia article on &quot;Move-to-front transform&quot;" href="http://en.wikipedia.org/wiki/Move-to-front_transform" target="_blank">move-to-front transform</a>, and (3) a statistical compressor like Huffman coding.<sup>[<a href="index.html#clustering-with-compression-for-the-historian-by-chad-black-n-4" class="footnoted" id="to-clustering-with-compression-for-the-historian-by-chad-black-n-4">4</a>]</sup> The bzip2 algorithm can perform this method on blocks of text up 900KB without needing to break the block of text into two blocks. So, for NCD purposes, this means that if a pair of files are concatenated, and the size of this pair is less than 900KB, what the bzip compressor will see is essentially a mirrored text. But, if the concatenated file is larger than 900KB, then bzip will break the concatenation into more than one block, each of which will be sent through the three stages of compression. But, these blocks will no longer be mirrors. As a result, the NCD will cease to be robust. Cebrián, et al. claim that the NCD for C(x|x) should fall in a range between <strong>0.2 and 0.3</strong>, and anything beyond that indicates it’s not a good choice for comparing the set of documents under evaluation.</p>
+<h4>gzip</h4>
+<p>The gzip compressor uses a different method than bzip2′s block compression, one based on the Lempel-Ziv <a title="Wikipedia article &quot;LZ77 and LZ78&quot;" href="http://en.wikipedia.org/wiki/LZ77_and_LZ78">LZ77</a> algorithm, also known as <strong>sliding window compression</strong>. Gzip then takes the LZ77-processed string and subjects it to a statistical encoding like Huffman. It’s the first step that is important for us, though. Sliding window compression searches for redundancies by taking 32KB blocks of data, and looking ahead at the next 32KB of data. The method is much faster than bzip2′s block method. (In my experiments using python’s zlib module, code execution took about 1/2 the time as python’s bzip on default settings.) And, if the text is small, such that C(x|x) &lt; 32KB, the NCD result is better. Cebrián, et al. find that gzip returns an NCD result in the range between 0 and 0.1. But, beyond 32KB they find that NCD rapidly grows beyond 0.9 — exactly what I saw with the large 1781-1790 file (which is 231KB).</p>
+<h4>lzma</h4>
+<p>Cebrián, et al. offer a third compressor, ppmz, as an alternative to bzip2 and gzip for files that outsize gzip and bzip2′s upper limits. Ppmz uses <a title="Wikipedia article &quot;Prediction by partial matching&quot;" href="http://en.wikipedia.org/wiki/Prediction_by_partial_matching">Prediction by Partial Match</a> for compression, and has no upper limit on effective file size. PPM is a statistical model that uses <a title="Wikipedia article &quot;Arithmetic coding&quot;" href="http://en.wikipedia.org/wiki/Arithmetic_coding">arithmetic coding</a>. This gets us to things I don’t really understand, and certainly can’t explain here. Suffice to say that the authors found using ppmz that C(x|x) always returned an NCD value between 0 and 0.1043. I looked around for quite a while and couldn’t find a python implementation of ppmz, but I did find another <a title="PyLZMA: Platform independent python bindings for the LZMA compression library." href="http://www.joachim-bauch.de/projects/pylzma/" target="_blank">method ported to python</a> with <a title="Wikipedia article &quot;Lempel–Ziv–Markov chain algorithm&quot;" href="http://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm">lzma</a>, the compressor behind 7zip. Lzma uses a different implementation of Lempel-Ziv, utilizing a dictionary instead of a sliding window to track redundancies. What is more, the compression-dictionary can be as large as 4GB. You’d need a really, really large document to brush up against that. Though Cebrián, et al. didn’t test lzma, my experiments show the NCD of C(x|x) to be between 0.002 and 0.02! That’s awfully close to 0, and the smallest return actually came from the longest document –&gt; 1781-1790.</p>
+<h3>THE CODE</h3>
+<p>In a way, that previous section is getting ahead of myself. I started with just zlib, and then added bzip2 and gzip, and eventually lzma for comparison sake. Let me clarify that just a bit. In python, there are two modules that use the gzip compressor:</p>
+<ol>
+<li>gzip, which is for file compression/decompression; and</li>
+<li>zlib, which is for compressing/decompressing strings or objects.</li>
+</ol>
+<p>I was unsettled by my early zlib returns, and tried using gzip and file I/O, but got the same returns. Initially I was interested in speed, but reading Cebrián, et al. changed my mind on that. Nonetheless, I did time the functions to see which was fastest.</p>
+<p>I based the script on Bill Turkel’s back from 2007. (Bill put all of the scripts from the days of <a title="William J. Turkel's blog, &quot;Digital History Hacks&quot;" href="http://digitalhistoryhacks.blogspot.com/" target="_blank">Digital History Hacks</a> on <a title="William J. Turkel's &quot;Digital History Hacks&quot; on github" href="https://github.com/williamjturkel/Digital-History-Hacks--2005-08-" target="_blank">Github</a>. Thanks to him for doing that!)</p>
+<p>So, for each compressor we need a function to perform the NCD algorithm on a pair of files:</p>
+<div>
+
+
+<div class="wp-geshi-highlight-wrap5"><div class="wp-geshi-highlight-wrap4"><div class="wp-geshi-highlight-wrap3"><div class="wp-geshi-highlight-wrap2"><div class="wp-geshi-highlight-wrap"><div class="wp-geshi-highlight"><div class="python"><pre class="de1"><span class="co1"># Function to calculate the NCD of two files using lzma</span>
+<span class="kw1">def</span> ncd_lzma<span class="br0">&#40;</span>filex<span class="sy0">,</span> filey<span class="br0">&#41;</span>:
+    xbytes <span class="sy0">=</span> <span class="kw2">open</span><span class="br0">&#40;</span>filex<span class="sy0">,</span> <span class="st0">'r'</span><span class="br0">&#41;</span>.<span class="me1">read</span><span class="br0">&#40;</span><span class="br0">&#41;</span>
+    ybytes <span class="sy0">=</span> <span class="kw2">open</span><span class="br0">&#40;</span>filey<span class="sy0">,</span> <span class="st0">'r'</span><span class="br0">&#41;</span>.<span class="me1">read</span><span class="br0">&#40;</span><span class="br0">&#41;</span>
+    xybytes <span class="sy0">=</span> xbytes + ybytes
+    cx <span class="sy0">=</span> lzma.<span class="me1">compress</span><span class="br0">&#40;</span>xbytes<span class="br0">&#41;</span>
+    cy <span class="sy0">=</span> lzma.<span class="me1">compress</span><span class="br0">&#40;</span>ybytes<span class="br0">&#41;</span>
+    cxy <span class="sy0">=</span> lzma.<span class="me1">compress</span><span class="br0">&#40;</span>xybytes<span class="br0">&#41;</span>
+    <span class="kw1">if</span> <span class="kw2">len</span><span class="br0">&#40;</span>cy<span class="br0">&#41;</span> &amp;gt<span class="sy0">;</span> <span class="kw2">len</span><span class="br0">&#40;</span>cx<span class="br0">&#41;</span>:
+        n <span class="sy0">=</span> <span class="br0">&#40;</span><span class="kw2">len</span><span class="br0">&#40;</span>cxy<span class="br0">&#41;</span> - <span class="kw2">len</span><span class="br0">&#40;</span>cx<span class="br0">&#41;</span><span class="br0">&#41;</span> / <span class="kw2">float</span><span class="br0">&#40;</span><span class="kw2">len</span><span class="br0">&#40;</span>cy<span class="br0">&#41;</span><span class="br0">&#41;</span>
+    <span class="kw1">else</span>:
+        n <span class="sy0">=</span> <span class="br0">&#40;</span><span class="kw2">len</span><span class="br0">&#40;</span>cxy<span class="br0">&#41;</span> - <span class="kw2">len</span> <span class="br0">&#40;</span>cy<span class="br0">&#41;</span><span class="br0">&#41;</span> / <span class="kw2">float</span><span class="br0">&#40;</span><span class="kw2">len</span><span class="br0">&#40;</span>cx<span class="br0">&#41;</span><span class="br0">&#41;</span>
+    <span class="kw1">return</span> n</pre></div></div></div></div></div></div></div>
+
+
+</div>
+<p>There are small changes depending on the API of the compressor module, but this pretty much sums it up.</p>
+<p>We need to be able to list all the files in our target directory, but ignore any dot-files like .DS_Store that creep in on OS X or source control files if you’re managing your docs with git or svn or something:</p>
+<div>
+
+
+<div class="wp-geshi-highlight-wrap5"><div class="wp-geshi-highlight-wrap4"><div class="wp-geshi-highlight-wrap3"><div class="wp-geshi-highlight-wrap2"><div class="wp-geshi-highlight-wrap"><div class="wp-geshi-highlight"><div class="python"><pre class="de1"><span class="co1"># list directory ignoring dot files</span>
+<span class="kw1">def</span> mylistdir<span class="br0">&#40;</span>directory<span class="br0">&#41;</span>:
+    filelist <span class="sy0">=</span> <span class="kw3">os</span>.<span class="me1">listdir</span><span class="br0">&#40;</span>directory<span class="br0">&#41;</span>
+    <span class="kw1">return</span> <span class="br0">&#91;</span>x <span class="kw1">for</span> x <span class="kw1">in</span> filelist
+            <span class="kw1">if</span> <span class="kw1">not</span> <span class="br0">&#40;</span>x.<span class="me1">startswith</span><span class="br0">&#40;</span><span class="st0">'.'</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="br0">&#93;</span></pre></div></div></div></div></div></div></div>
+
+
+</div>
+<p>Just as an aside here, let me encourage you to put your files under source control, especially as you can accidentally damage them while developing your scripts.</p>
+<p>We need a function to walk that list of files, and perform NCD on every possible pairing, the results of which are written to a file. For this function, we pass as arguments the file list, the results file, and the compressor function of choice:</p>
+<div>
+
+
+<div class="wp-geshi-highlight-wrap5"><div class="wp-geshi-highlight-wrap4"><div class="wp-geshi-highlight-wrap3"><div class="wp-geshi-highlight-wrap2"><div class="wp-geshi-highlight-wrap"><div class="wp-geshi-highlight"><div class="python"><pre class="de1"><span class="kw1">def</span> walkFileList<span class="br0">&#40;</span>filelist<span class="sy0">,</span> outfile<span class="sy0">,</span> compType<span class="br0">&#41;</span>:
+    <span class="kw1">for</span> i <span class="kw1">in</span> <span class="kw2">range</span><span class="br0">&#40;</span><span class="nu0">0</span><span class="sy0">,</span> <span class="kw2">len</span><span class="br0">&#40;</span>filelist<span class="br0">&#41;</span>-<span class="nu0">1</span><span class="br0">&#41;</span>:
+        <span class="kw1">print</span> i
+        <span class="kw1">for</span> j <span class="kw1">in</span> filelist:
+            fx <span class="sy0">=</span> pathstring+<span class="kw2">str</span><span class="br0">&#40;</span>filelist<span class="br0">&#91;</span>i<span class="br0">&#93;</span><span class="br0">&#41;</span>
+            fy <span class="sy0">=</span> pathstring+<span class="kw2">str</span><span class="br0">&#40;</span>j<span class="br0">&#41;</span>
+            outx <span class="sy0">=</span> <span class="kw2">str</span><span class="br0">&#40;</span>filelist<span class="br0">&#91;</span>i<span class="br0">&#93;</span><span class="br0">&#41;</span>
+            outy <span class="sy0">=</span> <span class="kw2">str</span><span class="br0">&#40;</span>j<span class="br0">&#41;</span>
+            outfile.<span class="me1">write</span><span class="br0">&#40;</span><span class="kw2">str</span><span class="br0">&#40;</span>outx<span class="br0">&#91;</span>:-<span class="nu0">4</span><span class="br0">&#93;</span>+<span class="st0">&quot;  &quot;</span>+outy<span class="br0">&#91;</span>:-<span class="nu0">4</span><span class="br0">&#93;</span>+<span class="st0">&quot;  &quot;</span><span class="br0">&#41;</span>+<span class="kw2">str</span><span class="br0">&#40;</span>compType<span class="br0">&#40;</span>fx<span class="sy0">,</span> fy<span class="br0">&#41;</span><span class="br0">&#41;</span>+<span class="st0">&quot;<span class="es0">\n</span>&quot;</span><span class="br0">&#41;</span></pre></div></div></div></div></div></div></div>
+
+
+</div>
+<p>That’s all you need. I mentioned also that I wanted to compare execution time for the different compressors. That’s easy to do with a module from the python standard library called <code>profile</code>, which can return a bunch of information gathered from the execution of your script at runtime. To call a function with <code>profile</code> you simply pass the function to <code>profile.run</code> as a string. So, to perform NCD via lzma as described above, you just need something like this:</p>
+<div>
+
+
+<div class="wp-geshi-highlight-wrap5"><div class="wp-geshi-highlight-wrap4"><div class="wp-geshi-highlight-wrap3"><div class="wp-geshi-highlight-wrap2"><div class="wp-geshi-highlight-wrap"><div class="wp-geshi-highlight"><div class="python"><pre class="de1">outfile <span class="sy0">=</span> <span class="kw2">open</span><span class="br0">&#40;</span><span class="st0">'_lzma-ncd.txt'</span><span class="sy0">,</span> <span class="st0">'w'</span><span class="br0">&#41;</span>
+<span class="kw1">print</span> <span class="st0">&quot;Starting lzma NCD.&quot;</span>
+<span class="kw3">profile</span>.<span class="me1">run</span><span class="br0">&#40;</span><span class="st0">'walkFileList(filelist, outfile, ncd_lzma)'</span><span class="br0">&#41;</span>
+<span class="kw1">print</span> <span class="st0">'lzma finished.'</span>
+outfile.<span class="me1">close</span><span class="br0">&#40;</span><span class="br0">&#41;</span></pre></div></div></div></div></div></div></div>
+
+
+</div>
+<p>I put the print statements in just for shits and giggles. Because we ran this through profile, after doing the NCD analysis and writing it to a file named <code>_lzma-ncd.txt</code>, python reports on the total number of function calls, the time per call, per function, and cumulative for the script. It’s useful for identifying bottlenecks in your code if you get to the point of optimizing. At any rate, there is no question that lzma is much slower that the others, but if you have the cpu cycles available, it may be worth the rate from a quality of data perspective. Here’s what profile tells us for the various methods:</p>
+<ul>
+<li>zlib: 7222 function calls in 16.564 CPU seconds (compressing string objects)</li>
+<li>gzip: 69460 function calls in 18.377 CPU seconds (compressing file objects)</li>
+<li>bzip: 7222 function calls in 21.129 CPU seconds</li>
+<li>lzma: 7222 function calls in 115.678 CPU seconds</li>
+</ul>
+<p>If you expected zlib/gzip to be substantially faster than bzip, it was, until I set all of the algorithms to the highest available level of compression. I’m not sure that’s necessary or not, but it does affect the results as well as time. Note too that the gzip file method requires many more function calls, but with relatively little performance penalty.</p>
+<h3>COMPARING RESULTS</h3>
+<h4>The Series Guide</h4>
+<p>A little bit more about the documents I’m trying to cluster. Beginning around 2002, the Archivo Nacional del Ecuador began to produce pdfs of their ever-growing list of Series Finders guides. The Criminales Series Guide (<a title="Archivo Nacional de Ecuador, &quot;Serie Criminales,&quot; PDF" href="http://parezcoydigo.files.wordpress.com/2011/10/criminales.pdf" target="_blank">big pdf</a>) was a large endeavor. The staff went through every folder in every box in the series, reorganized them, and wrote descriptions for the Series Guide. Entries in the guide are divided by box and folder (caja/expediente). A typical folder description looks like this:</p>
+<blockquote><p>Expediente: 6<br />
+Lugar: Quito<br />
+Fecha: 30 de junio de 1636<br />
+No. de folios : 5<br />
+Contenido: Querella criminal iniciada por doña Joana Requejo, mujer legítima del escribano mayor Andrés de Sevilla contra Pedro Serrano, por haber entrado a su casa y por las amenazas que profirió contra ella con el pretexto de que escondía a una persona que él buscaba.</p></blockquote>
+<p>We have the place (Quito), the date (06/30/1636), the number of pages (5), and a description. The simple description includes the name of the plaintiff, in this case Joana Requejo, and the defendant, Pedro Serrano, along with the central accusation– that Serrano had entered her house and threatened her under the pretext that she was hiding a person he was looking for. There is a wealth of information that can be extracted from that text. The Series Guides as a whole is big, constituting close to 875 pages of text and some 1.1M words. I currently have text files for the following Series Guides–&gt; Criminales, Diezmos, Encomiendas, Esclavos, Estancos, Gobierno, Haciendas, Indígenas, Matrimoniales, Minas, Obrajes, and Oficios totaling 4.8M words. I’ll do some comparisons between the guides in the near future, and see if we can identify patterns across Series. For now, though, it’s just the Criminales striking my fancy.</p>
+<h4>The Eighteenth Century</h4>
+<p>So, what does the script give us for the 18th century? Below are the NCD results for three different compressors comparing my decade of interest, 1781-1790, with the other decades of the 18th century:</p>
+<p><strong>zlib:</strong></p>
+<div>
+<pre>cr1781_1790  cr1701_1710  0.982798401771
+cr1781_1790  cr1711_1720  0.987881971149
+cr1781_1790  cr1721_1730  0.977414695455
+cr1781_1790  cr1731_1740  0.97668311167
+cr1781_1790  cr1741_1750  0.975895252209
+cr1781_1790  cr1751_1760  0.975088634189
+cr1781_1790  cr1761_1770  0.975632632389
+cr1781_1790  cr1771_1780  0.973381605357
+<span style="color: #ff0000;">cr1781_1790 cr1781_1790 0.974582153107 </span>
+cr1781_1790  cr1791_1800  0.972256091842
+cr1781_1790  cr1801_1810  0.973325329682</pre>
+</div>
+<p><strong>bzip:</strong></p>
+<div>
+<pre>cr1781_1790  cr1701_1710  0.954733848029
+cr1781_1790  cr1711_1720  0.96900988758
+cr1781_1790  cr1721_1730  0.929649194095
+cr1781_1790  cr1731_1740  0.923066504131
+cr1781_1790  cr1741_1750  0.906271163484
+cr1781_1790  cr1751_1760  0.903237166463
+cr1781_1790  cr1761_1770  0.902912095354
+cr1781_1790  cr1771_1780  0.849356630096
+<span style="color: #ff0000;">cr1781_1790 cr1781_1790 0.287823378031</span>
+cr1781_1790  cr1791_1800  0.850331843424
+cr1781_1790  cr1801_1810  0.850358932683</pre>
+</div>
+<p><strong>lzma:</strong></p>
+<div>
+<pre>cr1781_1790  cr1701_1710  0.965529663402
+cr1781_1790  cr1711_1720  0.976516942474
+cr1781_1790  cr1721_1730  0.947607790161
+cr1781_1790  cr1731_1740  0.94510863447
+cr1781_1790  cr1741_1750  0.931757289204
+cr1781_1790  cr1751_1760  0.931757289204
+cr1781_1790  cr1761_1770  0.92759202972
+cr1781_1790  cr1771_1780  0.885106382979
+<span style="color: #ff0000;">cr1781_1790 cr1781_1790 0.0021839468648</span>
+cr1781_1790  cr1791_1800  0.880670944501
+cr1781_1790  cr1801_1810  0.887110210514</pre>
+</div>
+<p>First off, even just eyeballing it, you can see that the results from bzip and lzma are more reliable and follow exactly the patterns discussed by Cebrián, et al. The bzip run provides a C(x|x) of 0.288, which falls in the acceptable range. The lzma run returns a C(x|x) NCD of 0.0022, not much more needed to say there. And, as I noted above, with zlib/gzip we get 0.9745. Further, by eyeballing the results on the good runs, two relative clusters appear in the decades surrounding 1781-1790. It appears that from 1771 to 1810 that we have more similarity than in the earlier decades of the century. This accords with my expectations based on other research, and in both cases the further back from 1781 that you go, the more different the decades are on a trendline.</p>
+<p>If we change the comparison node to, say, 1741-1750 we get the following results:</p>
+<p><strong>bzip:</strong></p>
+<div>
+<pre>cr1741_1750  cr1701_1710  0.888048411498
+cr1741_1750  cr1711_1720  0.919398218188
+<span style="color: #ff0000;">cr1741_1750 cr1721_1730 0.826189275508</span>
+<span style="color: #ff0000;">cr1741_1750 cr1731_1740 0.80795091612</span>
+cr1741_1750  cr1741_1750  0.277693730039
+<span style="color: #ff0000;">cr1741_1750 cr1751_1760 0.785168132862</span>
+<span style="color: #ff0000;">cr1741_1750 cr1761_1770 0.803655071796</span>
+cr1741_1750  cr1771_1780  0.879983993015
+cr1741_1750  cr1781_1790  0.906271163484
+cr1741_1750  cr1791_1800  0.883904391852
+cr1741_1750  cr1801_1810  0.886378259718</pre>
+</div>
+<p><strong>lzma:</strong></p>
+<div>
+<pre>cr1741_1750  cr1701_1710  0.905551014342
+cr1741_1750  cr1711_1720  0.932600133759
+cr1741_1750  cr1721_1730  0.862079215278
+<span style="color: #ff0000;">cr1741_1750 cr1731_1740 0.848926209408</span>
+cr1741_1750  cr1741_1750  0.00587055064279
+<span style="color: #ff0000;">cr1741_1750 cr1751_1760 0.830746598014</span>
+<span style="color: #ff0000;">cr1741_1750 cr1761_1770 0.844162055066</span>
+cr1741_1750  cr1771_1780  0.90796460177
+cr1741_1750  cr1781_1790  0.929573342339
+cr1741_1750  cr1791_1800  0.908149721264
+cr1741_1750  cr1801_1810  0.913968518045</pre>
+</div>
+<p>Again, the C(x|x) show reliable data. But, this time bzip’s similarities look a fair amount different that lzma when eyeballing it. I’m interested in the decade of the 1740s in part because I expect more similarity to the latter decades than for other decades in, really, either the 18th or the 17th century. I expect this for reasons that have to do with other types of hermeneutical screwing around, to use Stephen Ramsey’s <a title="Stephen Ramsay, &quot;The Hermeneutics of Screwing Around; or What You Do with a Million Books,&quot; PDF " href="https://encrypted.google.com/url?sa=t&amp;source=web&amp;cd=2&amp;ved=0CCMQFjAB&amp;url=http%3A%2F%2Fwww.playingwithhistory.com%2Fwww.playingwithhistory.com%2Fwp-content%2Fuploads%2FHermeneutics.pdf&amp;rct=j&amp;q=the%20hermeneutics%20of%20screwing%20around&amp;ei=fdDuTfnKJePUiALV67H1AQ&amp;usg=AFQjCNE6XqwGPttKWpISM4lByWTFwUZ4gQ&amp;sig2=0Ujc9P6uSWJyIYv7ZHuetg" target="_blank">excellent phrase</a> [PDF], that I’ve been doing with the records lately. Chief among those (and an argument for close as well as distant readings) is that I’ve been transcribing weekly jail censuses from the 1740s the past week and some patterns of familiarity have been jumping out at me. I have weekly jail counts from 1732 to 1791 inclusive, and a bunch others too. I’ve transcribed so many of these things that I have pattern expectations. And, the 1740s has jumped out at me for three reasons this week. The first is that in 1741, after a decade of rarely noting it, the notaries started to record the reason for ones detention. The second is that in 1742, and particularly under the aegis of one particular magistrate, more people started to get arrested than previous and subsequent decades. The third is that, like in the period between 1760 and 1790, those arrests were increasingly for moral offenses or for being picked up during nightly rounds of the city (the <em>ronda</em>). The differences are this–in the latter period women and men were arrested in almost equal numbers. There are almost no women detainees in the 1740s. And, there doesn’t seem to be an equal growth in both detentions and prosecutions in the 1740s. This makes the decade more like the 1760s than the 1780s. The results above bear that out to some extent, as distance measures show to be more like the 1760s than the 1780s.</p>
+<p>I also had this suspicion because a few months ago I plotted occurrences of the terms <em>concubinato</em> (illicit co-habitation) and <em>muerte</em> (used in murder descriptions) from the Guide:</p>
+<div id="attachment_809" style="width: 509px" class="wp-caption aligncenter"><a href="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cfd_plot_criminales1.png" target="_blank"><img aria-describedby="caption-attachment-809" loading="lazy" class=" wp-image-809 " alt="Occurrences of the terms &quot;concubinato&quot; and &quot;muerte&quot; from the Criminales Series Guide." src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cfd_plot_criminales1.png" width="499" height="305" srcset="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cfd_plot_criminales1.png 499w, https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cfd_plot_criminales1-300x183.png 300w" sizes="(max-width: 499px) 100vw, 499px" /></a><p id="caption-attachment-809" class="wp-caption-text">Occurrences of the terms &#8220;concubinato&#8221; and &#8220;muerte&#8221; from the Criminales Series Guide.</p></div>
+<p>You should see that right at the decade of the 1740s there is a discernible, if smaller, bump for <em>concubinato</em>. I was reminded of this when transcribing the records.</p>
+<h3>CONCLUSION</h3>
+<p>OK, at this point, this post is probably long enough. What’s missing above is obviously visualizations of the clusters. Those visualizations are pretty interesting. For now, though, let me conclude by saying that I am impressed initially to see the clusters that emerged from this simple, if profound, technique for clustering. Given that the distinctions I’m trying to pick up are slight, I’m worried a bit about the level of precision I can expect. But, I am convinced that it’s worth sacrificing performance for either bzip or lzma implementations depending on the length of one’s documents. Unless your files are longer than 900KB, it’s probably worth just sticking with bzip.</p>
+<p>Originally published by Chad Black on <a title="Chad Black, &quot;Clustering with compression for the historian,&quot; original post" href="http://parezcoydigo.wordpress.com/2011/10/09/clustering-with-compression-for-the-historian/" target="_blank">October 9, 2011</a>. Revised March 2012.</p>
+<div></div>
+
+<ol class="footnotes">
+	<li class="footnote" id="clustering-with-compression-for-the-historian-by-chad-black-n-1"><strong><sup>[1]</sup></strong>Rudi Cilibrasi and Paul Vitányi, “Clustering by Compression,” <em>IEEE Transactions on Information Theory</em> 51.4 (2005): 1523-45, <a title="Rudi Cilibrasi and Paul M.B. Vitanyi, &quot;Clustering by Compression,&quot; PDF." href="http://homepages.cwi.nl/~paulv/papers/cluster.pdf">PDF</a>.<a class="note-return" href="index.html#to-clustering-with-compression-for-the-historian-by-chad-black-n-1">&#x21A9;</a></li>
+	<li class="footnote" id="clustering-with-compression-for-the-historian-by-chad-black-n-2"><strong><sup>[2]</sup></strong>Ian H. Witten, Alistair Moffat, and Timothy C. Bell, <em>Managing Gigabytes: Compressing and Indexing Documents and Images,</em> 2nd Edition (San Diego, California: Academic Press, 1999), 21.<a class="note-return" href="index.html#to-clustering-with-compression-for-the-historian-by-chad-black-n-2">&#x21A9;</a></li>
+	<li class="footnote" id="clustering-with-compression-for-the-historian-by-chad-black-n-3"><strong><sup>[3]</sup></strong>Manuel Cebrián, Manuel Alfonseca, and Alfonso Ortega, “Common Pitfalls Using the Normalized Compression Distance: What to Watch Out for in A Compressor,” <em>Communications of Information and Systems</em> 5, no. 4 (2005): 367-384.<a class="note-return" href="index.html#to-clustering-with-compression-for-the-historian-by-chad-black-n-3">&#x21A9;</a></li>
+	<li class="footnote" id="clustering-with-compression-for-the-historian-by-chad-black-n-4"><strong><sup>[4]</sup></strong>Cebrián, et al., “Common Pitfalls Using the Normalized Compression Distance,&#8221; 372.<a class="note-return" href="index.html#to-clustering-with-compression-for-the-historian-by-chad-black-n-4">&#x21A9;</a></li></ol>
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            Chad Black        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='https://secure.gravatar.com/avatar/a4e3838404fcdab16b7cf8250e5bf65f?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='https://secure.gravatar.com/avatar/a4e3838404fcdab16b7cf8250e5bf65f?s=104&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' loading='lazy'/></div><p class="coauthor">I am Assistant Professor of Latin American History at the University of Tennessee, Knoxville, and author of <em>The Limits of Gender Domination: Women, the Law, and Political Crisis in Quito, 1765-1830</em>. In response to the abundance offered by digitizing approaches to the Colonial Latin American Archive, my research has increasingly turned to humanities computing.</p>    
+    </div>
+	
+        
+    		
+	
+    
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="../../wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="../../wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.rrchnm.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '28']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/respond.min.js%3Fver=1.0' id='respond.min-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/selectivizr-min.js%3Fver=1.0' id='selectivizr-min-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/jquery.cookie.js%3Fver=1.0' id='jquery.cookie-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js%3Fver=1.0' id='jquery.hoverIntent.minified-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js%3Fver=1.0' id='jquery.dcjqaccordion.2.7.min-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/comment-reply.min.js%3Fver=5.8.13' id='comment-reply-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min.js%3Fver=5.8.13' id='wp-embed-js'></script>
+</body>
+</html>

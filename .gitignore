@@ -1,0 +1,13 @@
+# Hugo build output and caches
+/public/
+/resources/_gen/
+/.hugo_build.lock
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/

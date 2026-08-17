@@ -1,0 +1,22 @@
+name: "[jdh] Hugo Build, Release, Deploy"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+
+jobs:
+
+  hugo-build-release-deploy:
+    uses: chnm/.github/.github/workflows/hugo--build-release-deploy.yml@main
+    secrets: inherit
+    with:
+      hugo-context-root: "."
+      hugo-devl-url: "https://jdh.dev.chnm.gmu.edu"
+      hugo-prod-url: "https://journalofdigitalhumanities.org/"
+
+      release-tag-name-type: "iso"
+
+      website-devl-fqdn: "jdh.dev.chnm.gmu.edu"
+      website-prod-fqdn: "journalofdigitalhumanities.org"
