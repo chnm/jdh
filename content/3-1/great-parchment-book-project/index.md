@@ -21,7 +21,7 @@ author = ["nicola-avery", "alberto-campagnolo", "caroline-de-stefani", "kazim-pa
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2014%2F01%2FGPB_DH2013poster_2.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 1.65MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/01/GPB_DH2013poster_2.pdf)
+[Download (PDF, 1.65MB)](/wp-content/uploads/2014/01/GPB_DH2013poster_2.pdf)
 
 ### Abstract
 

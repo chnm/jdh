@@ -13,6 +13,6 @@ author_ids = ["editor"]
 author = ["editor"]
 +++
 
-[![Newspaper strip visualization](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/wordseer_image2-1024x716.jpg)](/1-1/wordseer/ "Newspaper strip visualization")
+[![Newspaper strip visualization](/wp-content/uploads/2012/03/wordseer_image2-1024x716.jpg)](/1-1/wordseer/ "Newspaper strip visualization")
 
 Newspaper strip visualization

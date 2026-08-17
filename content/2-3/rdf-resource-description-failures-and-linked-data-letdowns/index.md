@@ -31,7 +31,7 @@ For those unfamiliar with Linked Data, a selection of introductory material is r
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2013%2F11%2FCNI_RDF_Sanderson.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 2.71MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/CNI_RDF_Sanderson.pdf)
+[Download (PDF, 2.71MB)](/wp-content/uploads/2013/11/CNI_RDF_Sanderson.pdf)
 
 ### Slide References
 

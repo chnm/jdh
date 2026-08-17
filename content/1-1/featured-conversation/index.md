@@ -16,6 +16,6 @@ author = ["editor"]
 <p class="pulled-quote">“The debates around the role of ‘theory’ in digital humanities are debates about the relationship between saying and doing.”  
 Natalia Cecire</p>
 
-[![Faces from "The Real Faces of White Australia"](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.002-300x225.jpg)](/1-1/conversations/its-all-about-the-stuff-by-tim-sherratt/)
+[![Faces from "The Real Faces of White Australia"](/wp-content/uploads/2012/03/the-stuff.002-300x225.jpg)](/1-1/conversations/its-all-about-the-stuff-by-tim-sherratt/)
 
 “The Real Faces of White Australia”

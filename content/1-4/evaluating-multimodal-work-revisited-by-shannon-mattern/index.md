@@ -23,7 +23,7 @@ This revision of that piece adds some insights I’ve gleaned from other source
 
 *   *   *   *   *
 
-<div class="wp-caption aligncenter" id="attachment_3605" style="width: 310px"><a href="http://www.rfcafe.com/references/popular-electronics/behind-the-ul-label-aug-1955-popular-electronics.htm" target="_blank"><img alt="Television-set testing at Underwriters Labs." aria-describedby="caption-attachment-3605" class="wp-image-3605" height="210" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/12/behind-ul-label-aug-1955-pe-3-440x309-300x210.jpg" width="300"/></a><p class="wp-caption-text" id="caption-attachment-3605">A different take on multimedia evaluation. Television-set testing at Underwriters Labs.</p></div>
+<div class="wp-caption aligncenter" id="attachment_3605" style="width: 310px"><a href="http://www.rfcafe.com/references/popular-electronics/behind-the-ul-label-aug-1955-popular-electronics.htm" target="_blank"><img alt="Television-set testing at Underwriters Labs." aria-describedby="caption-attachment-3605" class="wp-image-3605" height="210" src="/wp-content/uploads/2012/12/behind-ul-label-aug-1955-pe-3-440x309-300x210.jpg" width="300"/></a><p class="wp-caption-text" id="caption-attachment-3605">A different take on multimedia evaluation. Television-set testing at Underwriters Labs.</p></div>
 
 ### Modeling Evaluation
 
@@ -62,7 +62,7 @@ The following is a mash-up up these sources, with some of my own insight mixed i
 - How does the interface function “rhetorically” in the project? Does it inform user experience in a way that supports the project’s conceptual core and argument? Does it effectively organize the “real estate” of the screen to acknowledge and put into logical relationships the key components — subject content, technical tools, etc. — of the project?
 - Has the project been tested? Are their plans for continual testing and iterative development? Is the project adaptable?
 
-<div class="wp-caption aligncenter" id="attachment_3607" style="width: 310px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/12/brain10b-300x180.jpg"><img alt="Photo: Simon Fraser/Science Photo Library via Guardian.uk" aria-describedby="caption-attachment-3607" class="size-medium wp-image-3607" height="180" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/12/brain10b-440x264-300x180.jpg" width="300"/></a><p class="wp-caption-text" id="caption-attachment-3607">Perhaps in some utopian future, when cognitive science is integrated into *all* disciplines, we can use brain scans as a form of assessment. Just kidding!</p></div>
+<div class="wp-caption aligncenter" id="attachment_3607" style="width: 310px"><a href="/wp-content/uploads/2012/12/brain10b-300x180.jpg"><img alt="Photo: Simon Fraser/Science Photo Library via Guardian.uk" aria-describedby="caption-attachment-3607" class="size-medium wp-image-3607" height="180" src="/wp-content/uploads/2012/12/brain10b-440x264-300x180.jpg" width="300"/></a><p class="wp-caption-text" id="caption-attachment-3607">Perhaps in some utopian future, when cognitive science is integrated into *all* disciplines, we can use brain scans as a form of assessment. Just kidding!</p></div>
 
 ### Transparent, Collaborative Development and Documentation
 

@@ -21,7 +21,7 @@ author = ["jsimpson", "grockwell", "rchartier", "ssinclair", "sbrown", "adyrbye"
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2013%2F12%2FTextMiningToolAnalysisFramework-DH2013-DRAFT3.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 3.56MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2013/12/TextMiningToolAnalysisFramework-DH2013-DRAFT3.pdf)
+[Download (PDF, 3.56MB)](/wp-content/uploads/2013/12/TextMiningToolAnalysisFramework-DH2013-DRAFT3.pdf)
 
 ### Abstract[^1]
 
@@ -42,7 +42,7 @@ A humanities researcher new to computing methods and looking for reviews of text
 
 [TAPoR 2.0](http://www.tapor.ca "TAPoR 2.0 Home") is a portal for text analysis, visualization, and mining tool discovery and review. TAPoR 2.0 is a complete redevelopment of the original TAPoR portal that has focused the portal on discovery and review instead of trying to provide access only to web services.[^4] As part of the redevelopment of TAPoR 2.0 we used a persona/scenario usability design approach to identify attributes by which users might want to discover tools.[^5] Further, we built TAPoR 2.0 so that editors can add new attributes without the database having to be reprogrammed. Some of the attributes we currently record for tools include the author(s), ease of use, type of analysis, type of license, and so on. We also provide links to related tools. Our poster will be accompanied by a demonstration of TAPoR 2.0 so that visitors can explore what we have and how we represent it.
 
-<div class="wp-caption aligncenter" id="attachment_6007" style="width: 221px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/TAPoR-2.0-Home-Screen.png" target="_blank"><img alt="Figure 1: TAPoR 2.0 Home Screen" aria-describedby="caption-attachment-6007" class="size-medium wp-image-6007" height="300" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/TAPoR-2.0-Home-Screen-211x300.png" width="211"/></a><p class="wp-caption-text" id="caption-attachment-6007">Figure 1: TAPoR 2.0 Home Screen</p></div>
+<div class="wp-caption aligncenter" id="attachment_6007" style="width: 221px"><a href="/wp-content/uploads/2013/11/TAPoR-2.0-Home-Screen.png" target="_blank"><img alt="Figure 1: TAPoR 2.0 Home Screen" aria-describedby="caption-attachment-6007" class="size-medium wp-image-6007" height="300" src="/wp-content/uploads/2013/11/TAPoR-2.0-Home-Screen-211x300.png" width="211"/></a><p class="wp-caption-text" id="caption-attachment-6007">Figure 1: TAPoR 2.0 Home Screen</p></div>
 
 ### 3. The Testing and Reviewing Process
 

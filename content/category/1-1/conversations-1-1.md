@@ -5,7 +5,7 @@ title = "You are viewing entries marked 'Conversations'."
 <div class="post">
 <h2><a href="/1-1/featured-conversation/">Vol. 1, No. 1, Winter 2011 Conversations Featured Excerpts</a></h2>
 <p class="pulled-quote">“The debates around the role of ‘theory’ in digital humanities are debates about the relationship between saying and doing.”<br/><span class="quote-author">Natalia Cecire</span></p>
-<p><a href="/1-1/conversations/its-all-about-the-stuff-by-tim-sherratt/" target="_blank"><img alt='Faces from "The Real Faces of White Australia"' class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.002-300x225.jpg" title='Faces from "The Real Faces of White Australia&amp;quot' width="300"/></a></p>
+<p><a href="/1-1/conversations/its-all-about-the-stuff-by-tim-sherratt/" target="_blank"><img alt='Faces from "The Real Faces of White Australia"' class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/03/the-stuff.002-300x225.jpg" title='Faces from "The Real Faces of White Australia&amp;quot' width="300"/></a></p>
 <p class="wp-caption-text">“The Real Faces of White Australia” <a class="read-more" href="/1-1/featured-conversation/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

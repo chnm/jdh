@@ -24,6 +24,6 @@ Tested with Zotero for Firefox 3.0 and Zotero Standalone 3.0</p>
 <h2><a href="/featured/vol-2-no-1-reviews-featured-excerpts/">Vol. 2 No. 1 Reviews Featured Excerpts</a></h2>
 <p class="pulled-quote">“For historians, literary scholars, and other humanities researchers, MALLET is a valuable addition to your toolkit.”</p>
 <p><span class="quote-author">Ian Milligan and Shawn Graham</span></p>
-<p><a href="/2-1/review-mallet-by-ian-milligan-and-shawn-graham/"><img alt="The results of a topic model, showing 25 topics found across a database of nearly 15,000 song lyric files." class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/02/Screen-Shot-2013-02-26-at-1.39.17-PM.png" title="" width="300"/></a></p>
+<p><a href="/2-1/review-mallet-by-ian-milligan-and-shawn-graham/"><img alt="The results of a topic model, showing 25 topics found across a database of nearly 15,000 song lyric files." class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2013/02/Screen-Shot-2013-02-26-at-1.39.17-PM.png" title="" width="300"/></a></p>
 <p class="wp-caption-text">The results of a topic model, showing 25 topics found across a database of nearly 15,000 song lyric files. <a class="read-more" href="/featured/vol-2-no-1-reviews-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>

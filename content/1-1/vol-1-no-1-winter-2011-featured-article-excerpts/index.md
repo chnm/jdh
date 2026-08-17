@@ -16,6 +16,6 @@ author = ["editor"]
 <p class="pulled-quote">“Modern humanities scholarship is a direct engagement with a deracinated, Google-ised, Wikipedia-ised, electronic text.”  
 Tim Hitchcock</p>
 
-<div class="wp-caption aligncenter" id="attachment_598" style="width: 506px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png" target="_blank"><img alt="" class="size-full wp-image-598" height="481" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png" title="An ego network from wikipedia.org" width="496"/></a>
+<div class="wp-caption aligncenter" id="attachment_598" style="width: 506px"><a href="/wp-content/uploads/2012/03/Ego_network.png" target="_blank"><img alt="" class="size-full wp-image-598" height="481" src="/wp-content/uploads/2012/03/Ego_network.png" title="An ego network from wikipedia.org" width="496"/></a>
 <p class="wp-caption-text">An ego network from wikipedia.org</p>
 </div>

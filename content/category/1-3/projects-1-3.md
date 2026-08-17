@@ -8,7 +8,7 @@ title = "You are viewing entries marked 'Projects'."
 </div>
 <div class="post">
 <h2><a href="/1-3/orbis-an-interactive-scholarly-work-on-the-roman-world-by-elijah-meeks-and-karl-grossner/">ORBIS: An Interactive Scholarly Work on the Roman World</a></h2>
-<p style="text-align: center;"> <img alt="ORBIS - The Stanford Geospatial Network Model of the Roman World" class="aligncenter wp-image-2756" height="323" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/orbis_jdh.png" width="502"/></p>
+<p style="text-align: center;"> <img alt="ORBIS - The Stanford Geospatial Network Model of the Roman World" class="aligncenter wp-image-2756" height="323" src="/wp-content/uploads/2012/08/orbis_jdh.png" width="502"/></p>
 <p>There are, broadly speaking, four expressions of digital humanities scholarship: research utilizing digital objects, tools, and methods; the publication of the products of that research; the creation, extension, and annotation of digital archives; and the development or improvement of digital tools. <a class="read-more" href="/1-3/orbis-an-interactive-scholarly-work-on-the-roman-world-by-elijah-meeks-and-karl-grossner/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

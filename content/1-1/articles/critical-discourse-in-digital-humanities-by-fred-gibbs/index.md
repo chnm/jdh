@@ -105,7 +105,7 @@ One arena in which we might cultivate a vibrant and sustainable discourse is in 
 
 ### IV: lastly
 
-[![](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/theory-diagram.png)](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/theory-diagram.png "Theory Diagram")
+[![](/wp-content/uploads/2012/03/theory-diagram.png)](/wp-content/uploads/2012/03/theory-diagram.png "Theory Diagram")
 
 The criteria I mentioned earlier (transparency, reusability, data, design) operate in a larger theoretical context that we must consider as well. This might be profitably represented in an adaptation of a well-known diagram of criticism from M. H. Abrams, which shows four proximal spheres of criticism that might guide our approach. The formalist critique examines the form of the work itself, namely how well its structure, form, and design serve its purpose in the context of similar works. Didactic criticism focuses on the extent to which the work can reach, inform, and educate an audience. In the original diagram, mimetic criticism would address the extent to which a work of art mirrors something larger about the world. For digital humanities criticism, it might evaluate how well digital humanities work accomplishes or facilitates humanistic inquiry. Lastly, the expressive critique discusses how well the work reflects the unique characteristics and style of the creator(s).
 

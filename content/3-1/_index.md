@@ -16,9 +16,9 @@ Vol. 3, No. 1 Spring 2014</h1>
 <p>The <em>Journal of Digital Humanities</em> is a comprehensive, peer-reviewed, open access journal that features the best scholarship, tools, and conversations produced by the digital humanities community in the previous trimester.</p>
 <div class="downloads">
 <p>Available for download</p>
-<a href="https://journalofdigitalhumanities.org/files/jdh_3_1.pdf"><img alt="pdf download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pdf.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_3_1.epub"><img alt="epub download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/epub.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_3_1.ibooks"><img alt="ibook download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/ibook.png"/></a>
+<a href="/files/jdh_3_1.pdf"><img alt="pdf download" src="/wp-content/themes/jdh/images/pdf.png"/></a>
+<a href="/files/jdh_3_1.epub"><img alt="epub download" src="/wp-content/themes/jdh/images/epub.png"/></a>
+<a href="/files/jdh_3_1.ibooks"><img alt="ibook download" src="/wp-content/themes/jdh/images/ibook.png"/></a>
 </div>
 <div class="introduction">
 <h2>Introduction</h2>
@@ -39,7 +39,7 @@ Vol. 3, No. 1 Spring 2014</h1>
 </div>
 <div class="front-page-section">
 <div class="toc-previews six columns alpha">
-<a href="/3-1/pudding-lane-recreating-seventeenth-century-london/"><img alt="Screen shot from Pudding Lane" class="size-medium wp-image-1048" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/04/PuddingLane15.jpg" title="Screen shot from Pudding Lane"/></a>
+<a href="/3-1/pudding-lane-recreating-seventeenth-century-london/"><img alt="Screen shot from Pudding Lane" class="size-medium wp-image-1048" src="/wp-content/uploads/2014/04/PuddingLane15.jpg" title="Screen shot from Pudding Lane"/></a>
 <p class="wp-caption-text">Screen shot from "Pudding Lane."</p>
 <br/>
 <p class="pulled-quote">"All of these various traces of the [public performance] have been integrated into a single experiential research environment through digital modeling."</p>
@@ -55,7 +55,7 @@ Vol. 3, No. 1 Spring 2014</h1>
 <p><a href="/3-1/dhwit-digital-humanities-for-undergraduate-design-engineering-and-management-students/">DH@WIT: Digital Humanities for Undergraduate Design, Engineering, and Management Students</a><br/>Christopher Scott Gleason</p><p><a href="/3-1/modelling-the-interpretation-of-literary-allusion-with-machine-learning-techniques/">Modelling the Interpretation of Literary Allusion with Machine Learning Techniques</a><br/>Neil Coffee, James Gawley, Christopher Forstall, Walter Scheirer, David Johnson, Jason Corso and Brian Parks</p><p><a href="/3-1/making-the-digital-humanities-more-open-modeling-digital-humanities-for-a-wider-audience/">“Making the Digital Humanities More Open": Modeling Digital Humanities for a Wider Audience</a><br/>Cory Bohon, Jennifer Guiliano, James Smith, George Williams and Amanda Visconti</p><p><a href="/3-1/exploring-social-tags-in-a-digitized-humanities-online-collection/">Exploring Social Tags in a Digitized Humanities Online Collection</a><br/>Youngok Choi and Sue Yeon Syn</p><p><a href="/3-1/dariah-eus-virtual-competency-center-on-research-and-education/">DARIAH-EU’s Virtual Competency Center on Research and Education</a><br/>Christof Schöch, Dallas Costis, Matt Munson, Toma Tasovac, Erik Malcolm Champion, Susan Schreibman, Agiatis Benardou, Marianne Ping Huang and Petra Links</p><p><a href="/3-1/where-do-you-need-us-the-national-library-in-the-digital-humanities/">“Where do you need us?” — The National Library in the Digital Humanities</a><br/>Aly Conteh and Lotte Wilms</p><p><a href="/3-1/encoding-historical-financial-records/">Encoding Historical Financial Records</a><br/>Kathryn Tomasek and Syd Bauman</p><p><a href="/3-1/reverse-image-lookup-paintings-digitisation-reuse/">Digitization and Dissemination: A Reverse Image Lookup Study to Assess the Reuse of Images of Paintings from the National Gallery's Website</a><br/>Isabella Kirton and Melissa Terras</p><p><a href="/3-1/great-parchment-book-project/">Great Parchment Book Project</a><br/>Nicola Avery, Alberto Campagnolo, Caroline De Stefani, Kazim Pal, Matthew Payne, Philippa Smith, Rachael Smither, Ann Stewart, Emma Stewart, Patricia Stewart, Melissa Terras, Laurence Ward, Tim Weyrich and Liz Yamada</p><p><a href="/3-1/juxta-commons/">Juxta Commons</a><br/>Dana Wheeles and Kristin Jensen</p><p><a href="/3-1/debates-in-the-digital-humanities-scholarly-publishing-across-printdigital-streams/">Debates in the Digital Humanities: Scholarly Publishing Across Print/Digital Streams</a><br/>Matthew K. Gold, Douglas Armato, Zach Davis, Matthew Slaats and Mark Abrams</p><p><a href="/3-1/visual-historiography-visualizing-the-literature-of-a-field/">Visual Historiography: Visualizing “The Literature of a Field”</a><br/>David J. Staley, Scot A. French and Bill Ferster</p>
 </div>
 <div class="toc-previews six columns offset-by-one omega">
-<a href="/3-1/dariah-eus-virtual-competency-center-on-research-and-education/"><img alt="Screen Shot 2014-04-25 at 9.48.41 AM" class="wp-image-6939" height="300" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/04/Screen-Shot-2014-04-25-at-9.48.41-AM-212x300.png" width="212"/></a>
+<a href="/3-1/dariah-eus-virtual-competency-center-on-research-and-education/"><img alt="Screen Shot 2014-04-25 at 9.48.41 AM" class="wp-image-6939" height="300" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-25-at-9.48.41-AM-212x300.png" width="212"/></a>
 <p class="wp-caption-text">DH2013 Poster from DARIAH-EU, a European initiative to support digital research in the arts and humanities.</p>
 <br/>
 <br/>

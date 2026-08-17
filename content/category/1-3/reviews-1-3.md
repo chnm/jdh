@@ -4,7 +4,7 @@ title = "You are viewing entries marked 'Reviews'."
 
 <div class="post">
 <h2><a href="/featured/vol-1-no-3-summer-2012-reviews-featured-excerpts/">Vol. 1, No. 3 Summer 2012 Reviews Featured Excerpts</a></h2>
-<p><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality.jpg"><img alt="Mapping Newspaper Quality" class="size-full wp-image-2813" height="782" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality.jpg" title="Mapping Texts: Mapping Newspaper Quality" width="1049"/></a></p>
+<p><a href="/wp-content/uploads/2012/08/MT_quality.jpg"><img alt="Mapping Newspaper Quality" class="size-full wp-image-2813" height="782" src="/wp-content/uploads/2012/08/MT_quality.jpg" title="Mapping Texts: Mapping Newspaper Quality" width="1049"/></a></p>
 <p class="wp-caption-text">Mapping Newspaper Quality <a class="read-more" href="/featured/vol-1-no-3-summer-2012-reviews-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

@@ -13,6 +13,6 @@ author_ids = ["editor"]
 author = ["editor"]
 +++
 
-[![Video panels of players during gaming](https://journalofdigitalhumanities.org/wp-content/uploads/2012/06/IMAG2144.jpg)](/1-2/playing-through-the-art-of-video-games-exhibit-by-anastasia-salter/ "Video panels of players during gaming")
+[![Video panels of players during gaming](/wp-content/uploads/2012/06/IMAG2144.jpg)](/1-2/playing-through-the-art-of-video-games-exhibit-by-anastasia-salter/ "Video panels of players during gaming")
 
 Video panels of players during gaming

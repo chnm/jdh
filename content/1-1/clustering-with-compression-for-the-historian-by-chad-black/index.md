@@ -243,7 +243,7 @@ Again, the C(x|x) show reliable data. But, this time bzip’s similarities look 
 
 I also had this suspicion because a few months ago I plotted occurrences of the terms _concubinato_ (illicit co-habitation) and _muerte_ (used in murder descriptions) from the Guide:
 
-<div class="wp-caption aligncenter" id="attachment_809" style="width: 509px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cfd_plot_criminales1.png" target="_blank"><img alt='Occurrences of the terms "concubinato" and "muerte" from the Criminales Series Guide.' aria-describedby="caption-attachment-809" class="wp-image-809" height="305" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cfd_plot_criminales1.png" width="499"/></a><p class="wp-caption-text" id="caption-attachment-809">Occurrences of the terms “concubinato” and “muerte” from the Criminales Series Guide.</p></div>
+<div class="wp-caption aligncenter" id="attachment_809" style="width: 509px"><a href="/wp-content/uploads/2012/03/cfd_plot_criminales1.png" target="_blank"><img alt='Occurrences of the terms "concubinato" and "muerte" from the Criminales Series Guide.' aria-describedby="caption-attachment-809" class="wp-image-809" height="305" src="/wp-content/uploads/2012/03/cfd_plot_criminales1.png" width="499"/></a><p class="wp-caption-text" id="caption-attachment-809">Occurrences of the terms “concubinato” and “muerte” from the Criminales Series Guide.</p></div>
 
 You should see that right at the decade of the 1740s there is a discernible, if smaller, bump for _concubinato_. I was reminded of this when transcribing the records.
 

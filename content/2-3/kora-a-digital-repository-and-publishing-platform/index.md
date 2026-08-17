@@ -21,7 +21,7 @@ author = ["rtegtmeyer", "drehberger", "cfoley", "ewatrall"]
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2013%2F11%2FKORA_poster.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 1.92MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/KORA_poster.pdf)
+[Download (PDF, 1.92MB)](/wp-content/uploads/2013/11/KORA_poster.pdf)
 
 ### Abstract
 

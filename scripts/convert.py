@@ -20,7 +20,6 @@ from bs4 import BeautifulSoup, NavigableString, Tag, Comment
 ROOT = os.environ.get("JDH_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONTENT = os.path.join(ROOT, "content")
 DATA = os.path.join(ROOT, "data")
-SITE = "https://journalofdigitalhumanities.org"
 
 ISSUES = {
     "1-1": dict(volume=1, number=1, season="Winter", year=2011),
@@ -113,7 +112,7 @@ def rewrite_link(href, page_path):
                 rest = path
                 if sp.query:
                     rest += "?" + sp.query
-                return SITE + rest                       # media: external, https
+                return rest                              # media: site-relative (object storage)
             return map_internal(path, sp.fragment)       # internal page
         return href                                       # external, keep
     if sp.scheme:
@@ -126,7 +125,7 @@ def rewrite_link(href, page_path):
             sp3 = urlsplit("https://" + href)             # schema-less SELF link -> internal
             p = sp3.path or "/"
             if "/wp-content/" in p or "/wp-includes/" in p or p.startswith("/files"):
-                return SITE + p + (("?" + sp3.query) if sp3.query else "")
+                return p + (("?" + sp3.query) if sp3.query else "")
             return map_internal(p, sp3.fragment)
         return "https://" + href                          # bare-domain external (crawl 404 fix)
     # internal relative link -> resolve against the page, then map
@@ -134,7 +133,7 @@ def rewrite_link(href, page_path):
     sp2 = urlsplit(target)
     if "/wp-content/" in sp2.path or "/wp-includes/" in sp2.path or sp2.path.startswith("/files"):
         rest = sp2.path + (("?" + sp2.query) if sp2.query else "")
-        return SITE + rest
+        return rest
     return map_internal(sp2.path, sp2.fragment)
 
 

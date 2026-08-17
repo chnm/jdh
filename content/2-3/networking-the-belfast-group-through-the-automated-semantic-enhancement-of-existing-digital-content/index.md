@@ -21,7 +21,7 @@ author = ["rskoeser", "bcoxall"]
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2013%2F11%2FNetworking-Belfast.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 1.63MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/Networking-Belfast.pdf)
+[Download (PDF, 1.63MB)](/wp-content/uploads/2013/11/Networking-Belfast.pdf)
 
 ### Abstract
 
@@ -35,9 +35,9 @@ Using preliminary data manually generated from a subset of the correspondence EA
 
 Providing not only this new analysis of the Belfast Group’s network and a report on the development of our tools, our poster presentation at DH 2013 will also include a hands-on demonstration of the software tools and interactive visualizations of network data.
 
-<div class="wp-caption aligncenter" id="attachment_6030" style="width: 295px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/Belfast-Figure-1.png"><img alt="Belfast - Figure 1" aria-describedby="caption-attachment-6030" class="size-medium wp-image-6030" height="300" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/Belfast-Figure-1-285x300.png" width="285"/></a><p class="wp-caption-text" id="caption-attachment-6030">Figure 1. Graph of relationships inferred from Heather Clark’s Ulster Renaissance. Nodes are sized by degree and colored by hub score. The writing workshop is the strongest hub; the trio of large nodes represent Michael Longley, Derek Mahon, and Seamus Heaney.</p></div>
+<div class="wp-caption aligncenter" id="attachment_6030" style="width: 295px"><a href="/wp-content/uploads/2013/11/Belfast-Figure-1.png"><img alt="Belfast - Figure 1" aria-describedby="caption-attachment-6030" class="size-medium wp-image-6030" height="300" src="/wp-content/uploads/2013/11/Belfast-Figure-1-285x300.png" width="285"/></a><p class="wp-caption-text" id="caption-attachment-6030">Figure 1. Graph of relationships inferred from Heather Clark’s Ulster Renaissance. Nodes are sized by degree and colored by hub score. The writing workshop is the strongest hub; the trio of large nodes represent Michael Longley, Derek Mahon, and Seamus Heaney.</p></div>
 
-<div class="wp-caption aligncenter" id="attachment_6234" style="width: 310px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2013/12/prelim_degree_hub.png"><img alt="prelim_degree_hub" aria-describedby="caption-attachment-6234" class="size-medium wp-image-6234" height="300" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/12/prelim_degree_hub-300x300.png" title="Figure 2. " width="300"/></a><p class="wp-caption-text" id="caption-attachment-6234">Figure 2. Relationship graph based on preliminary correspondence data, sized and colored as in figure 1. Based on this data, the writing workshop does not function as a hub at all, and Paul Muldoon becomes the largest node.</p></div>
+<div class="wp-caption aligncenter" id="attachment_6234" style="width: 310px"><a href="/wp-content/uploads/2013/12/prelim_degree_hub.png"><img alt="prelim_degree_hub" aria-describedby="caption-attachment-6234" class="size-medium wp-image-6234" height="300" src="/wp-content/uploads/2013/12/prelim_degree_hub-300x300.png" title="Figure 2. " width="300"/></a><p class="wp-caption-text" id="caption-attachment-6234">Figure 2. Relationship graph based on preliminary correspondence data, sized and colored as in figure 1. Based on this data, the writing workshop does not function as a hub at all, and Paul Muldoon becomes the largest node.</p></div>
 
 Originally presented by Brian Croxall and Rebecca Sutton Koeser at DH2013 on [July 17, 2013](http://dh2013.unl.edu/abstracts/ab-357.html "Abstracts DH2013").
 

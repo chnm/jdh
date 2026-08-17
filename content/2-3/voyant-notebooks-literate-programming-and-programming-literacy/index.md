@@ -21,7 +21,7 @@ author = ["ssinclair", "grockwell"]
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2013%2F11%2FVoyant-Notebooks-Sinclair-and-Rockwell.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 676KB)](https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/Voyant-Notebooks-Sinclair-and-Rockwell.pdf)
+[Download (PDF, 676KB)](/wp-content/uploads/2013/11/Voyant-Notebooks-Sinclair-and-Rockwell.pdf)
 
 ### Abstract
 
@@ -46,7 +46,7 @@ And of course, visitors to the poster session will be warmly encouraged to play 
 
 ### Appendix A: Mockup of Voyant Notebooks (previously called Voyeur Notebooks).
 
-<div class="wp-caption aligncenter" id="attachment_5984" style="width: 310px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/Voyant-Notebooks-Appendix-A.png" target="_blank"><img alt="Voyant Notebooks-Appendix A" aria-describedby="caption-attachment-5984" class="size-medium wp-image-5984" height="292" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/Voyant-Notebooks-Appendix-A-300x292.png" title="Sinclair and Rockwell, Voyant Notebooks Appendix A" width="300"/></a><p class="wp-caption-text" id="caption-attachment-5984">Figure 1: Mockup of Voyant Notebooks</p></div>
+<div class="wp-caption aligncenter" id="attachment_5984" style="width: 310px"><a href="/wp-content/uploads/2013/11/Voyant-Notebooks-Appendix-A.png" target="_blank"><img alt="Voyant Notebooks-Appendix A" aria-describedby="caption-attachment-5984" class="size-medium wp-image-5984" height="292" src="/wp-content/uploads/2013/11/Voyant-Notebooks-Appendix-A-300x292.png" title="Sinclair and Rockwell, Voyant Notebooks Appendix A" width="300"/></a><p class="wp-caption-text" id="caption-attachment-5984">Figure 1: Mockup of Voyant Notebooks</p></div>
 
 Originally presented by Stéfan Sinclair and Geoffrey Rockwell at DH2013 on [July 17, 2013](http://dh2013.unl.edu/abstracts/ab-295.html "Abstracts DH2013").
 

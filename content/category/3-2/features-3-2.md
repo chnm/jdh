@@ -12,5 +12,5 @@ title = "You are viewing entries marked 'Features'."
 </div>
 <div class="post">
 <h2><a href="/featured/vol-3-no-2-features-section-featured-excerpts/">Vol. 3 No. 2 Features Section Featured Excerpts</a></h2>
-<p><a href="/3-2/using-computer-vision-to-increase-the-research-potential-of-photo-archives-by-john-resig/" title="Using Computer Vision to Increase the Research Potential of Photo Archives"><img alt="frick-cat-overview.600" class="aligncenter size-medium wp-image-7241" height="270" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-cat-overview.600-300x270.jpg" width="300"/></a> <a class="read-more" href="/featured/vol-3-no-2-features-section-featured-excerpts/"><br/><br/>(Read more) </a></p>
+<p><a href="/3-2/using-computer-vision-to-increase-the-research-potential-of-photo-archives-by-john-resig/" title="Using Computer Vision to Increase the Research Potential of Photo Archives"><img alt="frick-cat-overview.600" class="aligncenter size-medium wp-image-7241" height="270" src="/wp-content/uploads/2014/07/frick-cat-overview.600-300x270.jpg" width="300"/></a> <a class="read-more" href="/featured/vol-3-no-2-features-section-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>

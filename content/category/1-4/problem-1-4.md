@@ -17,6 +17,6 @@ title = "You are viewing entries marked 'The Problem Stated'."
 <div class="post">
 <h2><a href="/featured/vol-1-no-4-fall-2012-problem-stated-featured-excerpts/">Vol. 1 No. 4 Fall 2012 Evaluation Gaps Featured Excerpts</a></h2>
 <p class="pulled-quote">What is Needed to Ensure the Development of Digital Humanities Scholarship?</p>
-<p><a href="/1-4/evaluating-collaborative-digital-scholarship-by-bethany-nowviskie/"><img alt="Collaborators Bill of Rights" class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/12/Off-the-Tracks.png" title="Collaborators Bill of Rights" width="300"/></a></p>
+<p><a href="/1-4/evaluating-collaborative-digital-scholarship-by-bethany-nowviskie/"><img alt="Collaborators Bill of Rights" class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/12/Off-the-Tracks.png" title="Collaborators Bill of Rights" width="300"/></a></p>
 <p class="wp-caption-text">Collaborators’ Bill of Rights <a class="read-more" href="/featured/vol-1-no-4-fall-2012-problem-stated-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>

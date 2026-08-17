@@ -15,9 +15,9 @@ Vol. 1, No. 3 Summer 2012</h1>
 <p>The <em>Journal of Digital Humanities</em> is a comprehensive, peer-reviewed, open access journal that features the best scholarship, tools, and conversations produced by the digital humanities community in the previous quarter.</p>
 <div class="downloads">
 <p>Available for download</p>
-<a href="https://journalofdigitalhumanities.org/files/JDH_1_3.pdf"><img alt="pdf download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pdf.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_1_3.epub"><img alt="epub download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/epub.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/JDH_1_3.ibooks"><img alt="ibook download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/ibook.png"/></a>
+<a href="/files/JDH_1_3.pdf"><img alt="pdf download" src="/wp-content/themes/jdh/images/pdf.png"/></a>
+<a href="/files/jdh_1_3.epub"><img alt="epub download" src="/wp-content/themes/jdh/images/epub.png"/></a>
+<a href="/files/JDH_1_3.ibooks"><img alt="ibook download" src="/wp-content/themes/jdh/images/ibook.png"/></a>
 </div>
 <div class="introduction">
 <h2>Introduction</h2>
@@ -35,14 +35,14 @@ Vol. 1, No. 3 Summer 2012</h1>
 <div class="toc-previews six columns offset-by-one omega">
 <p class="pulled-quote">"Something curious happens to our ability to understand scope when we move all that goop of process and narrative into a computer."
 <span class="quote-author">Craig Mod</span></p>
-<a href="/1-3/visualizing-san-francisco-bays-forgotten-past-by-matthew-booker/"><img alt="San Francisco Bay National Wildlife Refuge, 1972-2004" class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/NationalWildlifeRefuge.jpeg" title="San Francisco Bay National Wildlife Refuge, 1972-2004" width="300"/></a>
+<a href="/1-3/visualizing-san-francisco-bays-forgotten-past-by-matthew-booker/"><img alt="San Francisco Bay National Wildlife Refuge, 1972-2004" class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/08/NationalWildlifeRefuge.jpeg" title="San Francisco Bay National Wildlife Refuge, 1972-2004" width="300"/></a>
 <p class="wp-caption-text">San Francisco Bay National Wildlife Refuge, 1972-2004</p> </div>
 </div>
 <div class="front-page-section">
 <div class="toc-previews six columns alpha">
 <p class="pulled-quote">"To treat such objects only as tools, and implicitly capable only of providing that which they were designed to provide, undercuts the possibilities of advancing the use of models and modeling in the humanities."
 <span class="quote-author">Elijah Meeks and Karl Grossner</span></p>
-<a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/Overview_F.jpg"><img alt="The FBTEE Project Visualisation Gallery" class="size-full wp-image-2793" height="851" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/Overview_F.jpg" title="The FBTEE Project Visualisation Gallery" width="923"/></a>
+<a href="/wp-content/uploads/2012/08/Overview_F.jpg"><img alt="The FBTEE Project Visualisation Gallery" class="size-full wp-image-2793" height="851" src="/wp-content/uploads/2012/08/Overview_F.jpg" title="The FBTEE Project Visualisation Gallery" width="923"/></a>
 <p class="wp-caption-text">The FBTEE Project Visualisation Gallery</p> </div>
 <div class="five columns offset-by-one omega">
 <h3>Projects</h3>
@@ -58,7 +58,7 @@ Vol. 1, No. 3 Summer 2012</h1>
 <p><a href="/1-3/review-of-orbis-project-by-stuart-dunn/">Review of ORBIS</a><br/>Stuart Dunn</p><p><a href="/1-3/review-of-french-book-trade-in-enlightenment-europe-project-by-sean-takats/">Review of The French Book Trade in Enlightenment Europe, 1769-1794: Mapping the Trade of the Société Typographique de Neuchâtel</a><br/>Sean Takats</p><p><a href="/1-3/review-of-mapping-texts-by-robert-nelson/">Review of Mapping Texts</a><br/>Robert Nelson</p>
 </div>
 <div class="toc-previews six columns offset-by-one omega">
-<a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality.jpg"><img alt="Mapping Newspaper Quality" class="size-full wp-image-2813" height="782" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality.jpg" title="Mapping Texts: Mapping Newspaper Quality" width="1049"/></a>
+<a href="/wp-content/uploads/2012/08/MT_quality.jpg"><img alt="Mapping Newspaper Quality" class="size-full wp-image-2813" height="782" src="/wp-content/uploads/2012/08/MT_quality.jpg" title="Mapping Texts: Mapping Newspaper Quality" width="1049"/></a>
 <p class="wp-caption-text">Mapping Newspaper Quality</p> </div>
 </div>
 <p class="issn">ISSN 2165-6673</p>

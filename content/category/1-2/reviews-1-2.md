@@ -4,7 +4,7 @@ title = "You are viewing entries marked 'Reviews'."
 
 <div class="post">
 <h2><a href="/1-2/vol-1-no-2-spring-2012-reviews-featured-excerpts/">Vol. 1, No. 2, Spring 2012, Reviews Featured Excerpts</a></h2>
-<p><a href="/1-2/playing-through-the-art-of-video-games-exhibit-by-anastasia-salter/" title="Video panels of players during gaming"><img alt="Video panels of players during gaming" class="wp-image-742" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/06/IMAG2144.jpg" title="Video panels of players during gaming"/></a></p>
+<p><a href="/1-2/playing-through-the-art-of-video-games-exhibit-by-anastasia-salter/" title="Video panels of players during gaming"><img alt="Video panels of players during gaming" class="wp-image-742" src="/wp-content/uploads/2012/06/IMAG2144.jpg" title="Video panels of players during gaming"/></a></p>
 <p class="wp-caption-text">Video panels of players during gaming <a class="read-more" href="/1-2/vol-1-no-2-spring-2012-reviews-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

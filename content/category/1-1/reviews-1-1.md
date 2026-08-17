@@ -4,7 +4,7 @@ title = "You are viewing entries marked 'Reviews'."
 
 <div class="post">
 <h2><a href="/1-1/vol-1-no-1-winter-2011-reviews-featured-excerpts/">Vol. 1, No. 1, Winter 2011, Reviews Featured Excerpts</a></h2>
-<p><a href="/1-1/wordseer/" target="_blank" title="Newspaper strip visualization"><img alt="Newspaper strip visualization" class="wp-image-742" height="716" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/wordseer_image2-1024x716.jpg" title="Newspaper strip visualization" width="1024"/></a></p>
+<p><a href="/1-1/wordseer/" target="_blank" title="Newspaper strip visualization"><img alt="Newspaper strip visualization" class="wp-image-742" height="716" src="/wp-content/uploads/2012/03/wordseer_image2-1024x716.jpg" title="Newspaper strip visualization" width="1024"/></a></p>
 <p class="wp-caption-text">Newspaper strip visualization <a class="read-more" href="/1-1/vol-1-no-1-winter-2011-reviews-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

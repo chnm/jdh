@@ -16,9 +16,9 @@ Vol. 2, No. 2 Spring 2013</h1>
 <p>The <em>Journal of Digital Humanities</em> is a comprehensive, peer-reviewed, open access journal that features the best scholarship, tools, and conversations produced by the digital humanities community in the previous trimester.</p>
 <div class="downloads">
 <p>Available for download</p>
-<a href="https://journalofdigitalhumanities.org/files/jdh_2_2.pdf"><img alt="pdf download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pdf.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_2_2.epub"><img alt="epub download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/epub.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_2_2.ibooks"><img alt="ibook download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/ibook.png"/></a>
+<a href="/files/jdh_2_2.pdf"><img alt="pdf download" src="/wp-content/themes/jdh/images/pdf.png"/></a>
+<a href="/files/jdh_2_2.epub"><img alt="epub download" src="/wp-content/themes/jdh/images/epub.png"/></a>
+<a href="/files/jdh_2_2.ibooks"><img alt="ibook download" src="/wp-content/themes/jdh/images/ibook.png"/></a>
 </div>
 <div class="introduction">
 <h2>Introduction</h2>
@@ -37,12 +37,12 @@ Vol. 2, No. 2 Spring 2013</h1>
 <p class="pulled-quote">"Any digital humanities project involves a series of interlinked choices around its contents, its users, and its technologies."
 <br/>
 <span class="quote-author">Vicki Mayer and Mike Griffith</span></p>
-<a href="/2-2/changing-medium-transforming-composition-by-trey-conatser/"> <img alt="Corpus Site Map." class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/07/Conatser_img9.jpg" title="" width="300"/></a>
+<a href="/2-2/changing-medium-transforming-composition-by-trey-conatser/"> <img alt="Corpus Site Map." class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2013/07/Conatser_img9.jpg" title="" width="300"/></a>
 <p class="wp-caption-text">Corpus Site Map</p> </div>
 </div>
 <div class="front-page-section">
 <div class="toc-previews six columns alpha">
-<a href="/2-2/integrating-architecture-into-digital-and-public-humanities-by-amber-wiley/"><img alt="The research on Louis Armstrong Park highlighted a controversial urban renewal project that destroyed part of the historic Tremé neighborhood. This resulted in community involvement to turn wasted space into a park to honor one of the city’s most celebrated sons." class="size-medium wp-image-1048" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/10/Louis-Armstrong-Park.png" title=""/></a>
+<a href="/2-2/integrating-architecture-into-digital-and-public-humanities-by-amber-wiley/"><img alt="The research on Louis Armstrong Park highlighted a controversial urban renewal project that destroyed part of the historic Tremé neighborhood. This resulted in community involvement to turn wasted space into a park to honor one of the city’s most celebrated sons." class="size-medium wp-image-1048" src="/wp-content/uploads/2013/10/Louis-Armstrong-Park.png" title=""/></a>
 <p class="wp-caption-text">The research on Louis Armstrong Park highlighted a controversial urban renewal project that destroyed part of the historic Tremé neighborhood. This resulted in community involvement to turn wasted space into a park to honor one of the city’s most celebrated sons.</p> </div>
 <div class="five columns offset-by-one omega">
 <h3>Reviews</h3>

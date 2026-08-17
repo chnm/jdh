@@ -16,7 +16,8 @@ WordPress 5 (PressForward) site (on hiatus since Summer 2014).
 
 URLs are preserved exactly (e.g. `/1-1/articles/<slug>/`); duplicate and stray
 permalinks are emitted as alias redirects. Media (`wp-content/uploads`, `/files`)
-is referenced by absolute URL, not bundled.
+is referenced by site-relative URL and is not bundled — those prefixes are served
+from object storage via web server redirects.
 
 ## Build
 

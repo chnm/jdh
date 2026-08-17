@@ -14,9 +14,9 @@ title = "Journal of Digital Humanities"
 <h2><strong>Journal of Digital Humanities, Vol. 3, No. 2</strong></h2>
 <div class="downloads">
 <p>Available for download</p>
-<a href="https://journalofdigitalhumanities.org/files/jdh_3_2.pdf"><img alt="pdf download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pdf.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_3_2.epub"><img alt="epub download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/epub.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_3_2.mobi"><img alt="mobi download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/mobi.png"/></a>
+<a href="/files/jdh_3_2.pdf"><img alt="pdf download" src="/wp-content/themes/jdh/images/pdf.png"/></a>
+<a href="/files/jdh_3_2.epub"><img alt="epub download" src="/wp-content/themes/jdh/images/epub.png"/></a>
+<a href="/files/jdh_3_2.mobi"><img alt="mobi download" src="/wp-content/themes/jdh/images/mobi.png"/></a>
 </div>
 <div class="introduction">
 <h2>Introduction</h2>
@@ -32,7 +32,7 @@ title = "Journal of Digital Humanities"
 <p><a href="/3-2/on-the-origin-of-hack-and-yack-by-bethany-nowviskie/">On the Origin of "Hack" and "Yack"</a><br/>Bethany Nowviskie</p><p><a href="/3-2/using-computer-vision-to-increase-the-research-potential-of-photo-archives-by-john-resig/">Using Computer Vision to Increase the Research Potential of Photo Archives</a><br/>John Resig</p>
 </div>
 <div class="toc-previews six columns offset-by-one omega">
-<a href="/3-2/using-computer-vision-to-increase-the-research-potential-of-photo-archives-by-john-resig/" title="Using Computer Vision to Increase the Research Potential of Photo Archives"><img alt="frick-cat-overview.600" class="aligncenter size-medium wp-image-7241" height="270" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-cat-overview.600-300x270.jpg" width="300"/></a>
+<a href="/3-2/using-computer-vision-to-increase-the-research-potential-of-photo-archives-by-john-resig/" title="Using Computer Vision to Increase the Research Potential of Photo Archives"><img alt="frick-cat-overview.600" class="aligncenter size-medium wp-image-7241" height="270" src="/wp-content/uploads/2014/07/frick-cat-overview.600-300x270.jpg" width="300"/></a>
 </div>
 </div>
 <div class="front-page-section">

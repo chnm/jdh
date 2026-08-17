@@ -4,7 +4,7 @@ title = "You are viewing entries marked 'Features'."
 
 <div class="post">
 <h2><a href="/featured/vol-2-3-features-featured-excerpts/">Vol. 2 No. 3 Features Featured Excerpts</a></h2>
-<p><a href="/2-3/big-smart-clean-messy-data-in-the-humanities/"><img alt="The story of smart and big data." class="size-medium wp-image-1048" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/story-of-smart-big-data.png" title=""/></a></p>
+<p><a href="/2-3/big-smart-clean-messy-data-in-the-humanities/"><img alt="The story of smart and big data." class="size-medium wp-image-1048" src="/wp-content/uploads/2013/11/story-of-smart-big-data.png" title=""/></a></p>
 <p class="wp-caption-text">The story of smart and big data.</p>
 <p class="pulled-quote">“As artists it is novel to think that in observing, drawing or modelling we might be capturing, analysing and processing data.”</p>
 <p><span class="quote-author">Gareth Beale, Nicole Beale, Ian Dawson and Louisa Minkin</span> <a class="read-more" href="/featured/vol-2-3-features-featured-excerpts/"><br/><br/>(Read more) </a></p>

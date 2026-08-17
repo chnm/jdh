@@ -16,9 +16,9 @@ Vol. 1, No. 4 Fall 2012</h1>
 <p>The <em>Journal of Digital Humanities</em> is a comprehensive, peer-reviewed, open access journal that features the best scholarship, tools, and conversations produced by the digital humanities community in the previous quarter.</p>
 <div class="downloads">
 <p>Available for download</p>
-<a href="https://journalofdigitalhumanities.org/files/jdh_1_4.pdf"><img alt="pdf download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pdf.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_1_4.epub"><img alt="epub download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/epub.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_1_4.ibooks"><img alt="ibook download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/ibook.png"/></a>
+<a href="/files/jdh_1_4.pdf"><img alt="pdf download" src="/wp-content/themes/jdh/images/pdf.png"/></a>
+<a href="/files/jdh_1_4.epub"><img alt="epub download" src="/wp-content/themes/jdh/images/epub.png"/></a>
+<a href="/files/jdh_1_4.ibooks"><img alt="ibook download" src="/wp-content/themes/jdh/images/ibook.png"/></a>
 </div>
 <div class="introduction">
 <h2>Introduction</h2>
@@ -35,13 +35,13 @@ Vol. 1, No. 4 Fall 2012</h1>
 </div>
 <div class="toc-previews six columns offset-by-one omega">
 <p class="pulled-quote">What is Needed to Ensure the Development of Digital Humanities Scholarship?</p>
-<a href="/1-4/evaluating-collaborative-digital-scholarship-by-bethany-nowviskie/"><img alt="Collaborators Bill of Rights" class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/12/Off-the-Tracks.png" title="Collaborators Bill of Rights" width="300"/></a>
+<a href="/1-4/evaluating-collaborative-digital-scholarship-by-bethany-nowviskie/"><img alt="Collaborators Bill of Rights" class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/12/Off-the-Tracks.png" title="Collaborators Bill of Rights" width="300"/></a>
 <p class="wp-caption-text">Collaborators' Bill of Rights</p> </div>
 </div>
 <div class="front-page-section">
 <div class="toc-previews six columns alpha">
 <p class="pulled-quote">Perspectives on Assessment and Evaluation from Across the Academy</p>
-<a href="/1-4/evaluating-multimodal-work-revisited-by-shannon-mattern/"><img alt="Photo: Simon Fraser/Science Photo Library via Guardian.uk" class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/12/brain10b-440x264-300x180.jpg" width="300"/></a>
+<a href="/1-4/evaluating-multimodal-work-revisited-by-shannon-mattern/"><img alt="Photo: Simon Fraser/Science Photo Library via Guardian.uk" class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/12/brain10b-440x264-300x180.jpg" width="300"/></a>
 <p class="wp-caption-text">Simon Fraser/Science Photo Library via Guardian.uk</p> </div>
 <div class="five columns offset-by-one omega">
 <h3>Approaches</h3>

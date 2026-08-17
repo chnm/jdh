@@ -27,7 +27,7 @@ The administration of what became known as the White Australia Policy created a 
 
 But is is too easy to see these people as the powerless victims of a repressive system. There were many acts of resistance. Some argued against the need to be identified ‘just like a criminal’. Others exercised control over their representation, submitting formal studio portraits instead of mug shots.
 
-[![Portrait of Mr. and Mrs. William Yinson Lee](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.003.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.003.jpg)  
+[![Portrait of Mr. and Mrs. William Yinson Lee](/wp-content/uploads/2012/03/the-stuff.003.jpg)](/wp-content/uploads/2012/03/the-stuff.003.jpg)  
  Most commonly and most powerfully, people resisted the policy simply by going ahead and living rich and productive lives.
 
 My partner, [Kate Bagnall](http://chineseaustralia.org/ "Chinese Australia Project by Kate Bagnall"), is helping to rewrite Australian-Chinese history by overthrowing the stereotype of the culturally isolated Chinese man living a lonely, meagre existence surrounded by gambling and opium dens. By mining the available records, by reading against the grain of contemporary reports, and by working with family historians, Kate is documenting their intimate lives—their wives, their lovers, their families and descendants—the sorts of relationships that sent a shudder through the edifice of White Australia. Power can be reclaimed in many subtle and subversive ways.
@@ -36,7 +36,7 @@ My partner, [Kate Bagnall](http://chineseaustralia.org/ "Chinese Australia Proje
 
 Then came the exciting part. Using a facial detection script I found through Google and an open source computer vision library, I started experimenting with ways of extracting the photos. After a few tweaks I had something that worked pretty well, so I pointed my aging laptop at the 12,502 images and watched anxiously as the CPU temperature rose and rose. It took a few emergency cooling measures, but the laptop survived and I had a folder containing 11,170 cropped images. About a third of these weren’t actually faces, but it was easy to manually remove the false positives, leaving 7,247 photos.
 
-<div class="wp-caption aligncenter" id="attachment_1048" style="width: 1034px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.002.jpg" target="_blank"><img alt='Faces from "The Real Faces of White Australia"' aria-describedby="caption-attachment-1048" class="wp-image-1048" height="768" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.002.jpg" title="the-stuff.002" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1048">“The Real Faces of White Australia”</p></div>
+<div class="wp-caption aligncenter" id="attachment_1048" style="width: 1034px"><a href="/wp-content/uploads/2012/03/the-stuff.002.jpg" target="_blank"><img alt='Faces from "The Real Faces of White Australia"' aria-describedby="caption-attachment-1048" class="wp-image-1048" height="768" src="/wp-content/uploads/2012/03/the-stuff.002.jpg" title="the-stuff.002" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1048">“The Real Faces of White Australia”</p></div>
 
 These photos. These people.
 
@@ -60,7 +60,7 @@ Projects such as [Unknown no longer](http://unknownnolonger.vahistorical.org/ "
 
 It’s aiming to extract the names and biographical details of slaves from the 8 million manuscript documents held by the Virginia Historical Society. The documents include court records, receipts, wills and inventories. Here is a page from the ‘Inventory of Negroes at Berry Plain Plantation, King George County, Virginia’ for 1855, listing names, occupations and valuations.
 
-[![Image of ledger entitled, "Inventory of Negroes upon Berry Plain Plantation, 1st Feb 1855"](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.007.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.007.jpg)
+[![Image of ledger entitled, "Inventory of Negroes upon Berry Plain Plantation, 1st Feb 1855"](/wp-content/uploads/2012/03/the-stuff.007.jpg)](/wp-content/uploads/2012/03/the-stuff.007.jpg)
 
 Tim Hitchcock is one of the directors of [London Lives](http://www.londonlives.org/ "London Lives Website") a project that similarly seeks to find the people in 240,000 manuscript pages documenting the lives of plebeian Londoners in the 17th century.
 
@@ -70,7 +70,7 @@ More than three million names have already been extracted from the records of co
 
 [Remember me](http://rememberme.ushmm.org/ "Remember Me Website from the US Holocaust Memorial Museum"), from the US Holocaust Memorial Museum, is working with photographs taken by relief agencies in the aftermath of World War Two. The photographs are of displaced children who survived the Holocaust but were separated from families. What happened to them? The project is seeking public help to identify and trace the children.
 
-<div class="wp-caption aligncenter" id="attachment_1054" style="width: 260px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.009-250x187.jpg" target="_blank"><img alt="Image of home page of the United States Holocaust Memorial Museum" aria-describedby="caption-attachment-1054" class="wp-image-1054" height="187" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.009-250x187.jpg" title="the-stuff.009-250x187" width="250"/></a><p class="wp-caption-text" id="caption-attachment-1054">“Remember Me?” – The United States Holocaust Memorial Museum</p></div>
+<div class="wp-caption aligncenter" id="attachment_1054" style="width: 260px"><a href="/wp-content/uploads/2012/03/the-stuff.009-250x187.jpg" target="_blank"><img alt="Image of home page of the United States Holocaust Memorial Museum" aria-describedby="caption-attachment-1054" class="wp-image-1054" height="187" src="/wp-content/uploads/2012/03/the-stuff.009-250x187.jpg" title="the-stuff.009-250x187" width="250"/></a><p class="wp-caption-text" id="caption-attachment-1054">“Remember Me?” – The United States Holocaust Memorial Museum</p></div>
 
 These are all projects about finding people. They are projects about finding the oppressed, the vulnerable, the displaced, the marginalized and the poor and giving them their place in history. This is what Kate and I hope to do with [Invisible Australians](http://invisibleaustralians.org/ "Invisible Australians Website"), the broader project of which our faces experiment is part.
 
@@ -78,7 +78,7 @@ These are all projects about finding people. They are projects about finding th
 
 ‘Invisible Australians’ aims to extract more than just photographs. We want to record and aggregate the biographical data contained within the records of the White Australia Policy to extract the data and rebuild identities.
 
-[![A Certificate of Domicile from 1905](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.011.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.011.jpg)
+[![A Certificate of Domicile from 1905](/wp-content/uploads/2012/03/the-stuff.011.jpg)](/wp-content/uploads/2012/03/the-stuff.011.jpg)
 
 But [we want to do more](http://discontents.com.au/shoebox/archives-shoebox/liberating-lives "Tim Sherratt, 'Liberating Lives'"); we want to link these identities up with with other records, with the research of family and local historians, with cemetery registers and family trees, with newspaper articles and databases we don’t even know about yet. We want to find people, families, and communities.
 
@@ -90,11 +90,11 @@ People with passions, people with dreams, people who are just annoyed and impati
 
 Interfaces can be modified. It is amazingly easy to write a script that will change the way a web page looks and behaves in your browser. I was frustrated by the standard interface to digitized files in the National Archives of Australia’s Recordsearch database—so I changed it.
 
-<div class="wp-caption aligncenter" id="attachment_1058" style="width: 1034px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.012.jpg" target="_blank"><img alt="Image of modified interface for accessing the National Archives of Australia files" aria-describedby="caption-attachment-1058" class="wp-image-1058" height="768" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.012.jpg" title="the-stuff.012" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1058">Before and After Interface Modification</p></div>
+<div class="wp-caption aligncenter" id="attachment_1058" style="width: 1034px"><a href="/wp-content/uploads/2012/03/the-stuff.012.jpg" target="_blank"><img alt="Image of modified interface for accessing the National Archives of Australia files" aria-describedby="caption-attachment-1058" class="wp-image-1058" height="768" src="/wp-content/uploads/2012/03/the-stuff.012.jpg" title="the-stuff.012" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1058">Before and After Interface Modification</p></div>
 
 Not only did make it look a bit nicer, I added new functions. My script lets you print a whole file or a range of pages and display the entire contents of the file on a pretty cool three-dimensional wall.
 
-<div class="wp-caption aligncenter" id="attachment_1064" style="width: 1034px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.013.jpg" target="_blank"><img alt="Image of files displayed on wall" aria-describedby="caption-attachment-1064" class="wp-image-1064" height="768" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.013.jpg" title="the-stuff.013" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1064">One of the display possibilities with the custom interface</p></div>
+<div class="wp-caption aligncenter" id="attachment_1064" style="width: 1034px"><a href="/wp-content/uploads/2012/03/the-stuff.013.jpg" target="_blank"><img alt="Image of files displayed on wall" aria-describedby="caption-attachment-1064" class="wp-image-1064" height="768" src="/wp-content/uploads/2012/03/the-stuff.013.jpg" title="the-stuff.013" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1064">One of the display possibilities with the custom interface</p></div>
 
 I’ve shared this script, and [a few other Recordsearch enhancements](http://wraggelabs.com/emporium/ "Software tools from Wragge Labs"). Anyone can install them with a click and use them.
 
@@ -150,7 +150,7 @@ It’s all about the respect and responsibility we both have for our collections
 
 It’s all about the respect and responsibility we both have for people like this.
 
-<div class="wp-caption aligncenter" id="attachment_1048" style="width: 1034px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.002.jpg" target="_blank"><img alt='Faces from "The Real Faces of White Australia"' aria-describedby="caption-attachment-1048" class="wp-image-1048" height="768" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/the-stuff.002.jpg" title="the-stuff.002" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1048">“The Real Faces of White Australia”</p></div>
+<div class="wp-caption aligncenter" id="attachment_1048" style="width: 1034px"><a href="/wp-content/uploads/2012/03/the-stuff.002.jpg" target="_blank"><img alt='Faces from "The Real Faces of White Australia"' aria-describedby="caption-attachment-1048" class="wp-image-1048" height="768" src="/wp-content/uploads/2012/03/the-stuff.002.jpg" title="the-stuff.002" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-1048">“The Real Faces of White Australia”</p></div>
 
 Originally published by Tim Sherratt on
 

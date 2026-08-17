@@ -6,7 +6,7 @@ title = "You are viewing entries marked 'Special Section'."
 <h2><a href="/1-2/vol-1-no-2-spring-2012-special-section-featured-excerpts/">Vol. 1, No. 2 Spring 2012 Special Section Featured Excerpts</a></h2>
 <p class="pulled-quote">“Games will likely never produce the same opportunities for discourse as a book, but then why should they?”<br/>
 <span class="quote-author">Adam Chapman</span></p>
-<p><a href="/1-2/going-beyond-the-textual-in-history-by-jeremy-antley/"> <img alt="Photo by Caro’s Lines" class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/05/5579350704_b0e4c0fc4a.jpeg" title="Photo by Caro’s Lines" width="300"/></a></p>
+<p><a href="/1-2/going-beyond-the-textual-in-history-by-jeremy-antley/"> <img alt="Photo by Caro’s Lines" class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/05/5579350704_b0e4c0fc4a.jpeg" title="Photo by Caro’s Lines" width="300"/></a></p>
 <p class="wp-caption-text">Photo by Caro’s Lines <a class="read-more" href="/1-2/vol-1-no-2-spring-2012-special-section-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

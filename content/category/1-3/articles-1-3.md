@@ -6,7 +6,7 @@ title = "You are viewing entries marked 'Articles'."
 <h2><a href="/featured/vol-1-no-3-summer-2012-articles-featured-excerpts/">Vol. 1, No. 3 Summer 2012 Articles Featured Excerpts</a></h2>
 <p class="pulled-quote">“Something curious happens to our ability to understand scope when we move all that goop of process and narrative into a computer.”<br/>
 <span class="quote-author">Craig Mod</span></p>
-<p><a href="/1-3/visualizing-san-francisco-bays-forgotten-past-by-matthew-booker/"><img alt="San Francisco Bay National Wildlife Refuge, 1972-2004" class="size-medium wp-image-1048" height="225" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/08/NationalWildlifeRefuge.jpeg" title="San Francisco Bay National Wildlife Refuge, 1972-2004" width="300"/></a></p>
+<p><a href="/1-3/visualizing-san-francisco-bays-forgotten-past-by-matthew-booker/"><img alt="San Francisco Bay National Wildlife Refuge, 1972-2004" class="size-medium wp-image-1048" height="225" src="/wp-content/uploads/2012/08/NationalWildlifeRefuge.jpeg" title="San Francisco Bay National Wildlife Refuge, 1972-2004" width="300"/></a></p>
 <p class="wp-caption-text">San Francisco Bay National Wildlife Refuge, 1972-2004 <a class="read-more" href="/featured/vol-1-no-3-summer-2012-articles-featured-excerpts/"><br/><br/>(Read more) </a></p>
 </div>
 <div class="post">

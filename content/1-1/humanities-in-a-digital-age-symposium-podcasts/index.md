@@ -25,18 +25,18 @@ The second keynote was given by [Dan Cohen](http://www.dancohen.org/ "Home page
 
 #### **Jeremy Boggs and Anne Houston, “Access and Ownership.”**
 
-<audio controls preload="metadata"><source src="https://journalofdigitalhumanities.org/files/Panel1.mp3" type="audio/mpeg"/></audio>
+<audio controls preload="metadata"><source src="/files/Panel1.mp3" type="audio/mpeg"/></audio>
 
 #### **Stephen Ramsay, “Textual Behavior in the Human Male.”**
 
-<video controls height="350" preload="metadata" width="500"><source src="https://journalofdigitalhumanities.org/files/ramsay_textual.m4v" type="video/mp4"/><source src="https://journalofdigitalhumanities.org/files/ramsay_textual.ogg" type="video/ogg"/></video>
+<video controls height="350" preload="metadata" width="500"><source src="/files/ramsay_textual.m4v" type="video/mp4"/><source src="/files/ramsay_textual.ogg" type="video/ogg"/></video>
 
 #### **Alison Booth and Mitch Green, “Research and Teaching.”**
 
-<audio controls preload="metadata"><source src="https://journalofdigitalhumanities.org/files/Panel2.mp3" type="audio/mpeg"/></audio>
+<audio controls preload="metadata"><source src="/files/Panel2.mp3" type="audio/mpeg"/></audio>
 
 #### **Dan Cohen, “Humanities Scholars and the Web: Past, Present, and Future,” with response by Jerome McGann.**
 
-<audio controls preload="metadata"><source src="https://journalofdigitalhumanities.org/files/Humanities_Scholars.mp3" type="audio/mpeg"/></audio>
+<audio controls preload="metadata"><source src="/files/Humanities_Scholars.mp3" type="audio/mpeg"/></audio>
 
-Originally published by the Scholars’ Lab on [December 13, 2011](http://www.scholarslab.org/podcasts/humanities-in-a-digital-age-symposium-podcast/ "The Scholar's Lab at University of Virginia podcasts section containing the original post"). Keynote by Stephen Ramsay revised March 2012 and available for download ([video](https://journalofdigitalhumanities.org/files/ramsay_textual.tar.bz2 "Compressed file of Ramsay video podcast"), [PDF](https://journalofdigitalhumanities.org/files/ramsay_textual.pdf "Stephen Ramsay, 'Textual Behavior in the Human Male' [PDF]")).
+Originally published by the Scholars’ Lab on [December 13, 2011](http://www.scholarslab.org/podcasts/humanities-in-a-digital-age-symposium-podcast/ "The Scholar's Lab at University of Virginia podcasts section containing the original post"). Keynote by Stephen Ramsay revised March 2012 and available for download ([video](/files/ramsay_textual.tar.bz2 "Compressed file of Ramsay video podcast"), [PDF](/files/ramsay_textual.pdf "Stephen Ramsay, 'Textual Behavior in the Human Male' [PDF]")).

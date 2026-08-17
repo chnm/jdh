@@ -23,10 +23,10 @@ This is the final report of the [Media Systems](https://mediasystems.soe.ucsc.ed
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2014%2F04%2FMedia-Systems-Executive-Summary.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 2.1MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/04/Media-Systems-Executive-Summary.pdf)
+[Download (PDF, 2.1MB)](/wp-content/uploads/2014/04/Media-Systems-Executive-Summary.pdf)
 
 ### Full Report
 
 <iframe class="gde-frame" scrolling="no" src="https://docs.google.com/viewer?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2Fwp-content%2Fuploads%2F2014%2F04%2FMedia-Systems-Envisioning-the-Future-of-Digital-Media-3.pdf&amp;hl=en_US&amp;embedded=true" style="width:100%; height:500px; border: none;"></iframe>
 
-[Download (PDF, 5.51MB)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/04/Media-Systems-Envisioning-the-Future-of-Digital-Media-3.pdf)
+[Download (PDF, 5.51MB)](/wp-content/uploads/2014/04/Media-Systems-Envisioning-the-Future-of-Digital-Media-3.pdf)

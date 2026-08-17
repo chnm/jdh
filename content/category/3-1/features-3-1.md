@@ -30,7 +30,7 @@ filename = 'MyspaceFriendListnew.txt' <a class="read-more" href="/3-1/code-appen
 </div>
 <div class="post">
 <h2><a href="/featured/vol-3-no-1-features-featured-excerpts/">Vol. 3 No. 1 Features Featured Excerpts</a></h2>
-<p><a href="/3-1/pudding-lane-recreating-seventeenth-century-london/"><img alt="Screen shot from Pudding Lane" class="size-medium wp-image-1048" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/04/PuddingLane15.jpg" title="Screen shot from Pudding Lane"/></a></p>
+<p><a href="/3-1/pudding-lane-recreating-seventeenth-century-london/"><img alt="Screen shot from Pudding Lane" class="size-medium wp-image-1048" src="/wp-content/uploads/2014/04/PuddingLane15.jpg" title="Screen shot from Pudding Lane"/></a></p>
 <p class="wp-caption-text">Screen shot from “Pudding Lane.”</p>
 <p></p>
 <p class="pulled-quote">“All of these various traces of the [public performance] have been integrated into a single experiential research environment through digital modeling.”</p>

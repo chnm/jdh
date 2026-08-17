@@ -33,7 +33,7 @@ The results of the image similarity analysis of a photo archive are extremely ex
 
 ### The Frick Photoarchive
 
-![](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-lab.250.jpg)
+![](/wp-content/uploads/2014/07/frick-lab.250.jpg)
 
 Started in 1920, The [Frick Photoarchive](http://www.frick.org/research/photoarchive "The Frick Photoarchive") has continually expanded over nearly a century and now contains over 1.2 million photographs of works of art. In addition to sponsoring original photography of art around the world, the Frick has benefited from photograph donations from both institutions and scholars. To this day the library still actively purchases photographs.
 
@@ -52,8 +52,8 @@ The artworks represented in the Italian anonymous archive are largely from aroun
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Madonna and Child, 13th century, La Chiesa di S. Eufrasia, Pisa." class="alignnone" height="399" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/10383.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Madonna and Child, 13th century, La Chiesa di S. Eufrasia, Pisa." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/10382.jpg" width="377"/></td>
+<td align="center" width="50%"><img alt="Madonna and Child, 13th century, La Chiesa di S. Eufrasia, Pisa." class="alignnone" height="399" loading="lazy" src="/wp-content/uploads/2014/07/10383.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Madonna and Child, 13th century, La Chiesa di S. Eufrasia, Pisa." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/10382.jpg" width="377"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Madonna and Child, 13th century, La Chiesa di S. Eufrasia, Pisa.</small></em></td>
@@ -68,8 +68,8 @@ In the Italian anonymous digital archive, the photos are generally organized int
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Florentine, 13th century, Uffizi Museum in Florence" class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/19b.jpg" width="455"/></td>
-<td align="center" width="50%"><img alt="Florentine, 13th century, Uffizi Museum in Florence" class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/19c.jpg" width="457"/></td>
+<td align="center" width="50%"><img alt="Florentine, 13th century, Uffizi Museum in Florence" class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/19b.jpg" width="455"/></td>
+<td align="center" width="50%"><img alt="Florentine, 13th century, Uffizi Museum in Florence" class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/19c.jpg" width="457"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Florentine, 13th century, Uffizi Museum in Florence</small></em></td>
@@ -95,8 +95,8 @@ This is where the effectiveness of computer vision and using image analysis to c
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Tuscan, 15th century, Harvard Art Museum." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11969.jpg" width="302"/></td>
-<td align="center" width="50%"><img alt="Tuscan, 15th century, Harvard Art Museum." class="alignnone" height="436" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/12071.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Tuscan, 15th century, Harvard Art Museum." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/11969.jpg" width="302"/></td>
+<td align="center" width="50%"><img alt="Tuscan, 15th century, Harvard Art Museum." class="alignnone" height="436" loading="lazy" src="/wp-content/uploads/2014/07/12071.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Tuscan, 15th century, Harvard Art Museum.</small></em></td>
@@ -139,7 +139,7 @@ A number of tools were developed to perform the image analysis, collect the data
 
 The first tool was a utility for uploading all of the images to the MatchEngine service through their private REST API.
 
-[![Upload images to MatchEngine diagram.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-upload-me.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-upload-me.jpg)
+[![Upload images to MatchEngine diagram.](/wp-content/uploads/2014/07/frick-upload-me.600.jpg)](/wp-content/uploads/2014/07/frick-upload-me.jpg)
 
 The MatchEngine API supports uploading up to 1,000 images simultaneously. While the uploading is occurring, no other operations can be performed with the API. For the 18,548 Italian anonymous images, it took about 3 hours to complete over a standard home cable Internet connection.
 
@@ -147,7 +147,7 @@ Conventionally the MatchEngine service is used for two purposes: 1) providing a 
 
 Another tool was then built to query MatchEngine for every previously-uploaded image to determine if any similar images had been found. MatchEngine’s indexing of the images was performed immediately upon upload and was made available for querying. Thus every single uploaded image could be queried and a full relationship graph could be downloaded.
 
-[![Retrieve Image Matches from MatchEngine diagram.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-download-me.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-download-me.jpg)
+[![Retrieve Image Matches from MatchEngine diagram.](/wp-content/uploads/2014/07/frick-download-me.600.jpg)](/wp-content/uploads/2014/07/frick-download-me.jpg)
 
 The MatchEngine results for an image may look something like this:
 
@@ -180,7 +180,7 @@ With a result categorization tool I was able to easily categorize all of the ima
 
 The categorization tool provides the user with a view of the two images that were matched by MatchEngine paired together with the raw data provided in the CSV data dump.
 
-[![The categorization tool provides the user with a view of the two images that were matched by MatchEngine paired together with the raw data provided in the CSV data dump.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-cat.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-cat.jpg)
+[![The categorization tool provides the user with a view of the two images that were matched by MatchEngine paired together with the raw data provided in the CSV data dump.](/wp-content/uploads/2014/07/frick-cat.600.jpg)](/wp-content/uploads/2014/07/frick-cat.jpg)
 
 This view gives a user, theoretically, everything that they need in order to determine what this newly-discovered match is and how these two images are related. The match was categorized on three axes:
 
@@ -190,7 +190,7 @@ This view gives a user, theoretically, everything that they need in order to det
 
 After I manually completed the categorization of all 446 matches between 815 images, the results were sorted into appropriate “bins” that denoted interesting trends.
 
-[![Alternate images for the same work of art.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-cat-overview.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-cat-overview.jpg)
+[![Alternate images for the same work of art.](/wp-content/uploads/2014/07/frick-cat-overview.600.jpg)](/wp-content/uploads/2014/07/frick-cat-overview.jpg)
 
 All of these binned matches were then passed on to researchers at the Frick Photoarchive for further analysis and record correction.
 
@@ -198,7 +198,7 @@ All of these binned matches were then passed on to researchers at the Frick Phot
 
 The Italian anonymous photo archive was represented by 14,284 artworks. The image analysis found a match in 1,135 artworks (8%), including both newly-discovered matches and confirmations of existing relationships. Of those matched, 770 artworks (5%) had at least one new match with another distinct artwork, producing a total of 385 previously unknown inter-artwork relationships.
 
-[![Artworks that have a match](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-have-matches.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-have-matches.jpg)
+[![Artworks that have a match](/wp-content/uploads/2014/07/frick-have-matches.600.jpg)](/wp-content/uploads/2014/07/frick-have-matches.jpg)
 
 Out of the total 18,548 images, 1,187 images matched a known work of art and 446 new image pair matches were discovered. (An artwork can be represented by many individual images. In fact, one artwork alone had 152 photos associated with it.)
 
@@ -216,7 +216,7 @@ The new matches discovered by the image similarity analysis were certainly the m
 
 The types of new matches broke down into a number of different areas:
 
-[![Types of New Matches Discovered.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-new-matches.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-new-matches.jpg)
+[![Types of New Matches Discovered.](/wp-content/uploads/2014/07/frick-new-matches.600.jpg)](/wp-content/uploads/2014/07/frick-new-matches.jpg)
 
 1. **Similar Images:** photographs that are highly similar (with the only differentiating factors being the difference in scan or lighting).
 2. **Alternate Images:** matches where one photograph is an indirect, alternate, view of the same artwork (such as close-up of a detail or the same artwork viewed from an alternate angle).
@@ -236,8 +236,8 @@ The first image shows the same work of art simply presented in two different, bu
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: different lighting, same work of art." class="alignnone" height="407" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/5505.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: different lighting, same work of art." class="alignnone" height="396" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/5758.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different lighting, same work of art." class="alignnone" height="407" loading="lazy" src="/wp-content/uploads/2014/07/5505.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different lighting, same work of art." class="alignnone" height="396" loading="lazy" src="/wp-content/uploads/2014/07/5758.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> different lighting, same work of art.</small></em></td>
@@ -250,8 +250,8 @@ Another similar pair of images was discovered in which virtually everything agre
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: different lighting, same work of art. (One categorized as a full-length portrait of a man, the other as a portrait of a lady.)" class="alignnone" height="454" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/4016.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: different lighting, same work of art. (One categorized as a full-length portrait of a man, the other as a portrait of a lady.)" class="alignnone" height="424" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/4027.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different lighting, same work of art. (One categorized as a full-length portrait of a man, the other as a portrait of a lady.)" class="alignnone" height="454" loading="lazy" src="/wp-content/uploads/2014/07/4016.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different lighting, same work of art. (One categorized as a full-length portrait of a man, the other as a portrait of a lady.)" class="alignnone" height="424" loading="lazy" src="/wp-content/uploads/2014/07/4027.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> different lighting, same work of art.<br/>
@@ -269,8 +269,8 @@ The first work of art shows a dramatic difference in lighting as well as croppin
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: different cropping and lighting, same work of art." class="alignnone" height="407" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11011.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: different cropping and lighting, same work of art." class="alignnone" height="350" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/5773.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different cropping and lighting, same work of art." class="alignnone" height="407" loading="lazy" src="/wp-content/uploads/2014/07/11011.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different cropping and lighting, same work of art." class="alignnone" height="350" loading="lazy" src="/wp-content/uploads/2014/07/5773.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> different cropping and lighting, same work of art.</small></em></td>
@@ -283,8 +283,8 @@ The next work shows a close-up of the center portion of the work. Both photos ar
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: detail of the same work of art." class="alignnone" height="423" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/10318b.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: detail of the same work of art." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/30.jpg" width="402"/></td>
+<td align="center" width="50%"><img alt="New Match: detail of the same work of art." class="alignnone" height="423" loading="lazy" src="/wp-content/uploads/2014/07/10318b.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: detail of the same work of art." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/30.jpg" width="402"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> detail of the same work of art.</small></em></td>
@@ -297,8 +297,8 @@ This final representative on an alternate, match is both a close-up detail shot 
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: detail shot, color vs. black-and-white, same work of art." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/13167.jpg" width="422"/></td>
-<td align="center" width="50%"><img alt="New Match: detail shot, color vs. black-and-white, same work of art." class="alignnone" height="386" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8029.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: detail shot, color vs. black-and-white, same work of art." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/13167.jpg" width="422"/></td>
+<td align="center" width="50%"><img alt="New Match: detail shot, color vs. black-and-white, same work of art." class="alignnone" height="386" loading="lazy" src="/wp-content/uploads/2014/07/8029.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> detail shot, color vs. black-and-white, same work of art.</small></em></td>
@@ -315,8 +315,8 @@ In the first work, restoration is in progress (seemingly an x-ray photography of
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: same work of art, seemingly an x-ray or an in-progress restoration." class="alignnone" height="358" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11795.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: same work of art, seemingly an x-ray or an in-progress restoration." class="alignnone" height="360" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/1432.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: same work of art, seemingly an x-ray or an in-progress restoration." class="alignnone" height="358" loading="lazy" src="/wp-content/uploads/2014/07/11795.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: same work of art, seemingly an x-ray or an in-progress restoration." class="alignnone" height="360" loading="lazy" src="/wp-content/uploads/2014/07/1432.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> same work of art, seemingly an x-ray or an in-progress restoration.</small></em></td>
@@ -329,8 +329,8 @@ In another match, extensive restoration has been completed. Large portions of th
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/1441.jpg" width="439"/></td>
-<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/10134b.jpg" width="476"/></td>
+<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/1441.jpg" width="439"/></td>
+<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/10134b.jpg" width="476"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> same work of art, before and after restoration.</small></em></td>
@@ -343,8 +343,8 @@ Finally, a more subtle example: chipped paint has been repaired, the frame has b
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="605" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/14.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="596" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/43.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="605" loading="lazy" src="/wp-content/uploads/2014/07/14.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: same work of art, before and after restoration." class="alignnone" height="596" loading="lazy" src="/wp-content/uploads/2014/07/43.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> same work of art, before and after restoration.</small></em></td>
@@ -361,8 +361,8 @@ The first two works are both later copies of the same work by Leonardo Da Vinci.
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and globe." class="alignnone" height="404" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/1097.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and globe." class="alignnone" height="399" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8397.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and globe." class="alignnone" height="404" loading="lazy" src="/wp-content/uploads/2014/07/1097.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and globe." class="alignnone" height="399" loading="lazy" src="/wp-content/uploads/2014/07/8397.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> different work of art. Note the different face and globe.</small></em></td>
@@ -375,8 +375,8 @@ In another case, both works of art are copied from a third work (with slightly d
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and necklace." class="alignnone" height="331" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/12958.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and necklace." class="alignnone" height="383" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/12959.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and necklace." class="alignnone" height="331" loading="lazy" src="/wp-content/uploads/2014/07/12958.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="New Match: different work of art. Note the different face and necklace." class="alignnone" height="383" loading="lazy" src="/wp-content/uploads/2014/07/12959.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> different work of art. Note the different face and necklace.</small></em></td>
@@ -389,8 +389,8 @@ In this final case, both works are seemingly quite similar, with changes to the 
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="New Match: different work of art. Some children missing, added, changed." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8515.jpg" width="614"/></td>
-<td align="center" width="50%"><img alt="New Match: different work of art. Some children missing, added, changed." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8517.jpg" width="473"/></td>
+<td align="center" width="50%"><img alt="New Match: different work of art. Some children missing, added, changed." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/8515.jpg" width="614"/></td>
+<td align="center" width="50%"><img alt="New Match: different work of art. Some children missing, added, changed." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/8517.jpg" width="473"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small><strong>New Match:</strong> different work of art. Some children missing, added, changed.</small></em></td>
@@ -407,8 +407,8 @@ The following works exemplify the kind of cataloging errors that were exposed. T
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Arms with Folded Hands Castello sforzesco, Milan." class="alignnone" height="361" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/1157.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Female Head Gabinetto disegni e stampe degli Uffizi, Florence." class="alignnone" height="361" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/1216.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Arms with Folded Hands Castello sforzesco, Milan." class="alignnone" height="361" loading="lazy" src="/wp-content/uploads/2014/07/1157.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Female Head Gabinetto disegni e stampe degli Uffizi, Florence." class="alignnone" height="361" loading="lazy" src="/wp-content/uploads/2014/07/1216.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center"><small>Arms with Folded Hands<br/>
@@ -427,8 +427,8 @@ Additionally, these photos are in color and black-and-white but disagree on the 
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/9766.jpg"/></td>
-<td align="center" width="50%"><img alt="" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/9881.jpg"/></td>
+<td align="center" width="50%"><img alt="" src="/wp-content/uploads/2014/07/9766.jpg"/></td>
+<td align="center" width="50%"><img alt="" src="/wp-content/uploads/2014/07/9881.jpg"/></td>
 </tr>
 <tr>
 <td align="center"><small>Still Life with a Bottle, a Plate, a Mortar and Pestle, a Bowl, a Pot, Game and a Cat on a Stone Ledge.</small></td>
@@ -445,8 +445,8 @@ There were an additional 16 matches which may have been a cataloging mistake, or
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="A Martyrdom Accademia di San Luca, Rome." class="alignnone" height="431" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8983.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="The Corporal Works of Mercy The Faringdon Collection Trust, Buscot Park." class="alignnone" height="372" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8993.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="A Martyrdom Accademia di San Luca, Rome." class="alignnone" height="431" loading="lazy" src="/wp-content/uploads/2014/07/8983.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="The Corporal Works of Mercy The Faringdon Collection Trust, Buscot Park." class="alignnone" height="372" loading="lazy" src="/wp-content/uploads/2014/07/8993.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center"><small>A Martyrdom<br/>
@@ -468,15 +468,15 @@ Within the Italian Anonymous Art archive there are 1357 works of art associated 
 
 To better understand the types of photographs that were available for the artworks, a full survey was done of all 906 artworks that have multiple photographs but were not explicitly matched by the MatchEngine algorithm. The artworks were broken down into two categories: artworks for which there was no obvious visual relationship between the presented photographs and artworks for which there was some strong visual similarity between two or more of the photographs.
 
-[![Artworks with Multiple Photos](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-multiple-photos.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-multiple-photos.jpg)
+[![Artworks with Multiple Photos](/wp-content/uploads/2014/07/frick-multiple-photos.600.jpg)](/wp-content/uploads/2014/07/frick-multiple-photos.jpg)
 
 47% of all artworks with multiple photos had no two photos that were visually similar to each other. In those cases, the MatchEngine algorithm was incapable of finding any relationship: MatchEngine is only able to examine what is presented in the image itself. For example, the following artwork depicts two separate panels in the same piece:
 
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Two different panels from the same artwork, no overlapping details." class="alignnone" height="438" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8714.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Two different panels from the same artwork, no overlapping details." class="alignnone" height="460" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8714a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Two different panels from the same artwork, no overlapping details." class="alignnone" height="438" loading="lazy" src="/wp-content/uploads/2014/07/8714.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Two different panels from the same artwork, no overlapping details." class="alignnone" height="460" loading="lazy" src="/wp-content/uploads/2014/07/8714a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Two different panels from the same artwork, no overlapping details.</small></em></td>
@@ -488,19 +488,19 @@ Of the remaining 53% of the images that did have a visual relationship between t
 
 Initially it was assumed that there might be a correlation between the number of photographs made available for an artwork and the likelihood of there being a confirmed match. An analysis was completed looking at artworks broken down by the number of photographs associated with the artwork:
 
-[![Artworks with Similar Images Confirmed with MatchEngine](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-confirmed-matches.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-confirmed-matches.jpg)
+[![Artworks with Similar Images Confirmed with MatchEngine](/wp-content/uploads/2014/07/frick-confirmed-matches.600.jpg)](/wp-content/uploads/2014/07/frick-confirmed-matches.jpg)
 
 Looking at these numbers there does not appear to be a strong correlation between the number of photos associated with an artwork and the likelihood of there being a match. Only at the upper-end of the spectrum (for artworks associated with 19, or more, photographs) is there a strong correlation with a successful match occurring.
 
 In order to understand where these matches come from and where the failings are, the images that were not matched need to be examined. This process will lead to a better understanding of the limitations of the MatchEngine technology and can help to set researcher expectations appropriately. A full breakdown of the types of images that weren’t matched included:
 
-[![Similar Images Undetected by Image Similarity Analysis](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-undetected-types.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-undetected-types.jpg)
+[![Similar Images Undetected by Image Similarity Analysis](/wp-content/uploads/2014/07/frick-undetected-types.600.jpg)](/wp-content/uploads/2014/07/frick-undetected-types.jpg)
 
 To arrive at this breakdown, I performed a full survey of all the 272 artworks that have at least two photographs with a strong visual relationship. Where there were multiple potential matches between photographs, the best possible photograph pair was chosen to be representative for that artwork.
 
 At first glance, the types of matches appear to be similar to the types of matches that MatchEngine successfully discovered. However, a final breakdown of the images that failed to match was compared to the images that successfully matched using MatchEngine:
 
-[![Number of Match Successes and Failure by Type](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-matches-by-type.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-matches-by-type.jpg)
+[![Number of Match Successes and Failure by Type](/wp-content/uploads/2014/07/frick-matches-by-type.600.jpg)](/wp-content/uploads/2014/07/frick-matches-by-type.jpg)
 
 This is where the shortcomings of MatchEngine became apparent: every single three-dimensional and negative match failed in MatchEngine, as did the majority of alternate shots. Also note that there were comparatively very few failures where the photos were similar and no failures when the photos were near (or nearly) identical.
 
@@ -515,8 +515,8 @@ It’s likely that the MatchEngine algorithm is looking at edges within the imag
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Seemingly, the difference is between direct and raking lighting." class="alignnone" height="384" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/14168.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Seemingly, the difference is between direct and raking lighting." class="alignnone" height="380" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/14168a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Seemingly, the difference is between direct and raking lighting." class="alignnone" height="384" loading="lazy" src="/wp-content/uploads/2014/07/14168.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Seemingly, the difference is between direct and raking lighting." class="alignnone" height="380" loading="lazy" src="/wp-content/uploads/2014/07/14168a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Seemingly, the difference is between direct and raking lighting.</small></em></td>
@@ -527,8 +527,8 @@ It’s likely that the MatchEngine algorithm is looking at edges within the imag
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Very different lighting and exposure." class="alignnone" height="370" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11423.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Very different lighting and exposure." class="alignnone" height="408" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11423a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Very different lighting and exposure." class="alignnone" height="370" loading="lazy" src="/wp-content/uploads/2014/07/11423.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Very different lighting and exposure." class="alignnone" height="408" loading="lazy" src="/wp-content/uploads/2014/07/11423a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Very different lighting and exposure.</small></em></td>
@@ -545,8 +545,8 @@ Below are some examples of image pairs that failed to match, all of which were d
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="A small detail of the angel's head and arm." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/248.jpg" width="526"/></td>
-<td align="center" width="50%"><img alt="A small detail of the angel's head and arm." class="alignnone" height="424" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/248a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="A small detail of the angel's head and arm." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/248.jpg" width="526"/></td>
+<td align="center" width="50%"><img alt="A small detail of the angel's head and arm." class="alignnone" height="424" loading="lazy" src="/wp-content/uploads/2014/07/248a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>A small detail of the angel’s head and arm.</small></em></td>
@@ -557,8 +557,8 @@ Below are some examples of image pairs that failed to match, all of which were d
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="A tiny panel from the middle-right-hand side of the altar piece." class="alignnone" height="336" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/7747.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="A tiny panel from the middle-right-hand side of the altar piece." class="alignnone" height="398" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/7747i.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="A tiny panel from the middle-right-hand side of the altar piece." class="alignnone" height="336" loading="lazy" src="/wp-content/uploads/2014/07/7747.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="A tiny panel from the middle-right-hand side of the altar piece." class="alignnone" height="398" loading="lazy" src="/wp-content/uploads/2014/07/7747i.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>A tiny panel from the middle-right-hand side of the altar piece.</small></em></td>
@@ -569,8 +569,8 @@ Below are some examples of image pairs that failed to match, all of which were d
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="An extreme detail shot of the head of Jesus." class="alignnone" height="399" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11829.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="An extreme detail shot of the head of Jesus." class="alignnone" height="418" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/11829a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="An extreme detail shot of the head of Jesus." class="alignnone" height="399" loading="lazy" src="/wp-content/uploads/2014/07/11829.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="An extreme detail shot of the head of Jesus." class="alignnone" height="418" loading="lazy" src="/wp-content/uploads/2014/07/11829a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>An extreme detail shot of the head of Jesus.</small></em></td>
@@ -585,8 +585,8 @@ I also hypothesized that there is a correlation between the percentage of the im
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Manually selecting the portion of an artwork that overlaps with the corresponding alternate image." class="alignnone" height="421" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/13061a.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Manually selecting the portion of an artwork that overlaps with the corresponding alternate image." class="alignnone" height="164" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-alt-selection.jpg" width="302"/></td>
+<td align="center" width="50%"><img alt="Manually selecting the portion of an artwork that overlaps with the corresponding alternate image." class="alignnone" height="421" loading="lazy" src="/wp-content/uploads/2014/07/13061a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Manually selecting the portion of an artwork that overlaps with the corresponding alternate image." class="alignnone" height="164" loading="lazy" src="/wp-content/uploads/2014/07/frick-alt-selection.jpg" width="302"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Manually selecting the portion of an artwork that overlaps with the corresponding alternate image.</small></em></td>
@@ -610,11 +610,11 @@ Thankfully, MatchEngine already provides the overlapping percentage for successf
 
 All that was left was to plot out the alternate image match failures, the alternate image match successes, and the other successful matches.
 
-[![Likelihood of a match by percentage of image overlap.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-image-overlap.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-image-overlap.jpg)
+[![Likelihood of a match by percentage of image overlap.](/wp-content/uploads/2014/07/frick-image-overlap.600.jpg)](/wp-content/uploads/2014/07/frick-image-overlap.jpg)
 
 Looking at these results, it becomes immediately apparent that there is a strong correlation between the percentage of the image overlapping and the likelihood of there being a successful match. Below 30% of the image overlap, there are almost no successful matches between images. If the results are broken down to show the matches with less than 30% overlap and the matches with over 30% overlap these striking results are generated:
 
-[![Likelihood of an 'Alternate Image' match by percentage of image overlap.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-alt-overlap.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-alt-overlap.jpg)
+[![Likelihood of an 'Alternate Image' match by percentage of image overlap.](/wp-content/uploads/2014/07/frick-alt-overlap.600.jpg)](/wp-content/uploads/2014/07/frick-alt-overlap.jpg)
 
 The results indicate that MatchEngine is not designed to adequately handle cases where there is less than 30% of the image overlapping. This is important to understand, as it can help catalogers better understand the limitations of computer vision systems such as MatchEngine. In many cases, when such a small fragment of the images overlap it is almost exactly like searching for a needle in an image haystack.
 
@@ -627,8 +627,8 @@ An example of a work, after conservation, that failed to match:
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Work after conservation with different lighting." class="alignnone" height="388" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/10313.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Work after conservation with different lighting." class="alignnone" height="392" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/10313a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Work after conservation with different lighting." class="alignnone" height="388" loading="lazy" src="/wp-content/uploads/2014/07/10313.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Work after conservation with different lighting." class="alignnone" height="392" loading="lazy" src="/wp-content/uploads/2014/07/10313a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Work after conservation with different lighting.</small></em></td>
@@ -647,8 +647,8 @@ The results included the following incomplete matches:
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Same object with different lighting." class="alignnone" height="398" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8865.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="Same object with different lighting." class="alignnone" height="379" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8865a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Same object with different lighting." class="alignnone" height="398" loading="lazy" src="/wp-content/uploads/2014/07/8865.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="Same object with different lighting." class="alignnone" height="379" loading="lazy" src="/wp-content/uploads/2014/07/8865a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Same object with different lighting.</small></em></td>
@@ -659,8 +659,8 @@ The results included the following incomplete matches:
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="Same object at a different angle (even though it is a fresco, it's observed from different angles, causing a failure)." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8271c.jpg" width="394"/></td>
-<td align="center" width="50%"><img alt="Same object at a different angle (even though it is a fresco, it's observed from different angles, causing a failure)." class="alignnone" height="300" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/8271d.jpg" width="391"/></td>
+<td align="center" width="50%"><img alt="Same object at a different angle (even though it is a fresco, it's observed from different angles, causing a failure)." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/8271c.jpg" width="394"/></td>
+<td align="center" width="50%"><img alt="Same object at a different angle (even though it is a fresco, it's observed from different angles, causing a failure)." class="alignnone" height="300" loading="lazy" src="/wp-content/uploads/2014/07/8271d.jpg" width="391"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>Same object at a different angle (even though it is a fresco, it’s observed from different angles, causing a failure).</small></em></td>
@@ -675,8 +675,8 @@ The anonymous Italian art archive contains 23 artworks whose only alternate imag
 <table style="border: 0px; width: 100%;">
 <tbody>
 <tr>
-<td align="center" width="50%"><img alt="The same artwork in normal and negative views." class="alignnone" height="326" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/12384.jpg" width="300"/></td>
-<td align="center" width="50%"><img alt="The same artwork in normal and negative views." class="alignnone" height="335" loading="lazy" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/12384a.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="The same artwork in normal and negative views." class="alignnone" height="326" loading="lazy" src="/wp-content/uploads/2014/07/12384.jpg" width="300"/></td>
+<td align="center" width="50%"><img alt="The same artwork in normal and negative views." class="alignnone" height="335" loading="lazy" src="/wp-content/uploads/2014/07/12384a.jpg" width="300"/></td>
 </tr>
 <tr>
 <td align="center" colspan="2"><em><small>The same artwork in normal and negative views.</small></em></td>
@@ -694,7 +694,7 @@ The potential of the MatchEngine service for the image set was fully explored: i
 
 Taking all of this into account, the overall quality of matches that MatchEngine provided within the anonymous Italian art archive was around 88%:
 
-[![Overall MatchEngine Quality](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-matchengine-quality.600.jpg)](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/frick-matchengine-quality.jpg)
+[![Overall MatchEngine Quality](/wp-content/uploads/2014/07/frick-matchengine-quality.600.jpg)](/wp-content/uploads/2014/07/frick-matchengine-quality.jpg)
 
 While there are limitations to computer vision techniques on the whole, these results are very promising. This high rate of match implies that there could be relatively few undiscovered new matches. Moreover, even after looking through all of the matches, MatchEngine never presented a single mistaken match. Every match had a high level of similarity between the two images and made sense to the catalogers.
 
@@ -708,7 +708,7 @@ With this new, powerful image analysis, the real fun begins: looking for other w
 
 The potential for computer vision and image analysis to change how photographs and images are managed in archives, libraries, and museums is absolutely staggering. Tasks that previously were insurmountable (such as merging two million-photograph archives) are now in the realm of possibility. The implications of this technology are still being explored and are likely going to completely change photo archives as they currently exists.
 
-Originally published by John Resig on [February 10, 2014](http://ejohn.org/research/computer-vision-photo-archives/ "John Resig, 'Using Computer Vision to Increase the Research Potential of Photo Archives'"). Revised for _Journal of Digital Humanities_ July 2014. [Download PDF.](https://journalofdigitalhumanities.org/wp-content/uploads/2014/07/Using-Computer-Vision-to-Increase-the-Rese-John-Resig.pdf)
+Originally published by John Resig on [February 10, 2014](http://ejohn.org/research/computer-vision-photo-archives/ "John Resig, 'Using Computer Vision to Increase the Research Potential of Photo Archives'"). Revised for _Journal of Digital Humanities_ July 2014. [Download PDF.](/wp-content/uploads/2014/07/Using-Computer-Vision-to-Increase-the-Rese-John-Resig.pdf)
 
 ---
 

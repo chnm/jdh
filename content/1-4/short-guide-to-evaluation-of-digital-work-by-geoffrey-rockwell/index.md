@@ -24,7 +24,7 @@ This short guide gathers a collection of questions evaluators can ask about a pr
 - prepared to review the materials submitted by a candidate in the form it was meant to be accessed but need ideas of what to look for; and
 - will also ask for expert reviews from others and therefore need suggestions on where to look for relevant expertise.
 
-This is an annotated expansion of [Evaluating Digital Work](https://journalofdigitalhumanities.org/files/EvalMediaCheckList.2.pdf "Geoffrey Rockwell, 'Evaluating Digital Work in the Humanities for Tenure and Promotion Checklist'") (PDF) which was prepared as a one page checklist.
+This is an annotated expansion of [Evaluating Digital Work](/files/EvalMediaCheckList.2.pdf "Geoffrey Rockwell, 'Evaluating Digital Work in the Humanities for Tenure and Promotion Checklist'") (PDF) which was prepared as a one page checklist.
 
 ## Questions
 

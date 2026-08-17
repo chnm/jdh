@@ -5,7 +5,7 @@ title = "You are viewing entries marked 'Articles'."
 <div class="post">
 <h2><a href="/1-1/vol-1-no-1-winter-2011-featured-article-excerpts/">Vol. 1, No. 1, Winter 2011: Featured Article Excerpts</a></h2>
 <p class="pulled-quote">“Modern humanities scholarship is a direct engagement with a deracinated, Google-ised, Wikipedia-ised, electronic text.”<br/><span class="quote-author">Tim Hitchcock</span></p>
-<div class="wp-caption aligncenter" id="attachment_598" style="width: 506px"><a href="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png" target="_blank"><img alt="" class="size-full wp-image-598" height="481" src="https://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png" title="An ego network from wikipedia.org" width="496"/></a>
+<div class="wp-caption aligncenter" id="attachment_598" style="width: 506px"><a href="/wp-content/uploads/2012/03/Ego_network.png" target="_blank"><img alt="" class="size-full wp-image-598" height="481" src="/wp-content/uploads/2012/03/Ego_network.png" title="An ego network from wikipedia.org" width="496"/></a>
 <p class="wp-caption-text">An ego network from wikipedia.org</p>
 </div> <a class="read-more" href="/1-1/vol-1-no-1-winter-2011-featured-article-excerpts/"><br/><br/>(Read more) </a>
 </div>

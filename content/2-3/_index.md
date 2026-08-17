@@ -16,9 +16,9 @@ Vol. 2, No. 3 Summer 2013</h1>
 <p>The <em>Journal of Digital Humanities</em> is a comprehensive, peer-reviewed, open access journal that features the best scholarship, tools, and conversations produced by the digital humanities community in the previous trimester.</p>
 <div class="downloads">
 <p>Available for download</p>
-<a href="https://journalofdigitalhumanities.org/files/jdh_2_3.pdf"><img alt="pdf download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pdf.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_2_3.epub"><img alt="epub download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/epub.png"/></a>
-<a href="https://journalofdigitalhumanities.org/files/jdh_2_3.ibooks"><img alt="ibook download" src="https://journalofdigitalhumanities.org/wp-content/themes/jdh/images/ibook.png"/></a>
+<a href="/files/jdh_2_3.pdf"><img alt="pdf download" src="/wp-content/themes/jdh/images/pdf.png"/></a>
+<a href="/files/jdh_2_3.epub"><img alt="epub download" src="/wp-content/themes/jdh/images/epub.png"/></a>
+<a href="/files/jdh_2_3.ibooks"><img alt="ibook download" src="/wp-content/themes/jdh/images/ibook.png"/></a>
 </div>
 <div class="introduction">
 <h2>Introduction</h2>
@@ -34,14 +34,14 @@ Vol. 2, No. 3 Summer 2013</h1>
 <p><a href="/2-3/big-smart-clean-messy-data-in-the-humanities/">Big? Smart? Clean? Messy? Data in the Humanities</a><br/>Christof Schöch</p><p><a href="/2-3/data-curation-as-publishing-for-the-digital-humanities/">Data Curation as Publishing for the Digital Humanities</a><br/>Trevor Muñoz</p><p><a href="/2-3/making-digital-visual-approaches-to-the-digital-humanities/">Making Digital: Visual Approaches to the Digital Humanities</a><br/>Gareth Beale, Nicole Beale, Ian Dawson and Louisa Minkin</p><p><a href="/2-3/rdf-resource-description-failures-and-linked-data-letdowns/">RDF: Resource Description Failures and Linked Data Letdowns</a><br/>Robert Sanderson</p>
 </div>
 <div class="toc-previews six columns offset-by-one omega">
-<a href="/2-3/big-smart-clean-messy-data-in-the-humanities/"><img alt="The story of smart and big data." class="size-medium wp-image-1048" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/11/story-of-smart-big-data.png" title=""/></a>
+<a href="/2-3/big-smart-clean-messy-data-in-the-humanities/"><img alt="The story of smart and big data." class="size-medium wp-image-1048" src="/wp-content/uploads/2013/11/story-of-smart-big-data.png" title=""/></a>
 <p class="wp-caption-text">The story of smart and big data.</p>
 <p class="pulled-quote">"As artists it is novel to think that in observing, drawing or modelling we might be capturing, analysing and processing data."</p>
 <span class="quote-author">Gareth Beale, Nicole Beale, Ian Dawson and Louisa Minkin</span> </div>
 </div>
 <div class="front-page-section">
 <div class="toc-previews six columns alpha">
-<a href="/2-3/architecture-to-enable-large-scale-computational-analysis-of-millions-of-volumes/"><img alt="Large-Scale-Computational-Analysis-Poster" class="size-medium wp-image-1048" src="https://journalofdigitalhumanities.org/wp-content/uploads/2013/12/Large-Scale-Computational-Analysis.jpg" title=""/></a>
+<a href="/2-3/architecture-to-enable-large-scale-computational-analysis-of-millions-of-volumes/"><img alt="Large-Scale-Computational-Analysis-Poster" class="size-medium wp-image-1048" src="/wp-content/uploads/2013/12/Large-Scale-Computational-Analysis.jpg" title=""/></a>
 <p class="wp-caption-text">Architecture to Enable Large Scale Computational Analysis of Millions of Volumes</p>
 <br/>
 <br/>

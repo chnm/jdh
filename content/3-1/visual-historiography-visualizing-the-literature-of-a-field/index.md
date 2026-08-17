@@ -19,7 +19,7 @@ author = ["david-j-staley", "scot-a-french", "bill-ferster"]
 
 ### Poster
 
-<div class="wp-caption aligncenter" id="attachment_6474" style="width: 1034px"><a href="http://www.viseyes.org/shiva/go.htm?e=717" target="_blank"><img alt="SHIVA Display 2014-01-26 14-50-43" aria-describedby="caption-attachment-6474" class="wp-image-6474" height="767" src="https://journalofdigitalhumanities.org/wp-content/uploads/2014/01/SHIVA-Display-2014-01-26-14-50-43-1024x767.png" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-6474">Click <a href="http://www.viseyes.org/shiva/go.htm?e=717">here</a> or on the image to visit the interactive poster.</p></div>
+<div class="wp-caption aligncenter" id="attachment_6474" style="width: 1034px"><a href="http://www.viseyes.org/shiva/go.htm?e=717" target="_blank"><img alt="SHIVA Display 2014-01-26 14-50-43" aria-describedby="caption-attachment-6474" class="wp-image-6474" height="767" src="/wp-content/uploads/2014/01/SHIVA-Display-2014-01-26-14-50-43-1024x767.png" width="1024"/></a><p class="wp-caption-text" id="caption-attachment-6474">Click <a href="http://www.viseyes.org/shiva/go.htm?e=717">here</a> or on the image to visit the interactive poster.</p></div>
 
 ### Abstract
 
