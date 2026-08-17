@@ -490,10 +490,38 @@ def page_canonical(f, soup):
     return myurl, canurl
 
 
+# The Submissions page hung off three legacy Google Sheets artifacts: a
+# "Compendium of Digital Humanities" tab, a "Digital Humanities Registry" tab,
+# and the embedded signup form. The Drive file behind all three is gone — the
+# old key, and the modern ID Google migrated it to, both answer 410 on every
+# endpoint (pub, pubhtml, /edit, /export), and no archive ever captured the
+# payload, only the redirect. Nothing to repoint them at, so drop the embed and
+# demote the links to plain text. Scoped to /spreadsheet/ so it leaves the live
+# docs.google.com/viewer poster embeds in the 2-3 and 3-1 articles alone.
+DEAD_GOOGLE = re.compile(r"docs\.google\.com/spreadsheet/(pub|embeddedform)\b", re.I)
+
+def strip_dead_google(node):
+    """Drop the retired Google Sheets embed/links from a subtree, in place.
+
+    Markup only — the surrounding prose is left exactly as published, so the
+    Submissions copy still refers to "the form below" that no longer renders.
+    """
+    for frame in node.find_all("iframe"):
+        if DEAD_GOOGLE.search(frame.get("src") or ""):
+            box = frame.find_parent("p")
+            frame.decompose()
+            if box is not None and not box.get_text(strip=True) and not box.find(True):
+                box.decompose()                      # the <p> only wrapped the embed
+    for a in node.find_all("a"):
+        if DEAD_GOOGLE.search(a.get("href") or ""):
+            a.replace_with(NavigableString(a.get_text()))
+
+
 def clean_links_inplace(node, page_path):
     """Rewrite links / drop scripts inside an HTML subtree, in place."""
     for s in node.find_all(["script", "style", "form"]):
         s.decompose()
+    strip_dead_google(node)
     for a in node.find_all("a"):
         if a.get("href"):
             a["href"] = rewrite_link(a["href"], page_path)
