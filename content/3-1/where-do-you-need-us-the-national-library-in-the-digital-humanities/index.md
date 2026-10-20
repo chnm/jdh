@@ -19,7 +19,7 @@ author = ["aly-conteh", "lotte-wilms"]
 
 ### Poster
 
-[![](http://kbresearch.nl/dh2013/KB_BL_DH2013.jpg)](http://kbresearch.nl/dh2013/KB_BL_DH2013.jpg)
+[![Conference poster for “Where do you need us?” — The National Library in the Digital Humanities, DH2013](http://kbresearch.nl/dh2013/KB_BL_DH2013.jpg)](http://kbresearch.nl/dh2013/KB_BL_DH2013.jpg)
 
 ### Abstract
 
