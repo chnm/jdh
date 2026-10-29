@@ -33,7 +33,7 @@ The results of the image similarity analysis of a photo archive are extremely ex
 
 ### The Frick Photoarchive
 
-![](/wp-content/uploads/2014/07/frick-lab.250.jpg)
+![A man sits at a workstation reviewing digitized portrait photographs on dual monitors, with a flatbed scanner and archival document folders nearby in a digitization lab.](/wp-content/uploads/2014/07/frick-lab.250.jpg)
 
 Started in 1920, The [Frick Photoarchive](http://www.frick.org/research/photoarchive "The Frick Photoarchive") has continually expanded over nearly a century and now contains over 1.2 million photographs of works of art. In addition to sponsoring original photography of art around the world, the Frick has benefited from photograph donations from both institutions and scholars. To this day the library still actively purchases photographs.
 
